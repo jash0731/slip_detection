@@ -1,0 +1,2015 @@
+{
+  "aggregate": [
+    {
+      "model": "ct_amplitude",
+      "policy": "balanced",
+      "balanced_accuracy": 0.663631346292155,
+      "slip_recall": 0.5376855268602673,
+      "false_alarm_rate": 0.2104228342759572,
+      "pooled_accuracy": 0.7051090031619238,
+      "tp": 2345,
+      "tn": 6129,
+      "fp": 1547,
+      "fn": 1997
+    },
+    {
+      "model": "ct_invariant",
+      "policy": "balanced",
+      "balanced_accuracy": 0.5597862881048007,
+      "slip_recall": 0.46073028210232253,
+      "false_alarm_rate": 0.3411577058927215,
+      "pooled_accuracy": 0.5984356798136129,
+      "tp": 2115,
+      "tn": 5077,
+      "fp": 2599,
+      "fn": 2227
+    },
+    {
+      "model": "mean_lif",
+      "policy": "balanced",
+      "balanced_accuracy": 0.712216742545718,
+      "slip_recall": 0.6027464919448611,
+      "false_alarm_rate": 0.1783130068534253,
+      "pooled_accuracy": 0.7439673822599434,
+      "tp": 2597,
+      "tn": 6344,
+      "fp": 1332,
+      "fn": 1745
+    },
+    {
+      "model": "ct_rate",
+      "policy": "balanced",
+      "balanced_accuracy": 0.6688908581083824,
+      "slip_recall": 0.4811268871191434,
+      "false_alarm_rate": 0.1433451709023784,
+      "pooled_accuracy": 0.7244965884506573,
+      "tp": 1947,
+      "tn": 6760,
+      "fp": 916,
+      "fn": 2395
+    },
+    {
+      "model": "ct_v3",
+      "policy": "balanced",
+      "balanced_accuracy": 0.6561350730057738,
+      "slip_recall": 0.5286119834027696,
+      "false_alarm_rate": 0.216341837391222,
+      "pooled_accuracy": 0.7019470793809286,
+      "tp": 2326,
+      "tn": 6110,
+      "fp": 1566,
+      "fn": 2016
+    },
+    {
+      "model": "linear_control",
+      "policy": "balanced",
+      "balanced_accuracy": 0.5593149814577743,
+      "slip_recall": 0.40255453401846025,
+      "false_alarm_rate": 0.2839245711029117,
+      "pooled_accuracy": 0.6285571642536195,
+      "tp": 1560,
+      "tn": 5994,
+      "fp": 1682,
+      "fn": 2782
+    },
+    {
+      "model": "ct_amplitude",
+      "policy": "joint",
+      "balanced_accuracy": 0.6624108452379187,
+      "slip_recall": 0.5622129882746324,
+      "false_alarm_rate": 0.237391297798795,
+      "pooled_accuracy": 0.7027791645864536,
+      "tp": 2390,
+      "tn": 6056,
+      "fp": 1620,
+      "fn": 1952
+    },
+    {
+      "model": "ct_invariant",
+      "policy": "joint",
+      "balanced_accuracy": 0.5587901174704113,
+      "slip_recall": 0.4549996230765346,
+      "false_alarm_rate": 0.3374193881357121,
+      "pooled_accuracy": 0.5984356798136129,
+      "tp": 2103,
+      "tn": 5089,
+      "fp": 2587,
+      "fn": 2239
+    },
+    {
+      "model": "mean_lif",
+      "policy": "joint",
+      "balanced_accuracy": 0.7108448119884215,
+      "slip_recall": 0.5833292694684781,
+      "false_alarm_rate": 0.16163964549163504,
+      "pooled_accuracy": 0.744050590780496,
+      "tp": 2468,
+      "tn": 6474,
+      "fp": 1202,
+      "fn": 1874
+    },
+    {
+      "model": "ct_rate",
+      "policy": "joint",
+      "balanced_accuracy": 0.6670066530432325,
+      "slip_recall": 0.4754556214782166,
+      "false_alarm_rate": 0.14144231539175167,
+      "pooled_accuracy": 0.7239973373273423,
+      "tp": 1880,
+      "tn": 6821,
+      "fp": 855,
+      "fn": 2462
+    },
+    {
+      "model": "ct_v3",
+      "policy": "joint",
+      "balanced_accuracy": 0.6539184013171481,
+      "slip_recall": 0.5474087857913468,
+      "false_alarm_rate": 0.2395719831570505,
+      "pooled_accuracy": 0.6996172408054585,
+      "tp": 2359,
+      "tn": 6049,
+      "fp": 1627,
+      "fn": 1983
+    },
+    {
+      "model": "linear_control",
+      "policy": "joint",
+      "balanced_accuracy": 0.5593149814577743,
+      "slip_recall": 0.40255453401846025,
+      "false_alarm_rate": 0.2839245711029117,
+      "pooled_accuracy": 0.6285571642536195,
+      "tp": 1560,
+      "tn": 5994,
+      "fp": 1682,
+      "fn": 2782
+    },
+    {
+      "model": "v2_mean_lif",
+      "policy": "balanced",
+      "balanced_accuracy": 0.6937145499384414,
+      "slip_recall": 0.6024595767362837,
+      "false_alarm_rate": 0.21503047685940072,
+      "pooled_accuracy": 0.7290730570810451,
+      "tp": 2618,
+      "tn": 6144,
+      "fp": 1532,
+      "fn": 1724
+    },
+    {
+      "model": "ct_v2",
+      "policy": "balanced",
+      "balanced_accuracy": 0.6797956235193979,
+      "slip_recall": 0.5886385044388073,
+      "false_alarm_rate": 0.2290472574000113,
+      "pooled_accuracy": 0.710434348477284,
+      "tp": 2572,
+      "tn": 5966,
+      "fp": 1710,
+      "fn": 1770
+    },
+    {
+      "model": "v2_mean_lif",
+      "policy": "fpr20",
+      "balanced_accuracy": 0.6877741229638693,
+      "slip_recall": 0.5479266821885984,
+      "false_alarm_rate": 0.17237843626085977,
+      "pooled_accuracy": 0.7289898485604926,
+      "tp": 2525,
+      "tn": 6236,
+      "fp": 1440,
+      "fn": 1817
+    },
+    {
+      "model": "ct_v2",
+      "policy": "fpr20",
+      "balanced_accuracy": 0.672741626171346,
+      "slip_recall": 0.5142395652904084,
+      "false_alarm_rate": 0.16875631294771634,
+      "pooled_accuracy": 0.7139291063404892,
+      "tp": 2352,
+      "tn": 6228,
+      "fp": 1448,
+      "fn": 1990
+    },
+    {
+      "model": "v2_mean_lif",
+      "policy": "fpr10",
+      "balanced_accuracy": 0.6477692610502849,
+      "slip_recall": 0.4024754854972348,
+      "false_alarm_rate": 0.10693696339666488,
+      "pooled_accuracy": 0.7278249292727575,
+      "tp": 1953,
+      "tn": 6794,
+      "fp": 882,
+      "fn": 2389
+    },
+    {
+      "model": "ct_v2",
+      "policy": "fpr10",
+      "balanced_accuracy": 0.6409465552201141,
+      "slip_recall": 0.3809820306563741,
+      "false_alarm_rate": 0.0990889202161458,
+      "pooled_accuracy": 0.7219171243135297,
+      "tp": 1816,
+      "tn": 6860,
+      "fp": 816,
+      "fn": 2526
+    },
+    {
+      "model": "ct_v1",
+      "policy": "original",
+      "balanced_accuracy": 0.6883112070745452,
+      "slip_recall": 0.6623423309333164,
+      "false_alarm_rate": 0.2857199167842258,
+      "pooled_accuracy": 0.6939590614078882,
+      "tp": 2902,
+      "tn": 5438,
+      "fp": 2238,
+      "fn": 1440
+    },
+    {
+      "model": "mean_lif28",
+      "policy": "original",
+      "balanced_accuracy": 0.7130722247620446,
+      "slip_recall": 0.7053885438328972,
+      "false_alarm_rate": 0.279244094308808,
+      "pooled_accuracy": 0.7162589449159594,
+      "tp": 2994,
+      "tn": 5614,
+      "fp": 2062,
+      "fn": 1348
+    },
+    {
+      "model": "v1_cancellation_lif",
+      "policy": "original",
+      "balanced_accuracy": 0.7096069096049633,
+      "slip_recall": 0.6521270675039447,
+      "false_alarm_rate": 0.23291324829401827,
+      "pooled_accuracy": 0.718838409053087,
+      "tp": 2800,
+      "tn": 5839,
+      "fp": 1837,
+      "fn": 1542
+    }
+  ],
+  "per_object": [
+    {
+      "model": "ct_amplitude",
+      "policy": "balanced",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7330329646787885,
+      "slip_recall": 0.660458452722063,
+      "false_alarm_rate": 0.19439252336448598
+    },
+    {
+      "model": "ct_amplitude",
+      "policy": "balanced",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6445215622065446,
+      "slip_recall": 0.6092436974789917,
+      "false_alarm_rate": 0.32020057306590255
+    },
+    {
+      "model": "ct_amplitude",
+      "policy": "balanced",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6133395119911319,
+      "slip_recall": 0.34335443037974683,
+      "false_alarm_rate": 0.11667540639748296
+    },
+    {
+      "model": "ct_invariant",
+      "policy": "balanced",
+      "held_object": "brush",
+      "balanced_accuracy": 0.6187505021021343,
+      "slip_recall": 0.5272206303724929,
+      "false_alarm_rate": 0.28971962616822433
+    },
+    {
+      "model": "ct_invariant",
+      "policy": "balanced",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.5492457441429294,
+      "slip_recall": 0.5970588235294118,
+      "false_alarm_rate": 0.498567335243553
+    },
+    {
+      "model": "ct_invariant",
+      "policy": "balanced",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.5113626180693381,
+      "slip_recall": 0.2579113924050633,
+      "false_alarm_rate": 0.235186156266387
+    },
+    {
+      "model": "mean_lif",
+      "policy": "balanced",
+      "held_object": "brush",
+      "balanced_accuracy": 0.8217403529443269,
+      "slip_recall": 0.7836676217765043,
+      "false_alarm_rate": 0.14018691588785048
+    },
+    {
+      "model": "mean_lif",
+      "policy": "balanced",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6799258385302545,
+      "slip_recall": 0.6764705882352942,
+      "false_alarm_rate": 0.31661891117478513
+    },
+    {
+      "model": "mean_lif",
+      "policy": "balanced",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6349840361625723,
+      "slip_recall": 0.3481012658227848,
+      "false_alarm_rate": 0.07813319349764028
+    },
+    {
+      "model": "ct_rate",
+      "policy": "balanced",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7382012693141954,
+      "slip_recall": 0.6848137535816619,
+      "false_alarm_rate": 0.20841121495327103
+    },
+    {
+      "model": "ct_rate",
+      "policy": "balanced",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.654072861236185,
+      "slip_recall": 0.45714285714285713,
+      "false_alarm_rate": 0.1489971346704871
+    },
+    {
+      "model": "ct_rate",
+      "policy": "balanced",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6143984437747672,
+      "slip_recall": 0.3014240506329114,
+      "false_alarm_rate": 0.07262716308337702
+    },
+    {
+      "model": "ct_v3",
+      "policy": "balanced",
+      "held_object": "brush",
+      "balanced_accuracy": 0.710544144819645,
+      "slip_recall": 0.6332378223495703,
+      "false_alarm_rate": 0.21214953271028036
+    },
+    {
+      "model": "ct_v3",
+      "policy": "balanced",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6445215622065446,
+      "slip_recall": 0.6092436974789917,
+      "false_alarm_rate": 0.32020057306590255
+    },
+    {
+      "model": "ct_v3",
+      "policy": "balanced",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6133395119911319,
+      "slip_recall": 0.34335443037974683,
+      "false_alarm_rate": 0.11667540639748296
+    },
+    {
+      "model": "linear_control",
+      "policy": "balanced",
+      "held_object": "brush",
+      "balanced_accuracy": 0.6106927670513884,
+      "slip_recall": 0.6905444126074498,
+      "false_alarm_rate": 0.46915887850467286
+    },
+    {
+      "model": "linear_control",
+      "policy": "balanced",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.5534856492740363,
+      "slip_recall": 0.3802521008403361,
+      "false_alarm_rate": 0.2732808022922636
+    },
+    {
+      "model": "linear_control",
+      "policy": "balanced",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.5137665280478982,
+      "slip_recall": 0.13686708860759494,
+      "false_alarm_rate": 0.10933403251179863
+    },
+    {
+      "model": "ct_amplitude",
+      "policy": "joint",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7273223897383714,
+      "slip_recall": 0.7378223495702005,
+      "false_alarm_rate": 0.28317757009345795
+    },
+    {
+      "model": "ct_amplitude",
+      "policy": "joint",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6465706339842527,
+      "slip_recall": 0.6054621848739496,
+      "false_alarm_rate": 0.3123209169054441
+    },
+    {
+      "model": "ct_amplitude",
+      "policy": "joint",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6133395119911319,
+      "slip_recall": 0.34335443037974683,
+      "false_alarm_rate": 0.11667540639748296
+    },
+    {
+      "model": "ct_invariant",
+      "policy": "joint",
+      "held_object": "brush",
+      "balanced_accuracy": 0.6157619901989664,
+      "slip_recall": 0.5100286532951289,
+      "false_alarm_rate": 0.27850467289719627
+    },
+    {
+      "model": "ct_invariant",
+      "policy": "joint",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.5492457441429294,
+      "slip_recall": 0.5970588235294118,
+      "false_alarm_rate": 0.498567335243553
+    },
+    {
+      "model": "ct_invariant",
+      "policy": "joint",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.5113626180693381,
+      "slip_recall": 0.2579113924050633,
+      "false_alarm_rate": 0.235186156266387
+    },
+    {
+      "model": "mean_lif",
+      "policy": "joint",
+      "held_object": "brush",
+      "balanced_accuracy": 0.82167876174919,
+      "slip_recall": 0.7779369627507163,
+      "false_alarm_rate": 0.13457943925233645
+    },
+    {
+      "model": "mean_lif",
+      "policy": "joint",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6758716380535021,
+      "slip_recall": 0.6239495798319328,
+      "false_alarm_rate": 0.2722063037249284
+    },
+    {
+      "model": "mean_lif",
+      "policy": "joint",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6349840361625723,
+      "slip_recall": 0.3481012658227848,
+      "false_alarm_rate": 0.07813319349764028
+    },
+    {
+      "model": "ct_rate",
+      "policy": "joint",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7329968133251212,
+      "slip_recall": 0.7005730659025788,
+      "false_alarm_rate": 0.23457943925233643
+    },
+    {
+      "model": "ct_rate",
+      "policy": "joint",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.653624702029809,
+      "slip_recall": 0.42436974789915966,
+      "false_alarm_rate": 0.11712034383954154
+    },
+    {
+      "model": "ct_rate",
+      "policy": "joint",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6143984437747672,
+      "slip_recall": 0.3014240506329114,
+      "false_alarm_rate": 0.07262716308337702
+    },
+    {
+      "model": "ct_v3",
+      "policy": "joint",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7018450579760598,
+      "slip_recall": 0.6934097421203438,
+      "false_alarm_rate": 0.28971962616822433
+    },
+    {
+      "model": "ct_v3",
+      "policy": "joint",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6465706339842527,
+      "slip_recall": 0.6054621848739496,
+      "false_alarm_rate": 0.3123209169054441
+    },
+    {
+      "model": "ct_v3",
+      "policy": "joint",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6133395119911319,
+      "slip_recall": 0.34335443037974683,
+      "false_alarm_rate": 0.11667540639748296
+    },
+    {
+      "model": "linear_control",
+      "policy": "joint",
+      "held_object": "brush",
+      "balanced_accuracy": 0.6106927670513884,
+      "slip_recall": 0.6905444126074498,
+      "false_alarm_rate": 0.46915887850467286
+    },
+    {
+      "model": "linear_control",
+      "policy": "joint",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.5534856492740363,
+      "slip_recall": 0.3802521008403361,
+      "false_alarm_rate": 0.2732808022922636
+    },
+    {
+      "model": "linear_control",
+      "policy": "joint",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.5137665280478982,
+      "slip_recall": 0.13686708860759494,
+      "false_alarm_rate": 0.10933403251179863
+    },
+    {
+      "model": "v2_mean_lif",
+      "policy": "balanced",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7891559328388185,
+      "slip_recall": 0.7736389684813754,
+      "false_alarm_rate": 0.19532710280373833
+    },
+    {
+      "model": "v2_mean_lif",
+      "policy": "balanced",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6536111579302207,
+      "slip_recall": 0.6911764705882353,
+      "false_alarm_rate": 0.3839541547277937
+    },
+    {
+      "model": "v2_mean_lif",
+      "policy": "balanced",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6383765590462852,
+      "slip_recall": 0.3425632911392405,
+      "false_alarm_rate": 0.06581017304667017
+    },
+    {
+      "model": "ct_v2",
+      "policy": "balanced",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7884422783386444,
+      "slip_recall": 0.7507163323782235,
+      "false_alarm_rate": 0.17383177570093455
+    },
+    {
+      "model": "ct_v2",
+      "policy": "balanced",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6304335917748187,
+      "slip_recall": 0.6852941176470588,
+      "false_alarm_rate": 0.4244269340974212
+    },
+    {
+      "model": "ct_v2",
+      "policy": "balanced",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6205110004447305,
+      "slip_recall": 0.3299050632911392,
+      "false_alarm_rate": 0.08888306240167804
+    },
+    {
+      "model": "v2_mean_lif",
+      "policy": "fpr20",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7534504458666952,
+      "slip_recall": 0.5601719197707736,
+      "false_alarm_rate": 0.05327102803738318
+    },
+    {
+      "model": "v2_mean_lif",
+      "policy": "fpr20",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.653504310033469,
+      "slip_recall": 0.6848739495798319,
+      "false_alarm_rate": 0.377865329512894
+    },
+    {
+      "model": "v2_mean_lif",
+      "policy": "fpr20",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.656367612991444,
+      "slip_recall": 0.3987341772151899,
+      "false_alarm_rate": 0.08599895123230204
+    },
+    {
+      "model": "ct_v2",
+      "policy": "fpr20",
+      "held_object": "brush",
+      "balanced_accuracy": 0.75021289130493,
+      "slip_recall": 0.5415472779369628,
+      "false_alarm_rate": 0.041121495327102804
+    },
+    {
+      "model": "ct_v2",
+      "policy": "fpr20",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6363839661939275,
+      "slip_recall": 0.6348739495798319,
+      "false_alarm_rate": 0.3621060171919771
+    },
+    {
+      "model": "ct_v2",
+      "policy": "fpr20",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6316280210151806,
+      "slip_recall": 0.3662974683544304,
+      "false_alarm_rate": 0.10304142632406921
+    },
+    {
+      "model": "v2_mean_lif",
+      "policy": "fpr10",
+      "held_object": "brush",
+      "balanced_accuracy": 0.6958051040355622,
+      "slip_recall": 0.4140401146131805,
+      "false_alarm_rate": 0.022429906542056073
+    },
+    {
+      "model": "v2_mean_lif",
+      "policy": "fpr10",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6592199200597144,
+      "slip_recall": 0.592436974789916,
+      "false_alarm_rate": 0.27399713467048714
+    },
+    {
+      "model": "v2_mean_lif",
+      "policy": "fpr10",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.588282759055578,
+      "slip_recall": 0.2009493670886076,
+      "false_alarm_rate": 0.024383848977451494
+    },
+    {
+      "model": "ct_v2",
+      "policy": "fpr10",
+      "held_object": "brush",
+      "balanced_accuracy": 0.693158021583697,
+      "slip_recall": 0.4068767908309455,
+      "false_alarm_rate": 0.0205607476635514
+    },
+    {
+      "model": "ct_v2",
+      "policy": "fpr10",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6416724856131564,
+      "slip_recall": 0.5390756302521009,
+      "false_alarm_rate": 0.25573065902578795
+    },
+    {
+      "model": "ct_v2",
+      "policy": "fpr10",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.5880091584634889,
+      "slip_recall": 0.19699367088607594,
+      "false_alarm_rate": 0.02097535395909806
+    },
+    {
+      "model": "ct_v1",
+      "policy": "original",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7835203384837854,
+      "slip_recall": 0.7492836676217765,
+      "false_alarm_rate": 0.1822429906542056
+    },
+    {
+      "model": "ct_v1",
+      "policy": "original",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6050663961859817,
+      "slip_recall": 0.7298319327731093,
+      "false_alarm_rate": 0.5196991404011462
+    },
+    {
+      "model": "ct_v1",
+      "policy": "original",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6763468865538689,
+      "slip_recall": 0.5079113924050633,
+      "false_alarm_rate": 0.15521761929732564
+    },
+    {
+      "model": "mean_lif28",
+      "policy": "original",
+      "held_object": "brush",
+      "balanced_accuracy": 0.8164327986503495,
+      "slip_recall": 0.8767908309455588,
+      "false_alarm_rate": 0.2439252336448598
+    },
+    {
+      "model": "mean_lif28",
+      "policy": "original",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6384378536514893,
+      "slip_recall": 0.7306722689075631,
+      "false_alarm_rate": 0.45379656160458454
+    },
+    {
+      "model": "mean_lif28",
+      "policy": "original",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6843460219842951,
+      "slip_recall": 0.5087025316455697,
+      "false_alarm_rate": 0.14001048767697954
+    },
+    {
+      "model": "v1_cancellation_lif",
+      "policy": "original",
+      "held_object": "brush",
+      "balanced_accuracy": 0.799002490426586,
+      "slip_recall": 0.7550143266475645,
+      "false_alarm_rate": 0.15700934579439252
+    },
+    {
+      "model": "v1_cancellation_lif",
+      "policy": "original",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6437200524909104,
+      "slip_recall": 0.6760504201680673,
+      "false_alarm_rate": 0.38861031518624645
+    },
+    {
+      "model": "v1_cancellation_lif",
+      "policy": "original",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6860981858973934,
+      "slip_recall": 0.5253164556962026,
+      "false_alarm_rate": 0.15312008390141585
+    }
+  ],
+  "intervals": [
+    {
+      "candidate_model": "ct_v3",
+      "candidate_policy": "balanced",
+      "analysis_role": "planned_comparison",
+      "opponent": "ct_v2",
+      "opponent_policy": "balanced",
+      "difference": {
+        "balanced_accuracy": -0.023660550513624146,
+        "slip_recall": -0.06002652103603767,
+        "false_alarm_rate": -0.012705420008789298
+      },
+      "interval_95": {
+        "balanced_accuracy": [
+          -0.04824309292873201,
+          -0.0014709795801512572
+        ],
+        "slip_recall": [
+          -0.08678302184615279,
+          -0.033594283826616146
+        ],
+        "false_alarm_rate": [
+          -0.055623531562949524,
+          0.03547392553522946
+        ]
+      }
+    },
+    {
+      "candidate_model": "ct_v3",
+      "candidate_policy": "balanced",
+      "analysis_role": "planned_comparison",
+      "opponent": "mean_lif",
+      "opponent_policy": "balanced",
+      "difference": {
+        "balanced_accuracy": -0.0560816695399442,
+        "slip_recall": -0.07413450854209147,
+        "false_alarm_rate": 0.03802883053779671
+      },
+      "interval_95": {
+        "balanced_accuracy": [
+          -0.07860640867156461,
+          -0.03384319541400495
+        ],
+        "slip_recall": [
+          -0.09436754569357395,
+          -0.05404304008735985
+        ],
+        "false_alarm_rate": [
+          -0.006534975815360354,
+          0.08327734923923888
+        ]
+      }
+    },
+    {
+      "candidate_model": "ct_v3",
+      "candidate_policy": "balanced",
+      "analysis_role": "planned_comparison",
+      "opponent": "linear_control",
+      "opponent_policy": "balanced",
+      "difference": {
+        "balanced_accuracy": 0.09682009154799953,
+        "slip_recall": 0.12605744938430935,
+        "false_alarm_rate": -0.06758273371168969
+      },
+      "interval_95": {
+        "balanced_accuracy": [
+          0.06372934036340072,
+          0.13040313415604954
+        ],
+        "slip_recall": [
+          0.07215469869840942,
+          0.1826709444926478
+        ],
+        "false_alarm_rate": [
+          -0.1234589764319612,
+          -0.0068597531447579085
+        ]
+      }
+    },
+    {
+      "candidate_model": "ct_v3",
+      "candidate_policy": "balanced",
+      "analysis_role": "planned_comparison",
+      "opponent": "mean_lif28",
+      "opponent_policy": "original",
+      "difference": {
+        "balanced_accuracy": -0.05693715175627079,
+        "slip_recall": -0.17677656043012757,
+        "false_alarm_rate": -0.06290225691758597
+      },
+      "interval_95": {
+        "balanced_accuracy": [
+          -0.0854734982354185,
+          -0.02510438485883352
+        ],
+        "slip_recall": [
+          -0.20964875729061466,
+          -0.14606324417345068
+        ],
+        "false_alarm_rate": [
+          -0.12432102519788696,
+          -0.011520707439996752
+        ]
+      }
+    },
+    {
+      "candidate_model": "ct_v3",
+      "candidate_policy": "balanced",
+      "analysis_role": "planned_comparison",
+      "opponent": "ct_v1",
+      "opponent_policy": "original",
+      "difference": {
+        "balanced_accuracy": -0.0321761340687714,
+        "slip_recall": -0.1337303475305468,
+        "false_alarm_rate": -0.0693780793930038
+      },
+      "interval_95": {
+        "balanced_accuracy": [
+          -0.06447690232838656,
+          -0.0008043799388939823
+        ],
+        "slip_recall": [
+          -0.17433988991902002,
+          -0.09512794311744786
+        ],
+        "false_alarm_rate": [
+          -0.12511314711489518,
+          -0.018929649644642478
+        ]
+      }
+    },
+    {
+      "candidate_model": "ct_v3",
+      "candidate_policy": "balanced",
+      "analysis_role": "planned_comparison",
+      "opponent": "ct_rate",
+      "opponent_policy": "balanced",
+      "difference": {
+        "balanced_accuracy": -0.012755785102608663,
+        "slip_recall": 0.04748509628362618,
+        "false_alarm_rate": 0.07299666648884362
+      },
+      "interval_95": {
+        "balanced_accuracy": [
+          -0.025707353927114245,
+          0.0007804213959612153
+        ],
+        "slip_recall": [
+          0.02918115932033113,
+          0.06608598474238413
+        ],
+        "false_alarm_rate": [
+          0.0501879434897014,
+          0.09672450461229382
+        ]
+      }
+    },
+    {
+      "candidate_model": "ct_v3",
+      "candidate_policy": "joint",
+      "analysis_role": "planned_comparison",
+      "opponent": "ct_v2",
+      "opponent_policy": "balanced",
+      "difference": {
+        "balanced_accuracy": -0.02587722220224986,
+        "slip_recall": -0.0412297186474605,
+        "false_alarm_rate": 0.010524725757039194
+      },
+      "interval_95": {
+        "balanced_accuracy": [
+          -0.05675416164007703,
+          -0.0010032750518418811
+        ],
+        "slip_recall": [
+          -0.06962595412073952,
+          -0.015488621386087214
+        ],
+        "false_alarm_rate": [
+          -0.03974768637866971,
+          0.07293647157544501
+        ]
+      }
+    },
+    {
+      "candidate_model": "ct_v3",
+      "candidate_policy": "joint",
+      "analysis_role": "planned_comparison",
+      "opponent": "mean_lif",
+      "opponent_policy": "joint",
+      "difference": {
+        "balanced_accuracy": -0.056926410671273464,
+        "slip_recall": -0.0359204836771313,
+        "false_alarm_rate": 0.07793233766541546
+      },
+      "interval_95": {
+        "balanced_accuracy": [
+          -0.08652317040464885,
+          -0.0323282595060284
+        ],
+        "slip_recall": [
+          -0.05960138479463117,
+          -0.01673553199156773
+        ],
+        "false_alarm_rate": [
+          0.025779649690984823,
+          0.13481203481788653
+        ]
+      }
+    },
+    {
+      "candidate_model": "ct_v3",
+      "candidate_policy": "joint",
+      "analysis_role": "planned_comparison",
+      "opponent": "linear_control",
+      "opponent_policy": "joint",
+      "difference": {
+        "balanced_accuracy": 0.09460341985937382,
+        "slip_recall": 0.14485425177288652,
+        "false_alarm_rate": -0.044352587945861194
+      },
+      "interval_95": {
+        "balanced_accuracy": [
+          0.060427761309100075,
+          0.12711762650182418
+        ],
+        "slip_recall": [
+          0.09236601582745198,
+          0.1982583555051639
+        ],
+        "false_alarm_rate": [
+          -0.10116161409373813,
+          0.014030636949020145
+        ]
+      }
+    },
+    {
+      "candidate_model": "ct_v3",
+      "candidate_policy": "joint",
+      "analysis_role": "planned_comparison",
+      "opponent": "mean_lif28",
+      "opponent_policy": "original",
+      "difference": {
+        "balanced_accuracy": -0.0591538234448965,
+        "slip_recall": -0.1579797580415504,
+        "false_alarm_rate": -0.03967211115175748
+      },
+      "interval_95": {
+        "balanced_accuracy": [
+          -0.09382533964364236,
+          -0.02463454218140542
+        ],
+        "slip_recall": [
+          -0.1913245772503183,
+          -0.12897554295893876
+        ],
+        "false_alarm_rate": [
+          -0.107780288306452,
+          0.02333715474621129
+        ]
+      }
+    },
+    {
+      "candidate_model": "ct_v3",
+      "candidate_policy": "joint",
+      "analysis_role": "planned_comparison",
+      "opponent": "ct_v1",
+      "opponent_policy": "original",
+      "difference": {
+        "balanced_accuracy": -0.034392805757397116,
+        "slip_recall": -0.11493354514196963,
+        "false_alarm_rate": -0.046147933627175314
+      },
+      "interval_95": {
+        "balanced_accuracy": [
+          -0.07132146452637356,
+          -0.000824410083756044
+        ],
+        "slip_recall": [
+          -0.15742726573956295,
+          -0.07655051611196137
+        ],
+        "false_alarm_rate": [
+          -0.10722556692187088,
+          0.015715029630560214
+        ]
+      }
+    },
+    {
+      "candidate_model": "ct_v3",
+      "candidate_policy": "joint",
+      "analysis_role": "planned_comparison",
+      "opponent": "ct_rate",
+      "opponent_policy": "joint",
+      "difference": {
+        "balanced_accuracy": -0.01308825172608441,
+        "slip_recall": 0.0719531643131302,
+        "false_alarm_rate": 0.09812966776529883
+      },
+      "interval_95": {
+        "balanced_accuracy": [
+          -0.027422349451801588,
+          0.000876067195632829
+        ],
+        "slip_recall": [
+          0.05165976138148872,
+          0.08973268238511888
+        ],
+        "false_alarm_rate": [
+          0.07321925991391838,
+          0.12356451001920568
+        ]
+      }
+    },
+    {
+      "candidate_model": "mean_lif",
+      "candidate_policy": "balanced",
+      "analysis_role": "posthoc_control_comparison",
+      "opponent": "ct_v2",
+      "opponent_policy": "balanced",
+      "difference": {
+        "balanced_accuracy": 0.032421119026320055,
+        "slip_recall": 0.014107987506053798,
+        "false_alarm_rate": -0.05073425054658601
+      },
+      "interval_95": {
+        "balanced_accuracy": [
+          0.020068542018377735,
+          0.04510136946397428
+        ],
+        "slip_recall": [
+          -0.004396447658895625,
+          0.03447231818392807
+        ],
+        "false_alarm_rate": [
+          -0.07183964822328005,
+          -0.028046628529790688
+        ]
+      }
+    },
+    {
+      "candidate_model": "mean_lif",
+      "candidate_policy": "balanced",
+      "analysis_role": "posthoc_control_comparison",
+      "opponent": "v2_mean_lif",
+      "opponent_policy": "balanced",
+      "difference": {
+        "balanced_accuracy": 0.01850219260727659,
+        "slip_recall": 0.0002869152085773763,
+        "false_alarm_rate": -0.03671747000597542
+      },
+      "interval_95": {
+        "balanced_accuracy": [
+          0.006653177089822537,
+          0.028663669667967646
+        ],
+        "slip_recall": [
+          -0.015238146459636299,
+          0.016346189201478983
+        ],
+        "false_alarm_rate": [
+          -0.052055666728423884,
+          -0.01997863428877634
+        ]
+      }
+    },
+    {
+      "candidate_model": "mean_lif",
+      "candidate_policy": "balanced",
+      "analysis_role": "posthoc_control_comparison",
+      "opponent": "mean_lif28",
+      "opponent_policy": "original",
+      "difference": {
+        "balanced_accuracy": -0.0008554822163265863,
+        "slip_recall": -0.1026420518880361,
+        "false_alarm_rate": -0.10093108745538268
+      },
+      "interval_95": {
+        "balanced_accuracy": [
+          -0.015391868162563691,
+          0.016900792649300153
+        ],
+        "slip_recall": [
+          -0.12779799228692,
+          -0.07831294564858537
+        ],
+        "false_alarm_rate": [
+          -0.12949151080337762,
+          -0.07995265721950627
+        ]
+      }
+    }
+  ],
+  "selections": [
+    {
+      "held_object": "brush",
+      "seed": 7,
+      "policy": "balanced",
+      "name": "object0_seed7_ct_invariant_uniform_h8_lr0.01",
+      "family": "ct_invariant",
+      "pooling": "uniform",
+      "parameters": 71,
+      "threshold": 0.55,
+      "validation_joint_improvement": false,
+      "validation": {
+        "threshold": 0.55,
+        "balanced_accuracy": 0.6430700079933552,
+        "slip_recall": 0.5056332556332557,
+        "false_alarm_rate": 0.2194932396465453,
+        "per_object": [
+          {
+            "object": 1,
+            "balanced_accuracy": 0.5730994811639972,
+            "slip_recall": 0.43006993006993005,
+            "false_alarm_rate": 0.2838709677419355,
+            "tp": 123,
+            "fn": 163,
+            "fp": 44,
+            "tn": 111
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.7130405348227131,
+            "slip_recall": 0.5811965811965812,
+            "false_alarm_rate": 0.1551155115511551,
+            "tp": 68,
+            "fn": 49,
+            "fp": 47,
+            "tn": 256
+          }
+        ],
+        "objects_without_non_slip": [],
+        "validation_joint_improvement": false
+      },
+      "reference_validation": {
+        "threshold": 0.495,
+        "balanced_accuracy": 0.6223518133451061,
+        "slip_recall": 0.45182595182595187,
+        "false_alarm_rate": 0.2071223251357394,
+        "per_object": [
+          {
+            "object": 1,
+            "balanced_accuracy": 0.6547484773291226,
+            "slip_recall": 0.6643356643356644,
+            "false_alarm_rate": 0.3548387096774194,
+            "tp": 190,
+            "fn": 96,
+            "fp": 55,
+            "tn": 100
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.58995514936109,
+            "slip_recall": 0.23931623931623933,
+            "false_alarm_rate": 0.0594059405940594,
+            "tp": 28,
+            "fn": 89,
+            "fp": 18,
+            "tn": 285
+          }
+        ],
+        "objects_without_non_slip": []
+      }
+    },
+    {
+      "held_object": "brush",
+      "seed": 7,
+      "policy": "joint",
+      "name": "object0_seed7_ct_invariant_uniform_h8_lr0.01",
+      "family": "ct_invariant",
+      "pooling": "uniform",
+      "parameters": 71,
+      "threshold": 0.56,
+      "validation_joint_improvement": true,
+      "validation": {
+        "threshold": 0.56,
+        "balanced_accuracy": 0.6374968638303036,
+        "slip_recall": 0.46853146853146854,
+        "false_alarm_rate": 0.19353774087086129,
+        "per_object": [
+          {
+            "object": 1,
+            "balanced_accuracy": 0.576720054139409,
+            "slip_recall": 0.3986013986013986,
+            "false_alarm_rate": 0.24516129032258063,
+            "tp": 114,
+            "fn": 172,
+            "fp": 38,
+            "tn": 117
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.6982736735211982,
+            "slip_recall": 0.5384615384615384,
+            "false_alarm_rate": 0.1419141914191419,
+            "tp": 63,
+            "fn": 54,
+            "fp": 43,
+            "tn": 260
+          }
+        ],
+        "objects_without_non_slip": [],
+        "validation_joint_improvement": true
+      },
+      "reference_validation": {
+        "threshold": 0.495,
+        "balanced_accuracy": 0.6223518133451061,
+        "slip_recall": 0.45182595182595187,
+        "false_alarm_rate": 0.2071223251357394,
+        "per_object": [
+          {
+            "object": 1,
+            "balanced_accuracy": 0.6547484773291226,
+            "slip_recall": 0.6643356643356644,
+            "false_alarm_rate": 0.3548387096774194,
+            "tp": 190,
+            "fn": 96,
+            "fp": 55,
+            "tn": 100
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.58995514936109,
+            "slip_recall": 0.23931623931623933,
+            "false_alarm_rate": 0.0594059405940594,
+            "tp": 28,
+            "fn": 89,
+            "fp": 18,
+            "tn": 285
+          }
+        ],
+        "objects_without_non_slip": []
+      }
+    },
+    {
+      "held_object": "brush",
+      "seed": 19,
+      "policy": "balanced",
+      "name": "object0_seed19_ct_amplitude_uniform_h12_lr0.01",
+      "family": "ct_amplitude",
+      "pooling": "uniform",
+      "parameters": 142,
+      "threshold": 0.615,
+      "validation_joint_improvement": false,
+      "validation": {
+        "threshold": 0.615,
+        "balanced_accuracy": 0.7407037953106388,
+        "slip_recall": 0.6462420558165238,
+        "false_alarm_rate": 0.1648344651952462,
+        "per_object": [
+          {
+            "object": 1,
+            "balanced_accuracy": 0.6489913226786941,
+            "slip_recall": 0.5197568389057751,
+            "false_alarm_rate": 0.2217741935483871,
+            "tp": 171,
+            "fn": 158,
+            "fp": 55,
+            "tn": 193
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.8324162679425837,
+            "slip_recall": 0.7727272727272727,
+            "false_alarm_rate": 0.10789473684210527,
+            "tp": 85,
+            "fn": 25,
+            "fp": 41,
+            "tn": 339
+          }
+        ],
+        "objects_without_non_slip": [],
+        "validation_joint_improvement": false
+      },
+      "reference_validation": {
+        "threshold": 0.51,
+        "balanced_accuracy": 0.7105002759675754,
+        "slip_recall": 0.767753523072672,
+        "false_alarm_rate": 0.34675297113752124,
+        "per_object": [
+          {
+            "object": 1,
+            "balanced_accuracy": 0.6066464849495048,
+            "slip_recall": 0.7173252279635258,
+            "false_alarm_rate": 0.5040322580645161,
+            "tp": 236,
+            "fn": 93,
+            "fp": 125,
+            "tn": 123
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.814354066985646,
+            "slip_recall": 0.8181818181818182,
+            "false_alarm_rate": 0.18947368421052632,
+            "tp": 90,
+            "fn": 20,
+            "fp": 72,
+            "tn": 308
+          }
+        ],
+        "objects_without_non_slip": []
+      }
+    },
+    {
+      "held_object": "brush",
+      "seed": 19,
+      "policy": "joint",
+      "name": "object0_seed19_ct_amplitude_recent_h12_lr0.01",
+      "family": "ct_amplitude",
+      "pooling": "recent",
+      "parameters": 142,
+      "threshold": 0.445,
+      "validation_joint_improvement": true,
+      "validation": {
+        "threshold": 0.445,
+        "balanced_accuracy": 0.7291544232688166,
+        "slip_recall": 0.7707239568941697,
+        "false_alarm_rate": 0.3124151103565365,
+        "per_object": [
+          {
+            "object": 1,
+            "balanced_accuracy": 0.655438033140504,
+            "slip_recall": 0.6778115501519757,
+            "false_alarm_rate": 0.36693548387096775,
+            "tp": 223,
+            "fn": 106,
+            "fp": 91,
+            "tn": 157
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.8028708133971292,
+            "slip_recall": 0.8636363636363636,
+            "false_alarm_rate": 0.2578947368421053,
+            "tp": 95,
+            "fn": 15,
+            "fp": 98,
+            "tn": 282
+          }
+        ],
+        "objects_without_non_slip": [],
+        "validation_joint_improvement": true
+      },
+      "reference_validation": {
+        "threshold": 0.51,
+        "balanced_accuracy": 0.7105002759675754,
+        "slip_recall": 0.767753523072672,
+        "false_alarm_rate": 0.34675297113752124,
+        "per_object": [
+          {
+            "object": 1,
+            "balanced_accuracy": 0.6066464849495048,
+            "slip_recall": 0.7173252279635258,
+            "false_alarm_rate": 0.5040322580645161,
+            "tp": 236,
+            "fn": 93,
+            "fp": 125,
+            "tn": 123
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.814354066985646,
+            "slip_recall": 0.8181818181818182,
+            "false_alarm_rate": 0.18947368421052632,
+            "tp": 90,
+            "fn": 20,
+            "fp": 72,
+            "tn": 308
+          }
+        ],
+        "objects_without_non_slip": []
+      }
+    },
+    {
+      "held_object": "screwDriver",
+      "seed": 7,
+      "policy": "balanced",
+      "name": "object1_seed7_ct_amplitude_recent_h12_lr0.005",
+      "family": "ct_amplitude",
+      "pooling": "recent",
+      "parameters": 142,
+      "threshold": 0.41000000000000003,
+      "validation_joint_improvement": false,
+      "validation": {
+        "threshold": 0.41000000000000003,
+        "balanced_accuracy": 0.7368813804457369,
+        "slip_recall": 0.783993783993784,
+        "false_alarm_rate": 0.3102310231023102,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": null,
+            "slip_recall": 0.9696969696969697,
+            "false_alarm_rate": null,
+            "tp": 32,
+            "fn": 1,
+            "fp": 0,
+            "tn": 0
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.6440297875941441,
+            "slip_recall": 0.5982905982905983,
+            "false_alarm_rate": 0.3102310231023102,
+            "tp": 70,
+            "fn": 47,
+            "fp": 94,
+            "tn": 209
+          }
+        ],
+        "objects_without_non_slip": [
+          0
+        ],
+        "validation_joint_improvement": false
+      },
+      "reference_validation": {
+        "threshold": 0.425,
+        "balanced_accuracy": 0.7353369952379853,
+        "slip_recall": 0.8139083139083139,
+        "false_alarm_rate": 0.3432343234323432,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": null,
+            "slip_recall": 0.9696969696969697,
+            "false_alarm_rate": null,
+            "tp": 32,
+            "fn": 1,
+            "fp": 0,
+            "tn": 0
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.6574426673436574,
+            "slip_recall": 0.6581196581196581,
+            "false_alarm_rate": 0.3432343234323432,
+            "tp": 77,
+            "fn": 40,
+            "fp": 104,
+            "tn": 199
+          }
+        ],
+        "objects_without_non_slip": [
+          0
+        ]
+      }
+    },
+    {
+      "held_object": "screwDriver",
+      "seed": 7,
+      "policy": "joint",
+      "name": "object1_seed7_ct_amplitude_recent_h12_lr0.005",
+      "family": "ct_amplitude",
+      "pooling": "recent",
+      "parameters": 142,
+      "threshold": 0.41000000000000003,
+      "validation_joint_improvement": false,
+      "validation": {
+        "threshold": 0.41000000000000003,
+        "balanced_accuracy": 0.7368813804457369,
+        "slip_recall": 0.783993783993784,
+        "false_alarm_rate": 0.3102310231023102,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": null,
+            "slip_recall": 0.9696969696969697,
+            "false_alarm_rate": null,
+            "tp": 32,
+            "fn": 1,
+            "fp": 0,
+            "tn": 0
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.6440297875941441,
+            "slip_recall": 0.5982905982905983,
+            "false_alarm_rate": 0.3102310231023102,
+            "tp": 70,
+            "fn": 47,
+            "fp": 94,
+            "tn": 209
+          }
+        ],
+        "objects_without_non_slip": [
+          0
+        ],
+        "validation_joint_improvement": false
+      },
+      "reference_validation": {
+        "threshold": 0.425,
+        "balanced_accuracy": 0.7353369952379853,
+        "slip_recall": 0.8139083139083139,
+        "false_alarm_rate": 0.3432343234323432,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": null,
+            "slip_recall": 0.9696969696969697,
+            "false_alarm_rate": null,
+            "tp": 32,
+            "fn": 1,
+            "fp": 0,
+            "tn": 0
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.6574426673436574,
+            "slip_recall": 0.6581196581196581,
+            "false_alarm_rate": 0.3432343234323432,
+            "tp": 77,
+            "fn": 40,
+            "fp": 104,
+            "tn": 199
+          }
+        ],
+        "objects_without_non_slip": [
+          0
+        ]
+      }
+    },
+    {
+      "held_object": "screwDriver",
+      "seed": 19,
+      "policy": "balanced",
+      "name": "object1_seed19_ct_amplitude_uniform_h12_lr0.01",
+      "family": "ct_amplitude",
+      "pooling": "uniform",
+      "parameters": 142,
+      "threshold": 0.63,
+      "validation_joint_improvement": false,
+      "validation": {
+        "threshold": 0.63,
+        "balanced_accuracy": 0.8078349282296651,
+        "slip_recall": 0.6590909090909092,
+        "false_alarm_rate": 0.04342105263157895,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": 0.9,
+            "slip_recall": 0.8,
+            "false_alarm_rate": 0.0,
+            "tp": 40,
+            "fn": 10,
+            "fp": 0,
+            "tn": 12
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.7156698564593301,
+            "slip_recall": 0.5181818181818182,
+            "false_alarm_rate": 0.0868421052631579,
+            "tp": 57,
+            "fn": 53,
+            "fp": 33,
+            "tn": 347
+          }
+        ],
+        "objects_without_non_slip": [],
+        "validation_joint_improvement": false
+      },
+      "reference_validation": {
+        "threshold": 0.585,
+        "balanced_accuracy": 0.780219298245614,
+        "slip_recall": 0.6599999999999999,
+        "false_alarm_rate": 0.09956140350877193,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": 0.8183333333333334,
+            "slip_recall": 0.72,
+            "false_alarm_rate": 0.08333333333333333,
+            "tp": 36,
+            "fn": 14,
+            "fp": 1,
+            "tn": 11
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.7421052631578948,
+            "slip_recall": 0.6,
+            "false_alarm_rate": 0.11578947368421053,
+            "tp": 66,
+            "fn": 44,
+            "fp": 44,
+            "tn": 336
+          }
+        ],
+        "objects_without_non_slip": []
+      }
+    },
+    {
+      "held_object": "screwDriver",
+      "seed": 19,
+      "policy": "joint",
+      "name": "object1_seed19_ct_amplitude_recent_h12_lr0.01",
+      "family": "ct_amplitude",
+      "pooling": "recent",
+      "parameters": 142,
+      "threshold": 0.5650000000000001,
+      "validation_joint_improvement": true,
+      "validation": {
+        "threshold": 0.5650000000000001,
+        "balanced_accuracy": 0.7928987240829346,
+        "slip_recall": 0.6827272727272726,
+        "false_alarm_rate": 0.0969298245614035,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": 0.8683333333333333,
+            "slip_recall": 0.82,
+            "false_alarm_rate": 0.08333333333333333,
+            "tp": 41,
+            "fn": 9,
+            "fp": 1,
+            "tn": 11
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.7174641148325359,
+            "slip_recall": 0.5454545454545454,
+            "false_alarm_rate": 0.11052631578947368,
+            "tp": 60,
+            "fn": 50,
+            "fp": 42,
+            "tn": 338
+          }
+        ],
+        "objects_without_non_slip": [],
+        "validation_joint_improvement": true
+      },
+      "reference_validation": {
+        "threshold": 0.585,
+        "balanced_accuracy": 0.780219298245614,
+        "slip_recall": 0.6599999999999999,
+        "false_alarm_rate": 0.09956140350877193,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": 0.8183333333333334,
+            "slip_recall": 0.72,
+            "false_alarm_rate": 0.08333333333333333,
+            "tp": 36,
+            "fn": 14,
+            "fp": 1,
+            "tn": 11
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.7421052631578948,
+            "slip_recall": 0.6,
+            "false_alarm_rate": 0.11578947368421053,
+            "tp": 66,
+            "fn": 44,
+            "fp": 44,
+            "tn": 336
+          }
+        ],
+        "objects_without_non_slip": []
+      }
+    },
+    {
+      "held_object": "SpoolSolder",
+      "seed": 7,
+      "policy": "balanced",
+      "name": "object2_seed7_ct_amplitude_uniform_h12_lr0.01",
+      "family": "ct_amplitude",
+      "pooling": "uniform",
+      "parameters": 142,
+      "threshold": 0.585,
+      "validation_joint_improvement": false,
+      "validation": {
+        "threshold": 0.585,
+        "balanced_accuracy": 0.7963471607836058,
+        "slip_recall": 0.7786592338479131,
+        "false_alarm_rate": 0.18596491228070175,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": null,
+            "slip_recall": 0.9393939393939394,
+            "false_alarm_rate": null,
+            "tp": 31,
+            "fn": 2,
+            "fp": 0,
+            "tn": 0
+          },
+          {
+            "object": 1,
+            "balanced_accuracy": 0.7159798080105926,
+            "slip_recall": 0.6179245283018868,
+            "false_alarm_rate": 0.18596491228070175,
+            "tp": 131,
+            "fn": 81,
+            "fp": 53,
+            "tn": 232
+          }
+        ],
+        "objects_without_non_slip": [
+          0
+        ],
+        "validation_joint_improvement": false
+      },
+      "reference_validation": {
+        "threshold": 0.46,
+        "balanced_accuracy": 0.803463633354398,
+        "slip_recall": 0.8244711263579187,
+        "false_alarm_rate": 0.21754385964912282,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": null,
+            "slip_recall": 0.9696969696969697,
+            "false_alarm_rate": null,
+            "tp": 32,
+            "fn": 1,
+            "fp": 0,
+            "tn": 0
+          },
+          {
+            "object": 1,
+            "balanced_accuracy": 0.7308507116848725,
+            "slip_recall": 0.6792452830188679,
+            "false_alarm_rate": 0.21754385964912282,
+            "tp": 144,
+            "fn": 68,
+            "fp": 62,
+            "tn": 223
+          }
+        ],
+        "objects_without_non_slip": [
+          0
+        ]
+      }
+    },
+    {
+      "held_object": "SpoolSolder",
+      "seed": 7,
+      "policy": "joint",
+      "name": "object2_seed7_ct_amplitude_uniform_h12_lr0.01",
+      "family": "ct_amplitude",
+      "pooling": "uniform",
+      "parameters": 142,
+      "threshold": 0.585,
+      "validation_joint_improvement": false,
+      "validation": {
+        "threshold": 0.585,
+        "balanced_accuracy": 0.7963471607836058,
+        "slip_recall": 0.7786592338479131,
+        "false_alarm_rate": 0.18596491228070175,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": null,
+            "slip_recall": 0.9393939393939394,
+            "false_alarm_rate": null,
+            "tp": 31,
+            "fn": 2,
+            "fp": 0,
+            "tn": 0
+          },
+          {
+            "object": 1,
+            "balanced_accuracy": 0.7159798080105926,
+            "slip_recall": 0.6179245283018868,
+            "false_alarm_rate": 0.18596491228070175,
+            "tp": 131,
+            "fn": 81,
+            "fp": 53,
+            "tn": 232
+          }
+        ],
+        "objects_without_non_slip": [
+          0
+        ],
+        "validation_joint_improvement": false
+      },
+      "reference_validation": {
+        "threshold": 0.46,
+        "balanced_accuracy": 0.803463633354398,
+        "slip_recall": 0.8244711263579187,
+        "false_alarm_rate": 0.21754385964912282,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": null,
+            "slip_recall": 0.9696969696969697,
+            "false_alarm_rate": null,
+            "tp": 32,
+            "fn": 1,
+            "fp": 0,
+            "tn": 0
+          },
+          {
+            "object": 1,
+            "balanced_accuracy": 0.7308507116848725,
+            "slip_recall": 0.6792452830188679,
+            "false_alarm_rate": 0.21754385964912282,
+            "tp": 144,
+            "fn": 68,
+            "fp": 62,
+            "tn": 223
+          }
+        ],
+        "objects_without_non_slip": [
+          0
+        ]
+      }
+    },
+    {
+      "held_object": "SpoolSolder",
+      "seed": 19,
+      "policy": "balanced",
+      "name": "object2_seed19_ct_amplitude_uniform_h8_lr0.005",
+      "family": "ct_amplitude",
+      "pooling": "uniform",
+      "parameters": 98,
+      "threshold": 0.47500000000000003,
+      "validation_joint_improvement": false,
+      "validation": {
+        "threshold": 0.47500000000000003,
+        "balanced_accuracy": 0.7791947856735604,
+        "slip_recall": 0.7013559322033898,
+        "false_alarm_rate": 0.14296636085626913,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": 0.8366666666666666,
+            "slip_recall": 0.84,
+            "false_alarm_rate": 0.16666666666666666,
+            "tp": 42,
+            "fn": 8,
+            "fp": 2,
+            "tn": 10
+          },
+          {
+            "object": 1,
+            "balanced_accuracy": 0.7217229046804541,
+            "slip_recall": 0.5627118644067797,
+            "false_alarm_rate": 0.11926605504587157,
+            "tp": 166,
+            "fn": 129,
+            "fp": 26,
+            "tn": 192
+          }
+        ],
+        "objects_without_non_slip": [],
+        "validation_joint_improvement": false
+      },
+      "reference_validation": {
+        "threshold": 0.5,
+        "balanced_accuracy": 0.8017392318457472,
+        "slip_recall": 0.7089830508474576,
+        "false_alarm_rate": 0.10550458715596331,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": 0.87,
+            "slip_recall": 0.74,
+            "false_alarm_rate": 0.0,
+            "tp": 37,
+            "fn": 13,
+            "fp": 0,
+            "tn": 12
+          },
+          {
+            "object": 1,
+            "balanced_accuracy": 0.7334784636914943,
+            "slip_recall": 0.6779661016949152,
+            "false_alarm_rate": 0.21100917431192662,
+            "tp": 200,
+            "fn": 95,
+            "fp": 46,
+            "tn": 172
+          }
+        ],
+        "objects_without_non_slip": []
+      }
+    },
+    {
+      "held_object": "SpoolSolder",
+      "seed": 19,
+      "policy": "joint",
+      "name": "object2_seed19_ct_amplitude_uniform_h8_lr0.005",
+      "family": "ct_amplitude",
+      "pooling": "uniform",
+      "parameters": 98,
+      "threshold": 0.47500000000000003,
+      "validation_joint_improvement": false,
+      "validation": {
+        "threshold": 0.47500000000000003,
+        "balanced_accuracy": 0.7791947856735604,
+        "slip_recall": 0.7013559322033898,
+        "false_alarm_rate": 0.14296636085626913,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": 0.8366666666666666,
+            "slip_recall": 0.84,
+            "false_alarm_rate": 0.16666666666666666,
+            "tp": 42,
+            "fn": 8,
+            "fp": 2,
+            "tn": 10
+          },
+          {
+            "object": 1,
+            "balanced_accuracy": 0.7217229046804541,
+            "slip_recall": 0.5627118644067797,
+            "false_alarm_rate": 0.11926605504587157,
+            "tp": 166,
+            "fn": 129,
+            "fp": 26,
+            "tn": 192
+          }
+        ],
+        "objects_without_non_slip": [],
+        "validation_joint_improvement": false
+      },
+      "reference_validation": {
+        "threshold": 0.5,
+        "balanced_accuracy": 0.8017392318457472,
+        "slip_recall": 0.7089830508474576,
+        "false_alarm_rate": 0.10550458715596331,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": 0.87,
+            "slip_recall": 0.74,
+            "false_alarm_rate": 0.0,
+            "tp": 37,
+            "fn": 13,
+            "fp": 0,
+            "tn": 12
+          },
+          {
+            "object": 1,
+            "balanced_accuracy": 0.7334784636914943,
+            "slip_recall": 0.6779661016949152,
+            "false_alarm_rate": 0.21100917431192662,
+            "tp": 200,
+            "fn": 95,
+            "fp": 46,
+            "tn": 172
+          }
+        ],
+        "objects_without_non_slip": []
+      }
+    }
+  ],
+  "valid_bootstraps": 2000,
+  "training_seconds": 202.78244985599986,
+  "limitations": "Exploratory repeated benchmark; conditional trial bootstrap omits new-object, retraining, selection and multiple-comparison uncertainty."
+}

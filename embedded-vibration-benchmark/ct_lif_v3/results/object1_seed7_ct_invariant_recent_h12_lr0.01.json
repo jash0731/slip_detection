@@ -1,0 +1,124 @@
+{
+  "name": "object1_seed7_ct_invariant_recent_h12_lr0.01",
+  "family": "ct_invariant",
+  "kind": "lif",
+  "variant": "invariant",
+  "pooling": "recent",
+  "hidden": 12,
+  "inputs": 6,
+  "residual": true,
+  "rate": 0.01,
+  "parameters": 103,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_weighted_loss": 0.6461565798680815
+    },
+    {
+      "epoch": 2,
+      "validation_weighted_loss": 0.6138282252951195
+    },
+    {
+      "epoch": 3,
+      "validation_weighted_loss": 0.6378944197558938
+    },
+    {
+      "epoch": 4,
+      "validation_weighted_loss": 0.6490869201762233
+    },
+    {
+      "epoch": 5,
+      "validation_weighted_loss": 0.6066295162175058
+    },
+    {
+      "epoch": 6,
+      "validation_weighted_loss": 0.617762341124665
+    },
+    {
+      "epoch": 7,
+      "validation_weighted_loss": 0.6300754462498896
+    },
+    {
+      "epoch": 8,
+      "validation_weighted_loss": 0.6226265397757673
+    },
+    {
+      "epoch": 9,
+      "validation_weighted_loss": 0.6142740671464791
+    },
+    {
+      "epoch": 10,
+      "validation_weighted_loss": 0.6288757898514753
+    },
+    {
+      "epoch": 11,
+      "validation_weighted_loss": 0.624496286691119
+    }
+  ],
+  "operating_points": {
+    "balanced": {
+      "threshold": 0.585,
+      "balanced_accuracy": 0.6604083485271605,
+      "slip_recall": 0.508935508935509,
+      "false_alarm_rate": 0.18811881188118812,
+      "per_object": [
+        {
+          "object": 0,
+          "balanced_accuracy": null,
+          "slip_recall": 0.7272727272727273,
+          "false_alarm_rate": null,
+          "tp": 24,
+          "fn": 9,
+          "fp": 0,
+          "tn": 0
+        },
+        {
+          "object": 2,
+          "balanced_accuracy": 0.5512397393585513,
+          "slip_recall": 0.2905982905982906,
+          "false_alarm_rate": 0.18811881188118812,
+          "tp": 34,
+          "fn": 83,
+          "fp": 57,
+          "tn": 246
+        }
+      ],
+      "objects_without_non_slip": [
+        0
+      ],
+      "validation_joint_improvement": false
+    },
+    "joint": {
+      "threshold": 0.585,
+      "balanced_accuracy": 0.6604083485271605,
+      "slip_recall": 0.508935508935509,
+      "false_alarm_rate": 0.18811881188118812,
+      "per_object": [
+        {
+          "object": 0,
+          "balanced_accuracy": null,
+          "slip_recall": 0.7272727272727273,
+          "false_alarm_rate": null,
+          "tp": 24,
+          "fn": 9,
+          "fp": 0,
+          "tn": 0
+        },
+        {
+          "object": 2,
+          "balanced_accuracy": 0.5512397393585513,
+          "slip_recall": 0.2905982905982906,
+          "false_alarm_rate": 0.18811881188118812,
+          "tp": 34,
+          "fn": 83,
+          "fp": 57,
+          "tn": 246
+        }
+      ],
+      "objects_without_non_slip": [
+        0
+      ],
+      "validation_joint_improvement": false
+    }
+  }
+}

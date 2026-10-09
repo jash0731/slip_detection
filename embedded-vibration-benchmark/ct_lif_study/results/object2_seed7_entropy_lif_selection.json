@@ -1,0 +1,203 @@
+{
+  "tag": "object2_seed7_entropy_lif",
+  "held_object": "SpoolSolder",
+  "held": 2,
+  "seed": 7,
+  "model": "entropy_lif",
+  "variant": "entropy",
+  "kind": "lif",
+  "hidden": 16,
+  "threshold": 0.4699999999999999,
+  "gate": 0.02,
+  "rate": 0.005,
+  "parameters": 225,
+  "scale": [
+    50.72222222222222,
+    38.77777777777778,
+    24.77777777777778
+  ],
+  "split_groups": {
+    "train": [
+      17,
+      3,
+      27,
+      19,
+      18,
+      13,
+      0,
+      25,
+      23,
+      10,
+      8,
+      7,
+      1,
+      15,
+      6,
+      16,
+      20,
+      5,
+      29,
+      26,
+      2,
+      21,
+      9,
+      11,
+      31,
+      42,
+      30,
+      32,
+      36,
+      34,
+      37,
+      51,
+      33,
+      52,
+      49,
+      54,
+      44,
+      38,
+      47,
+      39,
+      56,
+      50,
+      59,
+      41,
+      45,
+      57,
+      43,
+      35
+    ],
+    "validation": [
+      12,
+      14,
+      4,
+      28,
+      22,
+      24,
+      46,
+      58,
+      55,
+      40,
+      48,
+      53
+    ],
+    "test": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89
+    ]
+  },
+  "train_windows": 2940,
+  "validation_windows": 530,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_loss": 0.743547560587016
+    },
+    {
+      "epoch": 2,
+      "validation_loss": 0.7163498535487224
+    },
+    {
+      "epoch": 3,
+      "validation_loss": 0.6768912855709903
+    },
+    {
+      "epoch": 4,
+      "validation_loss": 0.656094082462387
+    },
+    {
+      "epoch": 5,
+      "validation_loss": 0.6216252852127285
+    },
+    {
+      "epoch": 6,
+      "validation_loss": 0.6037150250172065
+    },
+    {
+      "epoch": 7,
+      "validation_loss": 0.5934536711425824
+    },
+    {
+      "epoch": 8,
+      "validation_loss": 0.5904386003742684
+    },
+    {
+      "epoch": 9,
+      "validation_loss": 0.5712152282671237
+    },
+    {
+      "epoch": 10,
+      "validation_loss": 0.5646440584392491
+    },
+    {
+      "epoch": 11,
+      "validation_loss": 0.5585469694838747
+    },
+    {
+      "epoch": 12,
+      "validation_loss": 0.5787421290508942
+    },
+    {
+      "epoch": 13,
+      "validation_loss": 0.5563278569661082
+    },
+    {
+      "epoch": 14,
+      "validation_loss": 0.5549800626559765
+    },
+    {
+      "epoch": 15,
+      "validation_loss": 0.5466319364543201
+    },
+    {
+      "epoch": 16,
+      "validation_loss": 0.5458317208256024
+    },
+    {
+      "epoch": 17,
+      "validation_loss": 0.5421746486289584
+    },
+    {
+      "epoch": 18,
+      "validation_loss": 0.5447840923189987
+    }
+  ],
+  "validation": {
+    "balanced_accuracy": 0.7729323308270677,
+    "slip_recall": 0.7142857142857143,
+    "false_alarm_rate": 0.16842105263157894,
+    "tp": 175,
+    "fn": 70,
+    "fp": 48,
+    "tn": 237
+  },
+  "training_seconds": 0.8367687129999695
+}

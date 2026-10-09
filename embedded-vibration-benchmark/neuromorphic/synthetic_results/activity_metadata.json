@@ -1,0 +1,12 @@
+{
+  "source": "synthetic_host_activity_sweep",
+  "hidden_kernel_id": "fixed_lif_hidden_seed20261007",
+  "weights_sha256": "d34f295bd2661bbd4ecdc9f9cd5d28193ee4add56203c600ed3ee2b7f3909e13",
+  "shared_hidden_weights": "same hidden kernel as both public-trained and synthetic-trained readout exports; readout not timed",
+  "environment": {
+    "python": "3.13.5 (v3.13.5:6cb20a219a8, Jun 11 2025, 12:23:45) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O"
+  },
+  "timing_scope": "encoding and hidden update only; no readout; 7 repeats fixed dense-then-sparse order",
+  "limitations": "synthetic activity and host Python timing; descriptive only, no board or energy claim"
+}

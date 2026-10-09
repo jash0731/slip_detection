@@ -1,0 +1,8 @@
+{
+  "checkpoint_and_source_hashes_match": true,
+  "checkpoints": 144,
+  "inference_decisions_verified": 36054,
+  "unique_endpoints": 6009,
+  "eligible_trials": 87,
+  "original_splits_and_confusion_counts_match": true
+}

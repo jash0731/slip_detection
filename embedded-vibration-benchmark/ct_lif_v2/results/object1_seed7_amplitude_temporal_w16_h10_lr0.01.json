@@ -1,0 +1,161 @@
+{
+  "name": "object1_seed7_amplitude_temporal_w16_h10_lr0.01",
+  "family": "amplitude_temporal",
+  "variant": "amplitude",
+  "kind": "temporal",
+  "window": 16,
+  "hidden": 10,
+  "inputs": 9,
+  "rate": 0.01,
+  "seed": 7,
+  "held": 1,
+  "scale": [
+    22.333333333333332,
+    13.222222222222221,
+    14.333333333333334
+  ],
+  "parameters": 111,
+  "operating_points": {
+    "balanced": {
+      "threshold": 0.425,
+      "macro_ba": 0.6894266349711895,
+      "macro_recall": 0.8243978243978245,
+      "minimum_recall": 0.7094017094017094,
+      "macro_fpr": 0.44554455445544555,
+      "maximum_fpr": 0.44554455445544555,
+      "objects_without_non_slip_validation": [
+        0
+      ],
+      "per_object": [
+        {
+          "object": 0,
+          "positive_count": 33,
+          "negative_count": 0,
+          "balanced_accuracy": null,
+          "slip_recall": 0.9393939393939394,
+          "false_alarm_rate": null,
+          "tp": 31,
+          "fn": 2,
+          "fp": 0,
+          "tn": 0
+        },
+        {
+          "object": 2,
+          "positive_count": 117,
+          "negative_count": 303,
+          "balanced_accuracy": 0.631928577473132,
+          "slip_recall": 0.7094017094017094,
+          "false_alarm_rate": 0.44554455445544555,
+          "tp": 83,
+          "fn": 34,
+          "fp": 135,
+          "tn": 168
+        }
+      ]
+    },
+    "fpr20": {
+      "threshold": 0.555,
+      "macro_ba": 0.6490475970673991,
+      "macro_recall": 0.4961149961149961,
+      "minimum_recall": 0.26495726495726496,
+      "macro_fpr": 0.19801980198019803,
+      "maximum_fpr": 0.19801980198019803,
+      "objects_without_non_slip_validation": [
+        0
+      ],
+      "per_object": [
+        {
+          "object": 0,
+          "positive_count": 33,
+          "negative_count": 0,
+          "balanced_accuracy": null,
+          "slip_recall": 0.7272727272727273,
+          "false_alarm_rate": null,
+          "tp": 24,
+          "fn": 9,
+          "fp": 0,
+          "tn": 0
+        },
+        {
+          "object": 2,
+          "positive_count": 117,
+          "negative_count": 303,
+          "balanced_accuracy": 0.5334687314885335,
+          "slip_recall": 0.26495726495726496,
+          "false_alarm_rate": 0.19801980198019803,
+          "tp": 31,
+          "fn": 86,
+          "fp": 60,
+          "tn": 243
+        }
+      ],
+      "validation_fpr_cap": 0.2,
+      "useful_validation_recall": false
+    },
+    "fpr10": {
+      "threshold": 0.625,
+      "macro_ba": 0.648047497057398,
+      "macro_recall": 0.3951048951048951,
+      "minimum_recall": 0.15384615384615385,
+      "macro_fpr": 0.09900990099009901,
+      "maximum_fpr": 0.09900990099009901,
+      "objects_without_non_slip_validation": [
+        0
+      ],
+      "per_object": [
+        {
+          "object": 0,
+          "positive_count": 33,
+          "negative_count": 0,
+          "balanced_accuracy": null,
+          "slip_recall": 0.6363636363636364,
+          "false_alarm_rate": null,
+          "tp": 21,
+          "fn": 12,
+          "fp": 0,
+          "tn": 0
+        },
+        {
+          "object": 2,
+          "positive_count": 117,
+          "negative_count": 303,
+          "balanced_accuracy": 0.5274181264280273,
+          "slip_recall": 0.15384615384615385,
+          "false_alarm_rate": 0.09900990099009901,
+          "tp": 18,
+          "fn": 99,
+          "fp": 30,
+          "tn": 273
+        }
+      ],
+      "validation_fpr_cap": 0.1,
+      "useful_validation_recall": false
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "validation_loss": 0.98268231566339
+    },
+    {
+      "epoch": 2,
+      "validation_loss": 0.9742586009964822
+    },
+    {
+      "epoch": 3,
+      "validation_loss": 0.9982963125824267
+    },
+    {
+      "epoch": 4,
+      "validation_loss": 0.9780569476685183
+    },
+    {
+      "epoch": 5,
+      "validation_loss": 0.9839271137107806
+    },
+    {
+      "epoch": 6,
+      "validation_loss": 1.0219434508024492
+    }
+  ]
+}

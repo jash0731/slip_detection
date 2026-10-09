@@ -1,0 +1,176 @@
+{
+  "name": "object0_seed19_mean_lif_uniform_h12_lr0.01",
+  "family": "mean_lif",
+  "kind": "lif",
+  "variant": "mean",
+  "pooling": "uniform",
+  "hidden": 12,
+  "inputs": 6,
+  "residual": false,
+  "rate": 0.01,
+  "parameters": 97,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_weighted_loss": 0.6753296716681072
+    },
+    {
+      "epoch": 2,
+      "validation_weighted_loss": 0.6616522778455047
+    },
+    {
+      "epoch": 3,
+      "validation_weighted_loss": 0.6411432085346244
+    },
+    {
+      "epoch": 4,
+      "validation_weighted_loss": 0.6267015270567656
+    },
+    {
+      "epoch": 5,
+      "validation_weighted_loss": 0.6093679912501435
+    },
+    {
+      "epoch": 6,
+      "validation_weighted_loss": 0.5962901468886415
+    },
+    {
+      "epoch": 7,
+      "validation_weighted_loss": 0.5809126076469151
+    },
+    {
+      "epoch": 8,
+      "validation_weighted_loss": 0.5753009228354209
+    },
+    {
+      "epoch": 9,
+      "validation_weighted_loss": 0.5681447379879584
+    },
+    {
+      "epoch": 10,
+      "validation_weighted_loss": 0.562186310620923
+    },
+    {
+      "epoch": 11,
+      "validation_weighted_loss": 0.5516104827578121
+    },
+    {
+      "epoch": 12,
+      "validation_weighted_loss": 0.5594386687700065
+    },
+    {
+      "epoch": 13,
+      "validation_weighted_loss": 0.5470202582863999
+    },
+    {
+      "epoch": 14,
+      "validation_weighted_loss": 0.5496080232359513
+    },
+    {
+      "epoch": 15,
+      "validation_weighted_loss": 0.5493910468712083
+    },
+    {
+      "epoch": 16,
+      "validation_weighted_loss": 0.5394258973639111
+    },
+    {
+      "epoch": 17,
+      "validation_weighted_loss": 0.5397462796908356
+    },
+    {
+      "epoch": 18,
+      "validation_weighted_loss": 0.5448847348481101
+    },
+    {
+      "epoch": 19,
+      "validation_weighted_loss": 0.5325684244655002
+    },
+    {
+      "epoch": 20,
+      "validation_weighted_loss": 0.5445861974432549
+    },
+    {
+      "epoch": 21,
+      "validation_weighted_loss": 0.5484139197565534
+    },
+    {
+      "epoch": 22,
+      "validation_weighted_loss": 0.5676177221952942
+    },
+    {
+      "epoch": 23,
+      "validation_weighted_loss": 0.5343709718287817
+    },
+    {
+      "epoch": 24,
+      "validation_weighted_loss": 0.5369107505647647
+    },
+    {
+      "epoch": 25,
+      "validation_weighted_loss": 0.549743066886499
+    }
+  ],
+  "operating_points": {
+    "balanced": {
+      "threshold": 0.47000000000000003,
+      "balanced_accuracy": 0.7456161471642543,
+      "slip_recall": 0.7495302569770654,
+      "false_alarm_rate": 0.25829796264855687,
+      "per_object": [
+        {
+          "object": 1,
+          "balanced_accuracy": 0.6695815766251593,
+          "slip_recall": 0.6899696048632219,
+          "false_alarm_rate": 0.35080645161290325,
+          "tp": 227,
+          "fn": 102,
+          "fp": 87,
+          "tn": 161
+        },
+        {
+          "object": 2,
+          "balanced_accuracy": 0.8216507177033493,
+          "slip_recall": 0.8090909090909091,
+          "false_alarm_rate": 0.16578947368421051,
+          "tp": 89,
+          "fn": 21,
+          "fp": 63,
+          "tn": 317
+        }
+      ],
+      "objects_without_non_slip": [],
+      "validation_joint_improvement": false
+    },
+    "joint": {
+      "threshold": 0.44,
+      "balanced_accuracy": 0.7453321222270126,
+      "slip_recall": 0.789030118817353,
+      "false_alarm_rate": 0.2983658743633277,
+      "per_object": [
+        {
+          "object": 1,
+          "balanced_accuracy": 0.6763101774683793,
+          "slip_recall": 0.7598784194528876,
+          "false_alarm_rate": 0.40725806451612906,
+          "tp": 250,
+          "fn": 79,
+          "fp": 101,
+          "tn": 147
+        },
+        {
+          "object": 2,
+          "balanced_accuracy": 0.814354066985646,
+          "slip_recall": 0.8181818181818182,
+          "false_alarm_rate": 0.18947368421052632,
+          "tp": 90,
+          "fn": 20,
+          "fp": 72,
+          "tn": 308
+        }
+      ],
+      "objects_without_non_slip": [],
+      "validation_joint_improvement": true
+    }
+  }
+}

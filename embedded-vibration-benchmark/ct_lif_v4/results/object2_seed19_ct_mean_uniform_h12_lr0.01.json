@@ -1,0 +1,114 @@
+{
+  "name": "object2_seed19_ct_mean_uniform_h12_lr0.01",
+  "variant": "ct_mean",
+  "pooling": "uniform",
+  "hidden": 12,
+  "rate": 0.01,
+  "parameters": 241,
+  "inputs": 18,
+  "threshold": 0.535,
+  "validation": {
+    "threshold": 0.535,
+    "balanced_accuracy": 0.8017594464313481,
+    "slip_recall": 0.656271186440678,
+    "false_alarm_rate": 0.052752293577981654,
+    "per_object": [
+      {
+        "object": 0,
+        "balanced_accuracy": 0.88,
+        "slip_recall": 0.76,
+        "false_alarm_rate": 0.0,
+        "tp": 38,
+        "fn": 12,
+        "fp": 0,
+        "tn": 12
+      },
+      {
+        "object": 1,
+        "balanced_accuracy": 0.7235188928626963,
+        "slip_recall": 0.5525423728813559,
+        "false_alarm_rate": 0.10550458715596331,
+        "tp": 163,
+        "fn": 132,
+        "fp": 23,
+        "tn": 195
+      }
+    ],
+    "objects_without_non_slip": [],
+    "validation_joint_improvement": true
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "validation_weighted_loss": 0.6427253548613354
+    },
+    {
+      "epoch": 2,
+      "validation_weighted_loss": 0.6069737370023763
+    },
+    {
+      "epoch": 3,
+      "validation_weighted_loss": 0.5745908772378734
+    },
+    {
+      "epoch": 4,
+      "validation_weighted_loss": 0.5513156303601067
+    },
+    {
+      "epoch": 5,
+      "validation_weighted_loss": 0.5257771183797804
+    },
+    {
+      "epoch": 6,
+      "validation_weighted_loss": 0.5135411338144809
+    },
+    {
+      "epoch": 7,
+      "validation_weighted_loss": 0.5012964652540631
+    },
+    {
+      "epoch": 8,
+      "validation_weighted_loss": 0.5000563590347005
+    },
+    {
+      "epoch": 9,
+      "validation_weighted_loss": 0.4815994644829245
+    },
+    {
+      "epoch": 10,
+      "validation_weighted_loss": 0.51396831070498
+    },
+    {
+      "epoch": 11,
+      "validation_weighted_loss": 0.4894026220665279
+    },
+    {
+      "epoch": 12,
+      "validation_weighted_loss": 0.4667262543704136
+    },
+    {
+      "epoch": 13,
+      "validation_weighted_loss": 0.5043508669289484
+    },
+    {
+      "epoch": 14,
+      "validation_weighted_loss": 0.46893251839983635
+    },
+    {
+      "epoch": 15,
+      "validation_weighted_loss": 0.4826103183580047
+    },
+    {
+      "epoch": 16,
+      "validation_weighted_loss": 0.4789914340375805
+    },
+    {
+      "epoch": 17,
+      "validation_weighted_loss": 0.48770374317066695
+    },
+    {
+      "epoch": 18,
+      "validation_weighted_loss": 0.46792396907229117
+    }
+  ]
+}

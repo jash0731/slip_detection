@@ -1,0 +1,743 @@
+{
+  "evidence_type": "public_hardware_recording_not_our_hardware",
+  "source_file": "slipDataset_brush_tactile.h5",
+  "sha256": "a2aef56bf4cfc5e2d17ae09772295cb207c733e3a73059913939ba5a7a1e2139",
+  "trial_count": 30,
+  "samples": 41707,
+  "trials": [
+    {
+      "trial_id": "GGCNN2/brush/Pose1/Exp1",
+      "shape": [
+        18,
+        3,
+        635
+      ],
+      "samples": 635,
+      "duration_ms": 3522.143602371216,
+      "median_dt_ms": 5.539298057556152,
+      "min_dt_ms": 5.0563812255859375,
+      "max_dt_ms": 6.154060363769531,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 484,
+        "3": 95,
+        "5": 56
+      },
+      "slip_run_count": 1,
+      "slip_run_start_indices": [
+        579
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose1/Exp10",
+      "shape": [
+        18,
+        3,
+        606
+      ],
+      "samples": 606,
+      "duration_ms": 3361.1581325531006,
+      "median_dt_ms": 5.546331405639648,
+      "min_dt_ms": 2.930164337158203,
+      "max_dt_ms": 8.296728134155273,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 435,
+        "3": 91,
+        "5": 80
+      },
+      "slip_run_count": 1,
+      "slip_run_start_indices": [
+        526
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose1/Exp2",
+      "shape": [
+        18,
+        3,
+        4071
+      ],
+      "samples": 4071,
+      "duration_ms": 22611.265420913696,
+      "median_dt_ms": 5.545616149902344,
+      "min_dt_ms": 0.6043910980224609,
+      "max_dt_ms": 11.02757453918457,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 1326,
+        "1": 428,
+        "3": 151,
+        "4": 1277,
+        "5": 889
+      },
+      "slip_run_count": 5,
+      "slip_run_start_indices": [
+        557,
+        1332,
+        1854,
+        3113,
+        3940
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose1/Exp3",
+      "shape": [
+        18,
+        3,
+        3543
+      ],
+      "samples": 3543,
+      "duration_ms": 19677.525997161865,
+      "median_dt_ms": 5.543231964111328,
+      "min_dt_ms": 0.6062984466552734,
+      "max_dt_ms": 15.334844589233398,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 1261,
+        "1": 410,
+        "3": 131,
+        "4": 970,
+        "5": 771
+      },
+      "slip_run_count": 4,
+      "slip_run_start_indices": [
+        579,
+        1868,
+        1978,
+        3128
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose1/Exp4",
+      "shape": [
+        18,
+        3,
+        651
+      ],
+      "samples": 651,
+      "duration_ms": 3611.417770385742,
+      "median_dt_ms": 5.542874336242676,
+      "min_dt_ms": 2.6197433471679688,
+      "max_dt_ms": 8.471012115478516,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 389,
+        "3": 144,
+        "5": 118
+      },
+      "slip_run_count": 1,
+      "slip_run_start_indices": [
+        533
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose1/Exp5",
+      "shape": [
+        18,
+        3,
+        599
+      ],
+      "samples": 599,
+      "duration_ms": 3322.1559524536133,
+      "median_dt_ms": 5.547165870666504,
+      "min_dt_ms": 2.865314483642578,
+      "max_dt_ms": 8.237838745117188,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 436,
+        "3": 109,
+        "5": 54
+      },
+      "slip_run_count": 1,
+      "slip_run_start_indices": [
+        545
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose1/Exp6",
+      "shape": [
+        18,
+        3,
+        696
+      ],
+      "samples": 696,
+      "duration_ms": 3860.9840869903564,
+      "median_dt_ms": 5.554676055908203,
+      "min_dt_ms": 4.966497421264648,
+      "max_dt_ms": 6.289005279541016,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 446,
+        "3": 116,
+        "5": 134
+      },
+      "slip_run_count": 1,
+      "slip_run_start_indices": [
+        562
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose1/Exp7",
+      "shape": [
+        18,
+        3,
+        916
+      ],
+      "samples": 916,
+      "duration_ms": 5083.352088928223,
+      "median_dt_ms": 5.537271499633789,
+      "min_dt_ms": 2.9811859130859375,
+      "max_dt_ms": 8.186101913452148,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 410,
+        "1": 101,
+        "3": 92,
+        "5": 313
+      },
+      "slip_run_count": 1,
+      "slip_run_start_indices": [
+        502
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose1/Exp8",
+      "shape": [
+        18,
+        3,
+        538
+      ],
+      "samples": 538,
+      "duration_ms": 2983.8218688964844,
+      "median_dt_ms": 5.542516708374023,
+      "min_dt_ms": 2.8085708618164062,
+      "max_dt_ms": 9.256839752197266,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 395,
+        "3": 101,
+        "5": 42
+      },
+      "slip_run_count": 1,
+      "slip_run_start_indices": [
+        496
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose1/Exp9",
+      "shape": [
+        18,
+        3,
+        541
+      ],
+      "samples": 541,
+      "duration_ms": 3000.0181198120117,
+      "median_dt_ms": 5.549788475036621,
+      "min_dt_ms": 1.8956661224365234,
+      "max_dt_ms": 9.058475494384766,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 351,
+        "3": 152,
+        "5": 38
+      },
+      "slip_run_count": 1,
+      "slip_run_start_indices": [
+        503
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose2/Exp1",
+      "shape": [
+        18,
+        3,
+        681
+      ],
+      "samples": 681,
+      "duration_ms": 3778.012752532959,
+      "median_dt_ms": 5.537509918212891,
+      "min_dt_ms": 4.075527191162109,
+      "max_dt_ms": 7.089853286743164,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 477,
+        "3": 91,
+        "5": 113
+      },
+      "slip_run_count": 1,
+      "slip_run_start_indices": [
+        568
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose2/Exp10",
+      "shape": [
+        18,
+        3,
+        773
+      ],
+      "samples": 773,
+      "duration_ms": 4288.898944854736,
+      "median_dt_ms": 5.545139312744141,
+      "min_dt_ms": 3.556489944458008,
+      "max_dt_ms": 7.494211196899414,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 491,
+        "3": 82,
+        "5": 200
+      },
+      "slip_run_count": 1,
+      "slip_run_start_indices": [
+        573
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose2/Exp2",
+      "shape": [
+        18,
+        3,
+        646
+      ],
+      "samples": 646,
+      "duration_ms": 3583.303451538086,
+      "median_dt_ms": 5.547523498535156,
+      "min_dt_ms": 5.001306533813477,
+      "max_dt_ms": 6.360530853271484,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 425,
+        "1": 48,
+        "3": 88,
+        "5": 85
+      },
+      "slip_run_count": 1,
+      "slip_run_start_indices": [
+        513
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose2/Exp3",
+      "shape": [
+        18,
+        3,
+        4054
+      ],
+      "samples": 4054,
+      "duration_ms": 22516.759395599365,
+      "median_dt_ms": 5.543708801269531,
+      "min_dt_ms": 0.4622936248779297,
+      "max_dt_ms": 12.508153915405273,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 1820,
+        "2": 212,
+        "3": 91,
+        "4": 1860,
+        "5": 71
+      },
+      "slip_run_count": 2,
+      "slip_run_start_indices": [
+        589,
+        3768
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose2/Exp4",
+      "shape": [
+        18,
+        3,
+        661
+      ],
+      "samples": 661,
+      "duration_ms": 3666.806936264038,
+      "median_dt_ms": 5.549430847167969,
+      "min_dt_ms": 0.8637905120849609,
+      "max_dt_ms": 11.528968811035156,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 355,
+        "3": 251,
+        "5": 55
+      },
+      "slip_run_count": 1,
+      "slip_run_start_indices": [
+        606
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose2/Exp5",
+      "shape": [
+        18,
+        3,
+        234
+      ],
+      "samples": 234,
+      "duration_ms": 1294.2123413085938,
+      "median_dt_ms": 5.545616149902344,
+      "min_dt_ms": 5.119800567626953,
+      "max_dt_ms": 6.1187744140625,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 176,
+        "3": 58
+      },
+      "slip_run_count": 0,
+      "slip_run_start_indices": []
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose2/Exp6",
+      "shape": [
+        18,
+        3,
+        1697
+      ],
+      "samples": 1697,
+      "duration_ms": 9422.335624694824,
+      "median_dt_ms": 5.5446624755859375,
+      "min_dt_ms": 5.082607269287109,
+      "max_dt_ms": 6.133317947387695,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 835,
+        "1": 267,
+        "3": 193,
+        "4": 364,
+        "5": 38
+      },
+      "slip_run_count": 2,
+      "slip_run_start_indices": [
+        618,
+        1430
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose2/Exp7",
+      "shape": [
+        18,
+        3,
+        4039
+      ],
+      "samples": 4039,
+      "duration_ms": 22433.3016872406,
+      "median_dt_ms": 5.542755126953125,
+      "min_dt_ms": 0.5125999450683594,
+      "max_dt_ms": 12.820959091186523,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 1827,
+        "2": 45,
+        "3": 187,
+        "4": 1980
+      },
+      "slip_run_count": 0,
+      "slip_run_start_indices": []
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose2/Exp8",
+      "shape": [
+        18,
+        3,
+        3974
+      ],
+      "samples": 3974,
+      "duration_ms": 22072.01337814331,
+      "median_dt_ms": 5.544900894165039,
+      "min_dt_ms": 0.5066394805908203,
+      "max_dt_ms": 12.755870819091797,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 1388,
+        "1": 315,
+        "2": 13,
+        "3": 213,
+        "4": 1462,
+        "5": 583
+      },
+      "slip_run_count": 4,
+      "slip_run_start_indices": [
+        525,
+        1794,
+        2377,
+        3836
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose2/Exp9",
+      "shape": [
+        18,
+        3,
+        642
+      ],
+      "samples": 642,
+      "duration_ms": 3561.3017082214355,
+      "median_dt_ms": 5.541086196899414,
+      "min_dt_ms": 4.9343109130859375,
+      "max_dt_ms": 6.199836730957031,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 526,
+        "3": 66,
+        "5": 50
+      },
+      "slip_run_count": 1,
+      "slip_run_start_indices": [
+        545
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose3/Exp1",
+      "shape": [
+        18,
+        3,
+        652
+      ],
+      "samples": 652,
+      "duration_ms": 3616.49489402771,
+      "median_dt_ms": 5.543947219848633,
+      "min_dt_ms": 5.13768196105957,
+      "max_dt_ms": 6.017446517944336,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 386,
+        "3": 153,
+        "5": 113
+      },
+      "slip_run_count": 1,
+      "slip_run_start_indices": [
+        539
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose3/Exp10",
+      "shape": [
+        18,
+        3,
+        620
+      ],
+      "samples": 620,
+      "duration_ms": 3438.910961151123,
+      "median_dt_ms": 5.542278289794922,
+      "min_dt_ms": 5.009889602661133,
+      "max_dt_ms": 6.343364715576172,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 450,
+        "3": 101,
+        "5": 50,
+        "6": 19
+      },
+      "slip_run_count": 2,
+      "slip_run_start_indices": [
+        551,
+        603
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose3/Exp2",
+      "shape": [
+        18,
+        3,
+        650
+      ],
+      "samples": 650,
+      "duration_ms": 3605.417251586914,
+      "median_dt_ms": 5.54203987121582,
+      "min_dt_ms": 4.984617233276367,
+      "max_dt_ms": 6.2084197998046875,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 435,
+        "3": 110,
+        "5": 105
+      },
+      "slip_run_count": 1,
+      "slip_run_start_indices": [
+        545
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose3/Exp3",
+      "shape": [
+        18,
+        3,
+        643
+      ],
+      "samples": 643,
+      "duration_ms": 3566.354751586914,
+      "median_dt_ms": 5.542159080505371,
+      "min_dt_ms": 4.3125152587890625,
+      "max_dt_ms": 7.225275039672852,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 452,
+        "3": 109,
+        "5": 82
+      },
+      "slip_run_count": 1,
+      "slip_run_start_indices": [
+        561
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose3/Exp4",
+      "shape": [
+        18,
+        3,
+        640
+      ],
+      "samples": 640,
+      "duration_ms": 3550.1484870910645,
+      "median_dt_ms": 5.543947219848633,
+      "min_dt_ms": 4.490375518798828,
+      "max_dt_ms": 6.953716278076172,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 508,
+        "3": 64,
+        "5": 68
+      },
+      "slip_run_count": 1,
+      "slip_run_start_indices": [
+        572
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose3/Exp5",
+      "shape": [
+        18,
+        3,
+        1980
+      ],
+      "samples": 1980,
+      "duration_ms": 10994.544744491577,
+      "median_dt_ms": 5.541563034057617,
+      "min_dt_ms": 3.5789012908935547,
+      "max_dt_ms": 7.78651237487793,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 814,
+        "1": 545,
+        "3": 92,
+        "4": 376,
+        "5": 141,
+        "6": 12
+      },
+      "slip_run_count": 4,
+      "slip_run_start_indices": [
+        550,
+        601,
+        1283,
+        1917
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose3/Exp6",
+      "shape": [
+        18,
+        3,
+        1928
+      ],
+      "samples": 1928,
+      "duration_ms": 10705.618619918823,
+      "median_dt_ms": 5.544424057006836,
+      "min_dt_ms": 2.0165443420410156,
+      "max_dt_ms": 9.081363677978516,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 983,
+        "1": 285,
+        "3": 76,
+        "4": 187,
+        "5": 384,
+        "6": 13
+      },
+      "slip_run_count": 4,
+      "slip_run_start_indices": [
+        530,
+        583,
+        1234,
+        1466
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose3/Exp7",
+      "shape": [
+        18,
+        3,
+        1772
+      ],
+      "samples": 1772,
+      "duration_ms": 9838.68670463562,
+      "median_dt_ms": 5.541801452636719,
+      "min_dt_ms": 0.476837158203125,
+      "max_dt_ms": 11.846303939819336,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 787,
+        "1": 451,
+        "3": 108,
+        "4": 84,
+        "5": 330,
+        "6": 12
+      },
+      "slip_run_count": 3,
+      "slip_run_start_indices": [
+        533,
+        572,
+        1124
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose3/Exp8",
+      "shape": [
+        18,
+        3,
+        645
+      ],
+      "samples": 645,
+      "duration_ms": 3577.643632888794,
+      "median_dt_ms": 5.541086196899414,
+      "min_dt_ms": 2.254486083984375,
+      "max_dt_ms": 8.719682693481445,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 474,
+        "3": 79,
+        "5": 92
+      },
+      "slip_run_count": 1,
+      "slip_run_start_indices": [
+        553
+      ]
+    },
+    {
+      "trial_id": "GGCNN2/brush/Pose3/Exp9",
+      "shape": [
+        18,
+        3,
+        1980
+      ],
+      "samples": 1980,
+      "duration_ms": 10994.42172050476,
+      "median_dt_ms": 5.542755126953125,
+      "min_dt_ms": 0.5896091461181641,
+      "max_dt_ms": 12.130022048950195,
+      "nonpositive_dt_count": 0,
+      "label_counts": {
+        "0": 927,
+        "1": 380,
+        "3": 82,
+        "4": 58,
+        "5": 533
+      },
+      "slip_run_count": 3,
+      "slip_run_start_indices": [
+        541,
+        606,
+        1759
+      ]
+    }
+  ]
+}

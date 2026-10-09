@@ -1,0 +1,74 @@
+{
+  "name": "object0_seed7_linear_amplitude_recent_ridge0.1",
+  "family": "linear_control",
+  "kind": "linear",
+  "variant": "amplitude",
+  "pooling": "recent",
+  "hidden": 0,
+  "inputs": 9,
+  "residual": false,
+  "ridge": 0.1,
+  "parameters": 10,
+  "operating_points": {
+    "balanced": {
+      "threshold": 0.5,
+      "balanced_accuracy": 0.5277132117678269,
+      "slip_recall": 0.40695415695415693,
+      "false_alarm_rate": 0.35152773341850313,
+      "per_object": [
+        {
+          "object": 1,
+          "balanced_accuracy": 0.490604556733589,
+          "slip_recall": 0.548951048951049,
+          "false_alarm_rate": 0.567741935483871,
+          "tp": 157,
+          "fn": 129,
+          "fp": 88,
+          "tn": 67
+        },
+        {
+          "object": 2,
+          "balanced_accuracy": 0.5648218668020648,
+          "slip_recall": 0.26495726495726496,
+          "false_alarm_rate": 0.1353135313531353,
+          "tp": 31,
+          "fn": 86,
+          "fp": 41,
+          "tn": 262
+        }
+      ],
+      "objects_without_non_slip": [],
+      "validation_joint_improvement": false
+    },
+    "joint": {
+      "threshold": 0.5,
+      "balanced_accuracy": 0.5277132117678269,
+      "slip_recall": 0.40695415695415693,
+      "false_alarm_rate": 0.35152773341850313,
+      "per_object": [
+        {
+          "object": 1,
+          "balanced_accuracy": 0.490604556733589,
+          "slip_recall": 0.548951048951049,
+          "false_alarm_rate": 0.567741935483871,
+          "tp": 157,
+          "fn": 129,
+          "fp": 88,
+          "tn": 67
+        },
+        {
+          "object": 2,
+          "balanced_accuracy": 0.5648218668020648,
+          "slip_recall": 0.26495726495726496,
+          "false_alarm_rate": 0.1353135313531353,
+          "tp": 31,
+          "fn": 86,
+          "fp": 41,
+          "tn": 262
+        }
+      ],
+      "objects_without_non_slip": [],
+      "validation_joint_improvement": false
+    }
+  }
+}

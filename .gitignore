@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.h5
+*.zip
+embedded-vibration-benchmark/data/arq_all_trials.npz

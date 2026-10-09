@@ -1,0 +1,7 @@
+source,model,test_recordings,accuracy,balanced_accuracy,f1,tp,tn,fp,fn,host_median_us_per_recording,host_p95_us_per_recording,input_contributions_evaluated,input_activity_fraction
+synthetic_host,threshold,40,0.925,0.925,0.918918918918919,17,20,0,3,13.5,14.0,,
+synthetic_host,ema,40,0.975,0.975,0.9743589743589743,19,20,0,1,14.292,14.833,,
+synthetic_host,scalar_lif,40,0.975,0.975,0.9743589743589743,19,20,0,1,22.375,22.834,,
+synthetic_host,ann,40,1.0,1.0,1.0,20,20,0,0,1467.688,1488.791,,
+synthetic_host,snn_dense,40,0.975,0.975,0.9743589743589743,19,20,0,1,2137.2709999999997,2167.667,491520,0.16689453125
+synthetic_host,snn_sparse,40,0.975,0.975,0.9743589743589743,19,20,0,1,1428.9585000000002,1699.042,82032,0.16689453125

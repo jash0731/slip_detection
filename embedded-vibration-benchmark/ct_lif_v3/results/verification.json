@@ -1,0 +1,9 @@
+{
+  "frozen_sources_and_288_checkpoints_unchanged": true,
+  "original_splits_match": true,
+  "inference_decisions_verified": 144216,
+  "ct_v3_decisions_verified": 24036,
+  "unique_endpoints": 6009,
+  "eligible_trials": 87,
+  "confusion_counts_match": true
+}

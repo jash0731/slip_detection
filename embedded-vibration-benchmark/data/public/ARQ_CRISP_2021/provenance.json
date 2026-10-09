@@ -1,0 +1,11 @@
+{
+  "dataset": "ARQ-CRISP slip_detection_dataset_2021",
+  "retrieved_date": "2026-10-06",
+  "source_commit": "a536ee3301af0566218782b00de334b6a6630979",
+  "source_url": "https://media.githubusercontent.com/media/ARQ-CRISP/slip_detection_dataset_2021/a536ee3301af0566218782b00de334b6a6630979/data/slipDataset_brush_tactile.h5",
+  "filename": "slipDataset_brush_tactile.h5",
+  "bytes": 41105856,
+  "sha256": "a2aef56bf4cfc5e2d17ae09772295cb207c733e3a73059913939ba5a7a1e2139",
+  "license": "BSD-3-Clause repository license; see LICENSE",
+  "evidence_type": "public_hardware_recording_not_our_hardware"
+}

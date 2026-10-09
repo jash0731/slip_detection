@@ -1,0 +1,65 @@
+{
+  "candidate": "CT-LIF v2: amplitude or cancellation-shrink compact representations",
+  "frozen_before_new_test": true,
+  "families": {
+    "amplitude_lif": [
+      "amplitude",
+      "lif"
+    ],
+    "shrink_lif": [
+      "shrink",
+      "lif"
+    ],
+    "mean_lif": [
+      "mean",
+      "lif"
+    ],
+    "amplitude_temporal": [
+      "amplitude",
+      "temporal"
+    ]
+  },
+  "hidden": [
+    8,
+    10
+  ],
+  "windows": [
+    16,
+    32
+  ],
+  "learning_rates": [
+    0.005,
+    0.01
+  ],
+  "fits": 192,
+  "seeds": [
+    7,
+    19
+  ],
+  "policies": [
+    "balanced",
+    "fpr20",
+    "fpr10"
+  ],
+  "gain_augmentation": "common positive gain loguniform[.5,2] per training window before clipping; all new families",
+  "selection": "macro validation BA for balanced; maximize minimum validation object recall under max-object FPR cap for alarm policies",
+  "primary_alarm_target": "fpr10; every validation object with non-slip examples <=10%; minimum recall>=40% reported as usefulness check, not guaranteed",
+  "single_class_validation": "absent-class rates stay undefined; macro score averages each available class recall over its eligible objects; missing non-slip validation explicitly recorded",
+  "candidate_family_choice": "amplitude/shrink chosen using same validation rule; doubles candidate budget relative to one control family",
+  "scale": "p95 mean absolute pin differences across unique raw rows of training trials only",
+  "historical_controls": "v1 CT-LIF, v1 mean-LIF28, v1 cancellation-only recalibrated with identical operating-point rule on their validation data",
+  "original_fixed_thresholds_also_reported": true,
+  "evidence": "exploratory repeated dataset; not independent confirmation",
+  "no_energy_or_esp32_claim": true,
+  "source_hashes": {
+    "ct_lif_v2/core.py": "5289656baadf95501c826408c6359366ea0fd5d07150d687e2344d8afdc8071a",
+    "ct_lif_v2/run.py": "9e3c82300b874b2a89b5184dfdcbbe1659f8703840c073f274e7e4155dfa4c25",
+    "data/arq_all_trials.npz": "bdc90f416e6a523e3af29816c9389b0a28ac0301aaf1e85d5c92e6bd3ec55fbd",
+    "ct_lif_study/reference/ct_lif.py": "79b19573e4911da890432672d98c55cbf97b9e7b643c0e5079f6adf6eeeee745"
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+  }
+}

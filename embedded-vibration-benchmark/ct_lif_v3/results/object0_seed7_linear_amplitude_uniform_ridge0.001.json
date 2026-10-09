@@ -1,0 +1,74 @@
+{
+  "name": "object0_seed7_linear_amplitude_uniform_ridge0.001",
+  "family": "linear_control",
+  "kind": "linear",
+  "variant": "amplitude",
+  "pooling": "uniform",
+  "hidden": 0,
+  "inputs": 9,
+  "residual": false,
+  "ridge": 0.001,
+  "parameters": 10,
+  "operating_points": {
+    "balanced": {
+      "threshold": 0.47000000000000003,
+      "balanced_accuracy": 0.5907312505444093,
+      "slip_recall": 0.6893939393939394,
+      "false_alarm_rate": 0.5079314383051208,
+      "per_object": [
+        {
+          "object": 1,
+          "balanced_accuracy": 0.4979133769456351,
+          "slip_recall": 0.7377622377622378,
+          "false_alarm_rate": 0.7419354838709677,
+          "tp": 211,
+          "fn": 75,
+          "fp": 115,
+          "tn": 40
+        },
+        {
+          "object": 2,
+          "balanced_accuracy": 0.6835491241431835,
+          "slip_recall": 0.6410256410256411,
+          "false_alarm_rate": 0.2739273927392739,
+          "tp": 75,
+          "fn": 42,
+          "fp": 83,
+          "tn": 220
+        }
+      ],
+      "objects_without_non_slip": [],
+      "validation_joint_improvement": false
+    },
+    "joint": {
+      "threshold": 0.47000000000000003,
+      "balanced_accuracy": 0.5907312505444093,
+      "slip_recall": 0.6893939393939394,
+      "false_alarm_rate": 0.5079314383051208,
+      "per_object": [
+        {
+          "object": 1,
+          "balanced_accuracy": 0.4979133769456351,
+          "slip_recall": 0.7377622377622378,
+          "false_alarm_rate": 0.7419354838709677,
+          "tp": 211,
+          "fn": 75,
+          "fp": 115,
+          "tn": 40
+        },
+        {
+          "object": 2,
+          "balanced_accuracy": 0.6835491241431835,
+          "slip_recall": 0.6410256410256411,
+          "false_alarm_rate": 0.2739273927392739,
+          "tp": 75,
+          "fn": 42,
+          "fp": 83,
+          "tn": 220
+        }
+      ],
+      "objects_without_non_slip": [],
+      "validation_joint_improvement": false
+    }
+  }
+}

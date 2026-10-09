@@ -1,0 +1,74 @@
+{
+  "name": "object0_seed7_linear_amplitude_recent_ridge0.0001",
+  "family": "linear_control",
+  "kind": "linear",
+  "variant": "amplitude",
+  "pooling": "recent",
+  "hidden": 0,
+  "inputs": 9,
+  "residual": false,
+  "ridge": 0.0001,
+  "parameters": 10,
+  "operating_points": {
+    "balanced": {
+      "threshold": 0.47000000000000003,
+      "balanced_accuracy": 0.6192786276146225,
+      "slip_recall": 0.6103341103341103,
+      "false_alarm_rate": 0.37177685510486536,
+      "per_object": [
+        {
+          "object": 1,
+          "balanced_accuracy": 0.5466726821565532,
+          "slip_recall": 0.6223776223776224,
+          "false_alarm_rate": 0.5290322580645161,
+          "tp": 178,
+          "fn": 108,
+          "fp": 82,
+          "tn": 73
+        },
+        {
+          "object": 2,
+          "balanced_accuracy": 0.6918845730726919,
+          "slip_recall": 0.5982905982905983,
+          "false_alarm_rate": 0.2145214521452145,
+          "tp": 70,
+          "fn": 47,
+          "fp": 65,
+          "tn": 238
+        }
+      ],
+      "objects_without_non_slip": [],
+      "validation_joint_improvement": false
+    },
+    "joint": {
+      "threshold": 0.47000000000000003,
+      "balanced_accuracy": 0.6192786276146225,
+      "slip_recall": 0.6103341103341103,
+      "false_alarm_rate": 0.37177685510486536,
+      "per_object": [
+        {
+          "object": 1,
+          "balanced_accuracy": 0.5466726821565532,
+          "slip_recall": 0.6223776223776224,
+          "false_alarm_rate": 0.5290322580645161,
+          "tp": 178,
+          "fn": 108,
+          "fp": 82,
+          "tn": 73
+        },
+        {
+          "object": 2,
+          "balanced_accuracy": 0.6918845730726919,
+          "slip_recall": 0.5982905982905983,
+          "false_alarm_rate": 0.2145214521452145,
+          "tp": 70,
+          "fn": 47,
+          "fp": 65,
+          "tn": 238
+        }
+      ],
+      "objects_without_non_slip": [],
+      "validation_joint_improvement": false
+    }
+  }
+}

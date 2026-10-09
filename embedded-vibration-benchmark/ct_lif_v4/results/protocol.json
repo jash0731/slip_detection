@@ -1,0 +1,37 @@
+{
+  "algorithm": "CT-LIF plus optimized mean input",
+  "primary": "ct_mean",
+  "input_channels": 18,
+  "branches": "12 original CT common/cancellation/turnover channels + 6 optimized signed mean-motion channels, jointly compressed u/(1+u)",
+  "controls": [
+    "ct_only",
+    "mean_lif"
+  ],
+  "hidden": [
+    8,
+    12
+  ],
+  "rates": [
+    0.005,
+    0.01
+  ],
+  "pooling": [
+    "uniform",
+    "recent"
+  ],
+  "fits": 144,
+  "selection": "validation macro balanced accuracy, then lower FPR and fewer parameters",
+  "training": "v3 Adam,32 max epochs,patience6,batch64,object/class-balanced weights; shared feature gain loguniform[.8,1.25] before compression",
+  "augmentation_note": "feature-space gain; not equivalent to multiplying raw CT pin data, because CT coherence and turnover are normalized",
+  "exploratory_reused_benchmark": true,
+  "no_novelty_or_hardware_claim": true,
+  "source_hashes": {
+    "ct_lif_v4/core.py": "a91581c04d02851eb6127ecca8ea6ccc607e6fd507dac5bccf92eb988112b0ec",
+    "ct_lif_v4/run.py": "7ae0cdea7e1af57c0c1996f8467ff8389c8a8b4571eb2c38d182ba00e2faf8e5",
+    "ct_lif_v3/core.py": "7ad65247349f6940876fe2305aa51529f18eadd5175b91492ce637c5c7f6e4d1",
+    "ct_lif_v2/run.py": "9e3c82300b874b2a89b5184dfdcbbe1659f8703840c073f274e7e4155dfa4c25",
+    "ct_lif_study/reference/ct_lif.py": "79b19573e4911da890432672d98c55cbf97b9e7b643c0e5079f6adf6eeeee745",
+    "ct_lif_study/run.py": "99f6ce482fd14e7da5eb7fcfad8ab7bdbc4e3808786647f2cca625e06d9c5f57",
+    "data/arq_all_trials.npz": "bdc90f416e6a523e3af29816c9389b0a28ac0301aaf1e85d5c92e6bd3ec55fbd"
+  }
+}

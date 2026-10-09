@@ -1,0 +1,9 @@
+{
+  "frozen_source_and_record_hashes_match": true,
+  "checkpoints": 192,
+  "original_trial_splits_match": true,
+  "inference_decisions_checked": 36054,
+  "unique_endpoints": 6009,
+  "eligible_trials": 87,
+  "aggregate_confusion_counts_match": true
+}

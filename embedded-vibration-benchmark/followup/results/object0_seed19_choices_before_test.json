@@ -1,0 +1,469 @@
+{
+  "held_object": "brush",
+  "seed": 19,
+  "split_groups": {
+    "train": [
+      34,
+      35,
+      59,
+      46,
+      58,
+      42,
+      55,
+      54,
+      48,
+      31,
+      38,
+      32,
+      37,
+      50,
+      30,
+      49,
+      43,
+      40,
+      36,
+      47,
+      45,
+      33,
+      57,
+      52,
+      75,
+      74,
+      80,
+      78,
+      61,
+      81,
+      62,
+      87,
+      66,
+      60,
+      63,
+      79,
+      68,
+      85,
+      72,
+      84,
+      82,
+      77,
+      89,
+      88,
+      73,
+      76,
+      69,
+      71
+    ],
+    "validation": [
+      51,
+      53,
+      39,
+      41,
+      44,
+      56,
+      86,
+      83,
+      65,
+      67,
+      70,
+      64
+    ],
+    "test": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  "validation_choices": {
+    "ann": "object0_seed19_w64_lr0p01_ann_ordered",
+    "lif": "object0_seed19_w64_lr0p01_lif_ordered",
+    "leaky_relu": "object0_seed19_w16_lr0p01_leaky_relu_ordered"
+  },
+  "candidates": [
+    {
+      "name": "object0_seed19_w16_lr0p005_ann_ordered",
+      "kind": "ann",
+      "window": 16,
+      "rate": 0.005,
+      "condition": "ordered",
+      "threshold": 0.0,
+      "info": {
+        "selected_epoch": 12,
+        "epochs_run": 16,
+        "validation_loss": 0.9151126146316528,
+        "validation_balanced_accuracy": 0.5947397820756496,
+        "threshold": 0.0,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 0.49675971269607544,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w16_lr0p005_lif_ordered",
+      "kind": "lif",
+      "window": 16,
+      "rate": 0.005,
+      "condition": "ordered",
+      "threshold": -0.19999999999999973,
+      "info": {
+        "selected_epoch": 15,
+        "epochs_run": 18,
+        "validation_loss": 0.9066216945648193,
+        "validation_balanced_accuracy": 0.6121650247377508,
+        "threshold": -0.19999999999999973,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 0.8488466739654541,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w16_lr0p005_leaky_relu_ordered",
+      "kind": "leaky_relu",
+      "window": 16,
+      "rate": 0.005,
+      "condition": "ordered",
+      "threshold": 0.10000000000000009,
+      "info": {
+        "selected_epoch": 1,
+        "epochs_run": 5,
+        "validation_loss": 0.9183627367019653,
+        "validation_balanced_accuracy": 0.5856172830550034,
+        "threshold": 0.10000000000000009,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 0.03408724069595337,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w16_lr0p01_ann_ordered",
+      "kind": "ann",
+      "window": 16,
+      "rate": 0.01,
+      "condition": "ordered",
+      "threshold": 0.0,
+      "info": {
+        "selected_epoch": 12,
+        "epochs_run": 16,
+        "validation_loss": 0.9086854457855225,
+        "validation_balanced_accuracy": 0.6003674390261596,
+        "threshold": 0.0,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 0.8543055057525635,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w16_lr0p01_lif_ordered",
+      "kind": "lif",
+      "window": 16,
+      "rate": 0.01,
+      "condition": "ordered",
+      "threshold": -0.19999999999999973,
+      "info": {
+        "selected_epoch": 17,
+        "epochs_run": 18,
+        "validation_loss": 0.8528319597244263,
+        "validation_balanced_accuracy": 0.6683835584637929,
+        "threshold": -0.19999999999999973,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 2.1936357021331787,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w16_lr0p01_leaky_relu_ordered",
+      "kind": "leaky_relu",
+      "window": 16,
+      "rate": 0.01,
+      "condition": "ordered",
+      "threshold": 0.0,
+      "info": {
+        "selected_epoch": 8,
+        "epochs_run": 12,
+        "validation_loss": 0.9085941314697266,
+        "validation_balanced_accuracy": 0.6022137022474355,
+        "threshold": 0.0,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 0.2852385938167572,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w32_lr0p005_ann_ordered",
+      "kind": "ann",
+      "window": 32,
+      "rate": 0.005,
+      "condition": "ordered",
+      "threshold": -0.09999999999999964,
+      "info": {
+        "selected_epoch": 12,
+        "epochs_run": 16,
+        "validation_loss": 0.9102265238761902,
+        "validation_balanced_accuracy": 0.6025564760674956,
+        "threshold": -0.09999999999999964,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 0.4963516592979431,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w32_lr0p005_lif_ordered",
+      "kind": "lif",
+      "window": 32,
+      "rate": 0.005,
+      "condition": "ordered",
+      "threshold": -0.09999999999999964,
+      "info": {
+        "selected_epoch": 15,
+        "epochs_run": 18,
+        "validation_loss": 0.9046795964241028,
+        "validation_balanced_accuracy": 0.6244849324608621,
+        "threshold": -0.09999999999999964,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 0.8332726359367371,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w32_lr0p005_leaky_relu_ordered",
+      "kind": "leaky_relu",
+      "window": 32,
+      "rate": 0.005,
+      "condition": "ordered",
+      "threshold": 0.10000000000000009,
+      "info": {
+        "selected_epoch": 8,
+        "epochs_run": 12,
+        "validation_loss": 0.9084012508392334,
+        "validation_balanced_accuracy": 0.6004563063128419,
+        "threshold": 0.10000000000000009,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 0.11667300760746002,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w32_lr0p01_ann_ordered",
+      "kind": "ann",
+      "window": 32,
+      "rate": 0.01,
+      "condition": "ordered",
+      "threshold": 0.10000000000000009,
+      "info": {
+        "selected_epoch": 12,
+        "epochs_run": 16,
+        "validation_loss": 0.9049729108810425,
+        "validation_balanced_accuracy": 0.604968588134585,
+        "threshold": 0.10000000000000009,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 0.8214688897132874,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w32_lr0p01_lif_ordered",
+      "kind": "lif",
+      "window": 32,
+      "rate": 0.01,
+      "condition": "ordered",
+      "threshold": -0.2999999999999998,
+      "info": {
+        "selected_epoch": 17,
+        "epochs_run": 18,
+        "validation_loss": 0.8613088726997375,
+        "validation_balanced_accuracy": 0.6783348809541082,
+        "threshold": -0.2999999999999998,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 2.136113166809082,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w32_lr0p01_leaky_relu_ordered",
+      "kind": "leaky_relu",
+      "window": 32,
+      "rate": 0.01,
+      "condition": "ordered",
+      "threshold": 0.10000000000000009,
+      "info": {
+        "selected_epoch": 1,
+        "epochs_run": 5,
+        "validation_loss": 0.9103761315345764,
+        "validation_balanced_accuracy": 0.5972933563541923,
+        "threshold": 0.10000000000000009,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 0.06571580469608307,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w64_lr0p005_ann_ordered",
+      "kind": "ann",
+      "window": 64,
+      "rate": 0.005,
+      "condition": "ordered",
+      "threshold": 0.10000000000000009,
+      "info": {
+        "selected_epoch": 8,
+        "epochs_run": 12,
+        "validation_loss": 0.9109808802604675,
+        "validation_balanced_accuracy": 0.6049250613002917,
+        "threshold": 0.10000000000000009,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 0.4229232668876648,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w64_lr0p005_lif_ordered",
+      "kind": "lif",
+      "window": 64,
+      "rate": 0.005,
+      "condition": "ordered",
+      "threshold": 0.0,
+      "info": {
+        "selected_epoch": 17,
+        "epochs_run": 18,
+        "validation_loss": 0.9019290804862976,
+        "validation_balanced_accuracy": 0.6285002829244228,
+        "threshold": 0.0,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 1.059958815574646,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w64_lr0p005_leaky_relu_ordered",
+      "kind": "leaky_relu",
+      "window": 64,
+      "rate": 0.005,
+      "condition": "ordered",
+      "threshold": 0.20000000000000018,
+      "info": {
+        "selected_epoch": 3,
+        "epochs_run": 7,
+        "validation_loss": 0.9106854796409607,
+        "validation_balanced_accuracy": 0.5981910973114926,
+        "threshold": 0.20000000000000018,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 0.08472302556037903,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w64_lr0p01_ann_ordered",
+      "kind": "ann",
+      "window": 64,
+      "rate": 0.01,
+      "condition": "ordered",
+      "threshold": 0.0,
+      "info": {
+        "selected_epoch": 8,
+        "epochs_run": 12,
+        "validation_loss": 0.9080069065093994,
+        "validation_balanced_accuracy": 0.6086284694514168,
+        "threshold": 0.0,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 0.6141287684440613,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w64_lr0p01_lif_ordered",
+      "kind": "lif",
+      "window": 64,
+      "rate": 0.01,
+      "condition": "ordered",
+      "threshold": -0.19999999999999973,
+      "info": {
+        "selected_epoch": 17,
+        "epochs_run": 18,
+        "validation_loss": 0.8263310194015503,
+        "validation_balanced_accuracy": 0.6925228153156421,
+        "threshold": -0.19999999999999973,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 2.2312681674957275,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w64_lr0p01_leaky_relu_ordered",
+      "kind": "leaky_relu",
+      "window": 64,
+      "rate": 0.01,
+      "condition": "ordered",
+      "threshold": 0.20000000000000018,
+      "info": {
+        "selected_epoch": 1,
+        "epochs_run": 5,
+        "validation_loss": 0.9085060954093933,
+        "validation_balanced_accuracy": 0.5944187716727363,
+        "threshold": 0.20000000000000018,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 0.0635703057050705,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w32_lr0p01_lif_shuffled_history",
+      "kind": "lif",
+      "window": 32,
+      "rate": 0.01,
+      "condition": "shuffled_history",
+      "threshold": 0.0,
+      "info": {
+        "selected_epoch": 12,
+        "epochs_run": 16,
+        "validation_loss": 0.8940235376358032,
+        "validation_balanced_accuracy": 0.6161803752013115,
+        "threshold": 0.0,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 0.9917136430740356,
+        "parameters": 129
+      }
+    },
+    {
+      "name": "object0_seed19_w32_lr0p01_leaky_relu_shuffled_history",
+      "kind": "leaky_relu",
+      "window": 32,
+      "rate": 0.01,
+      "condition": "shuffled_history",
+      "threshold": 0.10000000000000009,
+      "info": {
+        "selected_epoch": 1,
+        "epochs_run": 5,
+        "validation_loss": 0.9093229174613953,
+        "validation_balanced_accuracy": 0.6008208435500486,
+        "threshold": 0.10000000000000009,
+        "positive_loss_weight": 1.9342010122921185,
+        "max_input_weight_change": 0.06614865362644196,
+        "parameters": 129
+      }
+    }
+  ]
+}

@@ -1,0 +1,2101 @@
+{
+  "aggregate": [
+    {
+      "model": "amplitude_lif",
+      "policy": "balanced",
+      "balanced_accuracy": 0.6568311127889055,
+      "slip_recall": 0.5398547823612416,
+      "false_alarm_rate": 0.22619255678343042,
+      "pooled_accuracy": 0.690464303544683,
+      "tp": 2314,
+      "tn": 5984,
+      "fp": 1692,
+      "fn": 2028
+    },
+    {
+      "model": "shrink_lif",
+      "policy": "balanced",
+      "balanced_accuracy": 0.6948943026033304,
+      "slip_recall": 0.5951315889599827,
+      "false_alarm_rate": 0.20534298375332186,
+      "pooled_accuracy": 0.7242469628889998,
+      "tp": 2595,
+      "tn": 6109,
+      "fp": 1567,
+      "fn": 1747
+    },
+    {
+      "model": "mean_lif",
+      "policy": "balanced",
+      "balanced_accuracy": 0.6937145499384414,
+      "slip_recall": 0.6024595767362837,
+      "false_alarm_rate": 0.21503047685940072,
+      "pooled_accuracy": 0.7290730570810451,
+      "tp": 2618,
+      "tn": 6144,
+      "fp": 1532,
+      "fn": 1724
+    },
+    {
+      "model": "amplitude_temporal",
+      "policy": "balanced",
+      "balanced_accuracy": 0.6571048554607789,
+      "slip_recall": 0.502712716148082,
+      "false_alarm_rate": 0.18850300522652427,
+      "pooled_accuracy": 0.700033283408221,
+      "tp": 2249,
+      "tn": 6164,
+      "fp": 1512,
+      "fn": 2093
+    },
+    {
+      "model": "ct_v2",
+      "policy": "balanced",
+      "balanced_accuracy": 0.6797956235193979,
+      "slip_recall": 0.5886385044388073,
+      "false_alarm_rate": 0.2290472574000113,
+      "pooled_accuracy": 0.710434348477284,
+      "tp": 2572,
+      "tn": 5966,
+      "fp": 1710,
+      "fn": 1770
+    },
+    {
+      "model": "amplitude_lif",
+      "policy": "fpr20",
+      "balanced_accuracy": 0.645432165818505,
+      "slip_recall": 0.44464973904399807,
+      "false_alarm_rate": 0.1537854074069882,
+      "pooled_accuracy": 0.6957896488600432,
+      "tp": 1970,
+      "tn": 6392,
+      "fp": 1284,
+      "fn": 2372
+    },
+    {
+      "model": "shrink_lif",
+      "policy": "fpr20",
+      "balanced_accuracy": 0.6758932319306719,
+      "slip_recall": 0.5165986261393681,
+      "false_alarm_rate": 0.16481216227802428,
+      "pooled_accuracy": 0.718339157929772,
+      "tp": 2365,
+      "tn": 6268,
+      "fp": 1408,
+      "fn": 1977
+    },
+    {
+      "model": "mean_lif",
+      "policy": "fpr20",
+      "balanced_accuracy": 0.6877741229638693,
+      "slip_recall": 0.5479266821885984,
+      "false_alarm_rate": 0.17237843626085977,
+      "pooled_accuracy": 0.7289898485604926,
+      "tp": 2525,
+      "tn": 6236,
+      "fp": 1440,
+      "fn": 1817
+    },
+    {
+      "model": "amplitude_temporal",
+      "policy": "fpr20",
+      "balanced_accuracy": 0.6263766298567661,
+      "slip_recall": 0.4247646285673241,
+      "false_alarm_rate": 0.17201136885379187,
+      "pooled_accuracy": 0.6782326510234647,
+      "tp": 1980,
+      "tn": 6171,
+      "fp": 1505,
+      "fn": 2362
+    },
+    {
+      "model": "ct_v2",
+      "policy": "fpr20",
+      "balanced_accuracy": 0.672741626171346,
+      "slip_recall": 0.5142395652904084,
+      "false_alarm_rate": 0.16875631294771634,
+      "pooled_accuracy": 0.7139291063404892,
+      "tp": 2352,
+      "tn": 6228,
+      "fp": 1448,
+      "fn": 1990
+    },
+    {
+      "model": "amplitude_lif",
+      "policy": "fpr10",
+      "balanced_accuracy": 0.6228361280201595,
+      "slip_recall": 0.33879450986081566,
+      "false_alarm_rate": 0.0931222538204967,
+      "pooled_accuracy": 0.7041105009152937,
+      "tp": 1537,
+      "tn": 6925,
+      "fp": 751,
+      "fn": 2805
+    },
+    {
+      "model": "shrink_lif",
+      "policy": "fpr10",
+      "balanced_accuracy": 0.6417185981915804,
+      "slip_recall": 0.38497324122786836,
+      "false_alarm_rate": 0.10153604484470725,
+      "pooled_accuracy": 0.7212514561491097,
+      "tp": 1836,
+      "tn": 6832,
+      "fp": 844,
+      "fn": 2506
+    },
+    {
+      "model": "mean_lif",
+      "policy": "fpr10",
+      "balanced_accuracy": 0.6477692610502849,
+      "slip_recall": 0.4024754854972348,
+      "false_alarm_rate": 0.10693696339666488,
+      "pooled_accuracy": 0.7278249292727575,
+      "tp": 1953,
+      "tn": 6794,
+      "fp": 882,
+      "fn": 2389
+    },
+    {
+      "model": "amplitude_temporal",
+      "policy": "fpr10",
+      "balanced_accuracy": 0.6035671156281,
+      "slip_recall": 0.33698000055268557,
+      "false_alarm_rate": 0.1298457692964857,
+      "pooled_accuracy": 0.68172740888667,
+      "tp": 1630,
+      "tn": 6563,
+      "fp": 1113,
+      "fn": 2712
+    },
+    {
+      "model": "ct_v2",
+      "policy": "fpr10",
+      "balanced_accuracy": 0.6409465552201141,
+      "slip_recall": 0.3809820306563741,
+      "false_alarm_rate": 0.0990889202161458,
+      "pooled_accuracy": 0.7219171243135297,
+      "tp": 1816,
+      "tn": 6860,
+      "fp": 816,
+      "fn": 2526
+    },
+    {
+      "model": "previous_ct_lif",
+      "policy": "balanced",
+      "balanced_accuracy": 0.6903187535130956,
+      "slip_recall": 0.5818595359147613,
+      "false_alarm_rate": 0.20122202888857021,
+      "pooled_accuracy": 0.7117656848061241,
+      "tp": 2570,
+      "tn": 5984,
+      "fp": 1692,
+      "fn": 1772
+    },
+    {
+      "model": "previous_ct_lif",
+      "policy": "fpr20",
+      "balanced_accuracy": 0.6876975212186146,
+      "slip_recall": 0.545866543998906,
+      "false_alarm_rate": 0.1704715015616766,
+      "pooled_accuracy": 0.7138458978199368,
+      "tp": 2342,
+      "tn": 6237,
+      "fp": 1439,
+      "fn": 2000
+    },
+    {
+      "model": "previous_ct_lif",
+      "policy": "fpr10",
+      "balanced_accuracy": 0.6622857436387862,
+      "slip_recall": 0.43111057070174924,
+      "false_alarm_rate": 0.10653908342417685,
+      "pooled_accuracy": 0.7165917789981694,
+      "tp": 1824,
+      "tn": 6788,
+      "fp": 888,
+      "fn": 2518
+    },
+    {
+      "model": "previous_mean_lif28",
+      "policy": "balanced",
+      "balanced_accuracy": 0.7047026935667686,
+      "slip_recall": 0.6152769950604738,
+      "false_alarm_rate": 0.20587160792693657,
+      "pooled_accuracy": 0.7273256781494425,
+      "tp": 2682,
+      "tn": 6059,
+      "fp": 1617,
+      "fn": 1660
+    },
+    {
+      "model": "previous_mean_lif28",
+      "policy": "fpr20",
+      "balanced_accuracy": 0.6751872513476568,
+      "slip_recall": 0.5162086944966228,
+      "false_alarm_rate": 0.16583419180130915,
+      "pooled_accuracy": 0.7244965884506573,
+      "tp": 2413,
+      "tn": 6294,
+      "fp": 1382,
+      "fn": 1929
+    },
+    {
+      "model": "previous_mean_lif28",
+      "policy": "fpr10",
+      "balanced_accuracy": 0.6392861827078279,
+      "slip_recall": 0.3771589917022991,
+      "false_alarm_rate": 0.09858662628664351,
+      "pooled_accuracy": 0.7239141288067898,
+      "tp": 1835,
+      "tn": 6865,
+      "fp": 811,
+      "fn": 2507
+    },
+    {
+      "model": "previous_c_only_lif",
+      "policy": "balanced",
+      "balanced_accuracy": 0.7044793244681316,
+      "slip_recall": 0.5923034819092484,
+      "false_alarm_rate": 0.18334483297298532,
+      "pooled_accuracy": 0.7218339157929772,
+      "tp": 2556,
+      "tn": 6119,
+      "fp": 1557,
+      "fn": 1786
+    },
+    {
+      "model": "previous_c_only_lif",
+      "policy": "fpr20",
+      "balanced_accuracy": 0.6970953054913952,
+      "slip_recall": 0.5802608178304508,
+      "false_alarm_rate": 0.1860702068476604,
+      "pooled_accuracy": 0.7193376601764021,
+      "tp": 2577,
+      "tn": 6068,
+      "fp": 1608,
+      "fn": 1765
+    },
+    {
+      "model": "previous_c_only_lif",
+      "policy": "fpr10",
+      "balanced_accuracy": 0.6667141805113341,
+      "slip_recall": 0.44152462316035185,
+      "false_alarm_rate": 0.10809626213768353,
+      "pooled_accuracy": 0.7263271759028125,
+      "tp": 1957,
+      "tn": 6772,
+      "fp": 904,
+      "fn": 2385
+    },
+    {
+      "model": "previous_ct_lif",
+      "policy": "original",
+      "balanced_accuracy": 0.6883112070745452,
+      "slip_recall": 0.6623423309333164,
+      "false_alarm_rate": 0.2857199167842258,
+      "pooled_accuracy": 0.6939590614078882,
+      "tp": 2902,
+      "tn": 5438,
+      "fp": 2238,
+      "fn": 1440
+    },
+    {
+      "model": "previous_mean_lif28",
+      "policy": "original",
+      "balanced_accuracy": 0.7130722247620446,
+      "slip_recall": 0.7053885438328972,
+      "false_alarm_rate": 0.279244094308808,
+      "pooled_accuracy": 0.7162589449159594,
+      "tp": 2994,
+      "tn": 5614,
+      "fp": 2062,
+      "fn": 1348
+    },
+    {
+      "model": "previous_c_only_lif",
+      "policy": "original",
+      "balanced_accuracy": 0.7096069096049633,
+      "slip_recall": 0.6521270675039447,
+      "false_alarm_rate": 0.23291324829401827,
+      "pooled_accuracy": 0.718838409053087,
+      "tp": 2800,
+      "tn": 5839,
+      "fp": 1837,
+      "fn": 1542
+    }
+  ],
+  "per_object": [
+    {
+      "model": "amplitude_lif",
+      "policy": "balanced",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7859518517526711,
+      "slip_recall": 0.7363896848137536,
+      "false_alarm_rate": 0.16448598130841122
+    },
+    {
+      "model": "amplitude_lif",
+      "policy": "balanced",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.5887165611230165,
+      "slip_recall": 0.6126050420168067,
+      "false_alarm_rate": 0.43517191977077363
+    },
+    {
+      "model": "amplitude_lif",
+      "policy": "balanced",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.5958249254910291,
+      "slip_recall": 0.27056962025316456,
+      "false_alarm_rate": 0.07891976927110644
+    },
+    {
+      "model": "shrink_lif",
+      "policy": "balanced",
+      "held_object": "brush",
+      "balanced_accuracy": 0.8132394290763998,
+      "slip_recall": 0.7535816618911175,
+      "false_alarm_rate": 0.12710280373831775
+    },
+    {
+      "model": "shrink_lif",
+      "policy": "balanced",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6304335917748187,
+      "slip_recall": 0.6852941176470588,
+      "false_alarm_rate": 0.4244269340974212
+    },
+    {
+      "model": "shrink_lif",
+      "policy": "balanced",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6410098869587728,
+      "slip_recall": 0.3465189873417721,
+      "false_alarm_rate": 0.06449921342422654
+    },
+    {
+      "model": "mean_lif",
+      "policy": "balanced",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7891559328388185,
+      "slip_recall": 0.7736389684813754,
+      "false_alarm_rate": 0.19532710280373833
+    },
+    {
+      "model": "mean_lif",
+      "policy": "balanced",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6536111579302207,
+      "slip_recall": 0.6911764705882353,
+      "false_alarm_rate": 0.3839541547277937
+    },
+    {
+      "model": "mean_lif",
+      "policy": "balanced",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6383765590462852,
+      "slip_recall": 0.3425632911392405,
+      "false_alarm_rate": 0.06581017304667017
+    },
+    {
+      "model": "amplitude_temporal",
+      "policy": "balanced",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7459068634014407,
+      "slip_recall": 0.5974212034383954,
+      "false_alarm_rate": 0.10560747663551402
+    },
+    {
+      "model": "amplitude_temporal",
+      "policy": "balanced",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6313314150875249,
+      "slip_recall": 0.6100840336134454,
+      "false_alarm_rate": 0.34742120343839544
+    },
+    {
+      "model": "amplitude_temporal",
+      "policy": "balanced",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.5940762878933709,
+      "slip_recall": 0.30063291139240506,
+      "false_alarm_rate": 0.11248033560566334
+    },
+    {
+      "model": "ct_v2",
+      "policy": "balanced",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7884422783386444,
+      "slip_recall": 0.7507163323782235,
+      "false_alarm_rate": 0.17383177570093455
+    },
+    {
+      "model": "ct_v2",
+      "policy": "balanced",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6304335917748187,
+      "slip_recall": 0.6852941176470588,
+      "false_alarm_rate": 0.4244269340974212
+    },
+    {
+      "model": "ct_v2",
+      "policy": "balanced",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6205110004447305,
+      "slip_recall": 0.3299050632911392,
+      "false_alarm_rate": 0.08888306240167804
+    },
+    {
+      "model": "amplitude_lif",
+      "policy": "fpr20",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7400583777414776,
+      "slip_recall": 0.5315186246418337,
+      "false_alarm_rate": 0.0514018691588785
+    },
+    {
+      "model": "amplitude_lif",
+      "policy": "fpr20",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.5982928414918975,
+      "slip_recall": 0.5239495798319327,
+      "false_alarm_rate": 0.3273638968481375
+    },
+    {
+      "model": "amplitude_lif",
+      "policy": "fpr20",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.5979452782221397,
+      "slip_recall": 0.2784810126582279,
+      "false_alarm_rate": 0.08259045621394862
+    },
+    {
+      "model": "shrink_lif",
+      "policy": "fpr20",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7475658088530648,
+      "slip_recall": 0.5343839541547278,
+      "false_alarm_rate": 0.03925233644859813
+    },
+    {
+      "model": "shrink_lif",
+      "policy": "fpr20",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6363839661939275,
+      "slip_recall": 0.6348739495798319,
+      "false_alarm_rate": 0.3621060171919771
+    },
+    {
+      "model": "shrink_lif",
+      "policy": "fpr20",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6437299207450233,
+      "slip_recall": 0.38053797468354433,
+      "false_alarm_rate": 0.09307813319349764
+    },
+    {
+      "model": "mean_lif",
+      "policy": "fpr20",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7534504458666952,
+      "slip_recall": 0.5601719197707736,
+      "false_alarm_rate": 0.05327102803738318
+    },
+    {
+      "model": "mean_lif",
+      "policy": "fpr20",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.653504310033469,
+      "slip_recall": 0.6848739495798319,
+      "false_alarm_rate": 0.377865329512894
+    },
+    {
+      "model": "mean_lif",
+      "policy": "fpr20",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.656367612991444,
+      "slip_recall": 0.3987341772151899,
+      "false_alarm_rate": 0.08599895123230204
+    },
+    {
+      "model": "amplitude_temporal",
+      "policy": "fpr20",
+      "held_object": "brush",
+      "balanced_accuracy": 0.695584179096484,
+      "slip_recall": 0.4369627507163324,
+      "false_alarm_rate": 0.04579439252336448
+    },
+    {
+      "model": "amplitude_temporal",
+      "policy": "fpr20",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6111458910211649,
+      "slip_recall": 0.5525210084033614,
+      "false_alarm_rate": 0.3302292263610315
+    },
+    {
+      "model": "amplitude_temporal",
+      "policy": "fpr20",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.5723998194526494,
+      "slip_recall": 0.28481012658227844,
+      "false_alarm_rate": 0.14001048767697954
+    },
+    {
+      "model": "ct_v2",
+      "policy": "fpr20",
+      "held_object": "brush",
+      "balanced_accuracy": 0.75021289130493,
+      "slip_recall": 0.5415472779369628,
+      "false_alarm_rate": 0.041121495327102804
+    },
+    {
+      "model": "ct_v2",
+      "policy": "fpr20",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6363839661939275,
+      "slip_recall": 0.6348739495798319,
+      "false_alarm_rate": 0.3621060171919771
+    },
+    {
+      "model": "ct_v2",
+      "policy": "fpr20",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6316280210151806,
+      "slip_recall": 0.3662974683544304,
+      "false_alarm_rate": 0.10304142632406921
+    },
+    {
+      "model": "amplitude_lif",
+      "policy": "fpr10",
+      "held_object": "brush",
+      "balanced_accuracy": 0.6937484936935971,
+      "slip_recall": 0.4183381088825215,
+      "false_alarm_rate": 0.030841121495327105
+    },
+    {
+      "model": "amplitude_lif",
+      "policy": "fpr10",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6066534636777348,
+      "slip_recall": 0.43823529411764706,
+      "false_alarm_rate": 0.22492836676217765
+    },
+    {
+      "model": "amplitude_lif",
+      "policy": "fpr10",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.5681064266891466,
+      "slip_recall": 0.1598101265822785,
+      "false_alarm_rate": 0.023597273203985317
+    },
+    {
+      "model": "shrink_lif",
+      "policy": "fpr10",
+      "held_object": "brush",
+      "balanced_accuracy": 0.688860027314356,
+      "slip_recall": 0.3982808022922636,
+      "false_alarm_rate": 0.0205607476635514
+    },
+    {
+      "model": "shrink_lif",
+      "policy": "fpr10",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6416724856131564,
+      "slip_recall": 0.5390756302521009,
+      "false_alarm_rate": 0.25573065902578795
+    },
+    {
+      "model": "shrink_lif",
+      "policy": "fpr10",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.594623281647229,
+      "slip_recall": 0.2175632911392405,
+      "false_alarm_rate": 0.028316727844782383
+    },
+    {
+      "model": "mean_lif",
+      "policy": "fpr10",
+      "held_object": "brush",
+      "balanced_accuracy": 0.6958051040355622,
+      "slip_recall": 0.4140401146131805,
+      "false_alarm_rate": 0.022429906542056073
+    },
+    {
+      "model": "mean_lif",
+      "policy": "fpr10",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6592199200597144,
+      "slip_recall": 0.592436974789916,
+      "false_alarm_rate": 0.27399713467048714
+    },
+    {
+      "model": "mean_lif",
+      "policy": "fpr10",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.588282759055578,
+      "slip_recall": 0.2009493670886076,
+      "false_alarm_rate": 0.024383848977451494
+    },
+    {
+      "model": "amplitude_temporal",
+      "policy": "fpr10",
+      "held_object": "brush",
+      "balanced_accuracy": 0.6617009881370002,
+      "slip_recall": 0.34957020057306587,
+      "false_alarm_rate": 0.026168224299065422
+    },
+    {
+      "model": "amplitude_temporal",
+      "policy": "fpr10",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.5992222677036432,
+      "slip_recall": 0.4928571428571429,
+      "false_alarm_rate": 0.29441260744985676
+    },
+    {
+      "model": "amplitude_temporal",
+      "policy": "fpr10",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.5497780910436566,
+      "slip_recall": 0.1685126582278481,
+      "false_alarm_rate": 0.06895647614053488
+    },
+    {
+      "model": "ct_v2",
+      "policy": "fpr10",
+      "held_object": "brush",
+      "balanced_accuracy": 0.693158021583697,
+      "slip_recall": 0.4068767908309455,
+      "false_alarm_rate": 0.0205607476635514
+    },
+    {
+      "model": "ct_v2",
+      "policy": "fpr10",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6416724856131564,
+      "slip_recall": 0.5390756302521009,
+      "false_alarm_rate": 0.25573065902578795
+    },
+    {
+      "model": "ct_v2",
+      "policy": "fpr10",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.5880091584634889,
+      "slip_recall": 0.19699367088607594,
+      "false_alarm_rate": 0.02097535395909806
+    },
+    {
+      "model": "previous_ct_lif",
+      "policy": "balanced",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7683032964678789,
+      "slip_recall": 0.6160458452722063,
+      "false_alarm_rate": 0.07943925233644861
+    },
+    {
+      "model": "previous_ct_lif",
+      "policy": "balanced",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6271405696949268,
+      "slip_recall": 0.638235294117647,
+      "false_alarm_rate": 0.3839541547277937
+    },
+    {
+      "model": "previous_ct_lif",
+      "policy": "balanced",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6755123943764811,
+      "slip_recall": 0.49129746835443033,
+      "false_alarm_rate": 0.14027267960146828
+    },
+    {
+      "model": "previous_ct_lif",
+      "policy": "fpr20",
+      "held_object": "brush",
+      "balanced_accuracy": 0.765843665479474,
+      "slip_recall": 0.6045845272206304,
+      "false_alarm_rate": 0.07289719626168224
+    },
+    {
+      "model": "previous_ct_lif",
+      "policy": "fpr20",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6228103705665647,
+      "slip_recall": 0.5504201680672269,
+      "false_alarm_rate": 0.30479942693409745
+    },
+    {
+      "model": "previous_ct_lif",
+      "policy": "fpr20",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6744385276098053,
+      "slip_recall": 0.4825949367088608,
+      "false_alarm_rate": 0.13371788148925012
+    },
+    {
+      "model": "previous_ct_lif",
+      "policy": "fpr10",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7280989743727071,
+      "slip_recall": 0.505730659025788,
+      "false_alarm_rate": 0.04953271028037383
+    },
+    {
+      "model": "previous_ct_lif",
+      "policy": "fpr10",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6175739206857529,
+      "slip_recall": 0.42605042016806727,
+      "false_alarm_rate": 0.19090257879656158
+    },
+    {
+      "model": "previous_ct_lif",
+      "policy": "fpr10",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6411843358578986,
+      "slip_recall": 0.36155063291139244,
+      "false_alarm_rate": 0.07918196119559517
+    },
+    {
+      "model": "previous_mean_lif28",
+      "policy": "balanced",
+      "held_object": "brush",
+      "balanced_accuracy": 0.8231448999812548,
+      "slip_recall": 0.7621776504297995,
+      "false_alarm_rate": 0.11588785046728972
+    },
+    {
+      "model": "previous_mean_lif28",
+      "policy": "balanced",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6438133562880739,
+      "slip_recall": 0.6991596638655462,
+      "false_alarm_rate": 0.41153295128939826
+    },
+    {
+      "model": "previous_mean_lif28",
+      "policy": "balanced",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6471498244309772,
+      "slip_recall": 0.38449367088607594,
+      "false_alarm_rate": 0.09019402202412166
+    },
+    {
+      "model": "previous_mean_lif28",
+      "policy": "fpr20",
+      "held_object": "brush",
+      "balanced_accuracy": 0.758747288648475,
+      "slip_recall": 0.5530085959885387,
+      "false_alarm_rate": 0.03551401869158879
+    },
+    {
+      "model": "previous_mean_lif28",
+      "policy": "fpr20",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6398148371096289,
+      "slip_recall": 0.688655462184874,
+      "false_alarm_rate": 0.40902578796561606
+    },
+    {
+      "model": "previous_mean_lif28",
+      "policy": "fpr20",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6269996282848667,
+      "slip_recall": 0.30696202531645567,
+      "false_alarm_rate": 0.0529627687467226
+    },
+    {
+      "model": "previous_mean_lif28",
+      "policy": "fpr10",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7028760410250918,
+      "slip_recall": 0.4197707736389685,
+      "false_alarm_rate": 0.014018691588785048
+    },
+    {
+      "model": "previous_mean_lif28",
+      "policy": "fpr10",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6515328910934002,
+      "slip_recall": 0.5756302521008403,
+      "false_alarm_rate": 0.2725644699140401
+    },
+    {
+      "model": "previous_mean_lif28",
+      "policy": "fpr10",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.5634496160049915,
+      "slip_recall": 0.1360759493670886,
+      "false_alarm_rate": 0.009176717357105402
+    },
+    {
+      "model": "previous_c_only_lif",
+      "policy": "balanced",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7838135661301984,
+      "slip_recall": 0.646131805157593,
+      "false_alarm_rate": 0.07850467289719626
+    },
+    {
+      "model": "previous_c_only_lif",
+      "policy": "balanced",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6435262213768029,
+      "slip_recall": 0.6054621848739496,
+      "false_alarm_rate": 0.31840974212034384
+    },
+    {
+      "model": "previous_c_only_lif",
+      "policy": "balanced",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6860981858973934,
+      "slip_recall": 0.5253164556962026,
+      "false_alarm_rate": 0.15312008390141585
+    },
+    {
+      "model": "previous_c_only_lif",
+      "policy": "fpr20",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7659079345526605,
+      "slip_recall": 0.5888252148997135,
+      "false_alarm_rate": 0.05700934579439253
+    },
+    {
+      "model": "previous_c_only_lif",
+      "policy": "fpr20",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6397004647131059,
+      "slip_recall": 0.6361344537815126,
+      "false_alarm_rate": 0.3567335243553008
+    },
+    {
+      "model": "previous_c_only_lif",
+      "policy": "fpr20",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6856775172084193,
+      "slip_recall": 0.5158227848101266,
+      "false_alarm_rate": 0.14446775039328788
+    },
+    {
+      "model": "previous_c_only_lif",
+      "policy": "fpr10",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7108454061002061,
+      "slip_recall": 0.46561604584527216,
+      "false_alarm_rate": 0.04392523364485981
+    },
+    {
+      "model": "previous_c_only_lif",
+      "policy": "fpr10",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6408797043172569,
+      "slip_recall": 0.4894957983193277,
+      "false_alarm_rate": 0.20773638968481373
+    },
+    {
+      "model": "previous_c_only_lif",
+      "policy": "fpr10",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6484174311165394,
+      "slip_recall": 0.36946202531645567,
+      "false_alarm_rate": 0.07262716308337704
+    },
+    {
+      "model": "previous_ct_lif",
+      "policy": "original",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7835203384837854,
+      "slip_recall": 0.7492836676217765,
+      "false_alarm_rate": 0.1822429906542056
+    },
+    {
+      "model": "previous_ct_lif",
+      "policy": "original",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6050663961859817,
+      "slip_recall": 0.7298319327731093,
+      "false_alarm_rate": 0.5196991404011462
+    },
+    {
+      "model": "previous_ct_lif",
+      "policy": "original",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6763468865538689,
+      "slip_recall": 0.5079113924050633,
+      "false_alarm_rate": 0.15521761929732564
+    },
+    {
+      "model": "previous_mean_lif28",
+      "policy": "original",
+      "held_object": "brush",
+      "balanced_accuracy": 0.8164327986503495,
+      "slip_recall": 0.8767908309455588,
+      "false_alarm_rate": 0.2439252336448598
+    },
+    {
+      "model": "previous_mean_lif28",
+      "policy": "original",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6384378536514893,
+      "slip_recall": 0.7306722689075631,
+      "false_alarm_rate": 0.45379656160458454
+    },
+    {
+      "model": "previous_mean_lif28",
+      "policy": "original",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6843460219842951,
+      "slip_recall": 0.5087025316455697,
+      "false_alarm_rate": 0.14001048767697954
+    },
+    {
+      "model": "previous_c_only_lif",
+      "policy": "original",
+      "held_object": "brush",
+      "balanced_accuracy": 0.799002490426586,
+      "slip_recall": 0.7550143266475645,
+      "false_alarm_rate": 0.15700934579439252
+    },
+    {
+      "model": "previous_c_only_lif",
+      "policy": "original",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6437200524909104,
+      "slip_recall": 0.6760504201680673,
+      "false_alarm_rate": 0.38861031518624645
+    },
+    {
+      "model": "previous_c_only_lif",
+      "policy": "original",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6860981858973934,
+      "slip_recall": 0.5253164556962026,
+      "false_alarm_rate": 0.15312008390141585
+    }
+  ],
+  "intervals": [
+    {
+      "candidate_policy": "balanced",
+      "opponent": "previous_ct_lif",
+      "opponent_policy": "original",
+      "ba_difference": -0.008515583555147255,
+      "ba_interval": [
+        -0.032487217715359826,
+        0.01729034884366843
+      ],
+      "recall_interval": [
+        -0.1116743401277313,
+        -0.037107800244462676
+      ],
+      "fpr_interval": [
+        -0.09349195363387734,
+        -0.0240095109481153
+      ]
+    },
+    {
+      "candidate_policy": "balanced",
+      "opponent": "previous_mean_lif28",
+      "opponent_policy": "original",
+      "ba_difference": -0.03327660124264664,
+      "ba_interval": [
+        -0.04882771289543741,
+        -0.01377688973905005
+      ],
+      "recall_interval": [
+        -0.1452966180328621,
+        -0.09001879484802836
+      ],
+      "fpr_interval": [
+        -0.08504267708526249,
+        -0.029145694089762614
+      ]
+    },
+    {
+      "candidate_policy": "balanced",
+      "opponent": "mean_lif",
+      "opponent_policy": "balanced",
+      "ba_difference": -0.013918926419043465,
+      "ba_interval": [
+        -0.026128738935766588,
+        -0.0018586466315068794
+      ],
+      "recall_interval": [
+        -0.03222125320814114,
+        0.0021838162132698908
+      ],
+      "fpr_interval": [
+        -0.003813738540929005,
+        0.03174360186669155
+      ]
+    },
+    {
+      "candidate_policy": "balanced",
+      "opponent": "amplitude_temporal",
+      "opponent_policy": "balanced",
+      "ba_difference": 0.022690768058619026,
+      "ba_interval": [
+        0.002274613346451013,
+        0.042800599960467374
+      ],
+      "recall_interval": [
+        0.06083729121270271,
+        0.10638763145854259
+      ],
+      "fpr_interval": [
+        0.005708921929751061,
+        0.06851902327905209
+      ]
+    },
+    {
+      "candidate_policy": "balanced",
+      "opponent": "previous_ct_lif",
+      "opponent_policy": "balanced",
+      "ba_difference": -0.010523129993697644,
+      "ba_interval": [
+        -0.034540811045461584,
+        0.013076680701592272
+      ],
+      "recall_interval": [
+        -0.03453720636389864,
+        0.04539392431036244
+      ],
+      "fpr_interval": [
+        -0.007472635236791231,
+        0.06377678861090386
+      ]
+    },
+    {
+      "candidate_policy": "fpr20",
+      "opponent": "previous_ct_lif",
+      "opponent_policy": "original",
+      "ba_difference": -0.015569580903199154,
+      "ba_interval": [
+        -0.039453339645875274,
+        0.01182695581427254
+      ],
+      "recall_interval": [
+        -0.18182195020143202,
+        -0.11219807964024235
+      ],
+      "fpr_interval": [
+        -0.15914322722079435,
+        -0.08134575157533767
+      ]
+    },
+    {
+      "candidate_policy": "fpr20",
+      "opponent": "previous_mean_lif28",
+      "opponent_policy": "original",
+      "ba_difference": -0.04033059859069854,
+      "ba_interval": [
+        -0.058800748357368676,
+        -0.014893661579166764
+      ],
+      "recall_interval": [
+        -0.2177122938259342,
+        -0.1616463241831024
+      ],
+      "fpr_interval": [
+        -0.14903837906788764,
+        -0.08177171966183283
+      ]
+    },
+    {
+      "candidate_policy": "fpr20",
+      "opponent": "mean_lif",
+      "opponent_policy": "fpr20",
+      "ba_difference": -0.015032496792523276,
+      "ba_interval": [
+        -0.025002368479148208,
+        -0.006084812144263741
+      ],
+      "recall_interval": [
+        -0.05199353417043198,
+        -0.017060484830808673
+      ],
+      "fpr_interval": [
+        -0.015428631966246022,
+        0.0077827526015974225
+      ]
+    },
+    {
+      "candidate_policy": "fpr20",
+      "opponent": "amplitude_temporal",
+      "opponent_policy": "fpr20",
+      "ba_difference": 0.04636499631457991,
+      "ba_interval": [
+        0.030823176851338115,
+        0.06138769812193779
+      ],
+      "recall_interval": [
+        0.06628390381818874,
+        0.11139921257018129
+      ],
+      "fpr_interval": [
+        -0.03411241004846213,
+        0.02495663747580273
+      ]
+    },
+    {
+      "candidate_policy": "fpr20",
+      "opponent": "previous_ct_lif",
+      "opponent_policy": "fpr20",
+      "ba_difference": -0.014955895047268575,
+      "ba_interval": [
+        -0.03548466434724753,
+        0.006645617765069936
+      ],
+      "recall_interval": [
+        -0.06636139105394764,
+        0.004336974434389801
+      ],
+      "fpr_interval": [
+        -0.031273511379535074,
+        0.026230037556889744
+      ]
+    },
+    {
+      "candidate_policy": "fpr10",
+      "opponent": "previous_ct_lif",
+      "opponent_policy": "original",
+      "ba_difference": -0.04736465185443106,
+      "ba_interval": [
+        -0.07543607786202038,
+        -0.01476909907669418
+      ],
+      "recall_interval": [
+        -0.32982367897947623,
+        -0.22961001457865576
+      ],
+      "fpr_interval": [
+        -0.23311008630092583,
+        -0.14876943025089057
+      ]
+    },
+    {
+      "candidate_policy": "fpr10",
+      "opponent": "previous_mean_lif28",
+      "opponent_policy": "original",
+      "ba_difference": -0.07212566954193045,
+      "ba_interval": [
+        -0.09500413834880993,
+        -0.04133414163781814
+      ],
+      "recall_interval": [
+        -0.3673062480674878,
+        -0.2787589578605788
+      ],
+      "fpr_interval": [
+        -0.22793594634800982,
+        -0.1461800951731028
+      ]
+    },
+    {
+      "candidate_policy": "fpr10",
+      "opponent": "mean_lif",
+      "opponent_policy": "fpr10",
+      "ba_difference": -0.00682270583017075,
+      "ba_interval": [
+        -0.012638898320259735,
+        -0.0012864846091224327
+      ],
+      "recall_interval": [
+        -0.032678045672278555,
+        -0.011592492203798764
+      ],
+      "fpr_interval": [
+        -0.012306231059772856,
+        -0.004369512464955971
+      ]
+    },
+    {
+      "candidate_policy": "fpr10",
+      "opponent": "amplitude_temporal",
+      "opponent_policy": "fpr10",
+      "ba_difference": 0.037379439592014174,
+      "ba_interval": [
+        0.025378848948932,
+        0.05113272235304293
+      ],
+      "recall_interval": [
+        0.024852297977155335,
+        0.06408110881753988
+      ],
+      "fpr_interval": [
+        -0.05496510477986105,
+        -0.008371976061260193
+      ]
+    },
+    {
+      "candidate_policy": "fpr10",
+      "opponent": "previous_ct_lif",
+      "opponent_policy": "fpr10",
+      "ba_difference": -0.021339188418672106,
+      "ba_interval": [
+        -0.04198674279244005,
+        -1.99457348284698e-05
+      ],
+      "recall_interval": [
+        -0.08971651054637562,
+        -0.012141643322988296
+      ],
+      "fpr_interval": [
+        -0.035526293733155904,
+        0.017618965286373005
+      ]
+    }
+  ],
+  "valid_bootstraps": 2000,
+  "ct_v2_selections": [
+    {
+      "held_object": "brush",
+      "seed": 7,
+      "policy": "balanced",
+      "family": "shrink_lif",
+      "hidden": 10,
+      "window": 32,
+      "parameters": 81,
+      "threshold": 0.495,
+      "validation": {
+        "threshold": 0.495,
+        "macro_ba": 0.6223518133451061,
+        "macro_recall": 0.45182595182595187,
+        "minimum_recall": 0.23931623931623933,
+        "macro_fpr": 0.2071223251357394,
+        "maximum_fpr": 0.3548387096774194,
+        "objects_without_non_slip_validation": [],
+        "per_object": [
+          {
+            "object": 1,
+            "positive_count": 286,
+            "negative_count": 155,
+            "balanced_accuracy": 0.6547484773291226,
+            "slip_recall": 0.6643356643356644,
+            "false_alarm_rate": 0.3548387096774194,
+            "tp": 190,
+            "fn": 96,
+            "fp": 55,
+            "tn": 100
+          },
+          {
+            "object": 2,
+            "positive_count": 117,
+            "negative_count": 303,
+            "balanced_accuracy": 0.58995514936109,
+            "slip_recall": 0.23931623931623933,
+            "false_alarm_rate": 0.0594059405940594,
+            "tp": 28,
+            "fn": 89,
+            "fp": 18,
+            "tn": 285
+          }
+        ]
+      }
+    },
+    {
+      "held_object": "brush",
+      "seed": 7,
+      "policy": "fpr20",
+      "family": "shrink_lif",
+      "hidden": 10,
+      "window": 32,
+      "parameters": 81,
+      "threshold": 0.63,
+      "validation": {
+        "threshold": 0.63,
+        "macro_ba": 0.6052578334756553,
+        "macro_recall": 0.3220668220668221,
+        "minimum_recall": 0.11965811965811966,
+        "macro_fpr": 0.11155115511551156,
+        "maximum_fpr": 0.2,
+        "objects_without_non_slip_validation": [],
+        "per_object": [
+          {
+            "object": 1,
+            "positive_count": 286,
+            "negative_count": 155,
+            "balanced_accuracy": 0.6622377622377623,
+            "slip_recall": 0.5244755244755245,
+            "false_alarm_rate": 0.2,
+            "tp": 150,
+            "fn": 136,
+            "fp": 31,
+            "tn": 124
+          },
+          {
+            "object": 2,
+            "positive_count": 117,
+            "negative_count": 303,
+            "balanced_accuracy": 0.5482779047135483,
+            "slip_recall": 0.11965811965811966,
+            "false_alarm_rate": 0.0231023102310231,
+            "tp": 14,
+            "fn": 103,
+            "fp": 7,
+            "tn": 296
+          }
+        ],
+        "validation_fpr_cap": 0.2,
+        "useful_validation_recall": false
+      }
+    },
+    {
+      "held_object": "brush",
+      "seed": 7,
+      "policy": "fpr10",
+      "family": "shrink_lif",
+      "hidden": 10,
+      "window": 32,
+      "parameters": 81,
+      "threshold": 0.735,
+      "validation": {
+        "threshold": 0.735,
+        "macro_ba": 0.5943000317401468,
+        "macro_recall": 0.2402874902874903,
+        "minimum_recall": 0.08547008547008547,
+        "macro_fpr": 0.051687426807196846,
+        "maximum_fpr": 0.0967741935483871,
+        "objects_without_non_slip_validation": [],
+        "per_object": [
+          {
+            "object": 1,
+            "positive_count": 286,
+            "negative_count": 155,
+            "balanced_accuracy": 0.649165350778254,
+            "slip_recall": 0.3951048951048951,
+            "false_alarm_rate": 0.0967741935483871,
+            "tp": 113,
+            "fn": 173,
+            "fp": 15,
+            "tn": 140
+          },
+          {
+            "object": 2,
+            "positive_count": 117,
+            "negative_count": 303,
+            "balanced_accuracy": 0.5394347127020394,
+            "slip_recall": 0.08547008547008547,
+            "false_alarm_rate": 0.006600660066006601,
+            "tp": 10,
+            "fn": 107,
+            "fp": 2,
+            "tn": 301
+          }
+        ],
+        "validation_fpr_cap": 0.1,
+        "useful_validation_recall": false
+      }
+    },
+    {
+      "held_object": "brush",
+      "seed": 19,
+      "policy": "balanced",
+      "family": "amplitude_lif",
+      "hidden": 8,
+      "window": 16,
+      "parameters": 89,
+      "threshold": 0.51,
+      "validation": {
+        "threshold": 0.51,
+        "macro_ba": 0.7105002759675754,
+        "macro_recall": 0.767753523072672,
+        "minimum_recall": 0.7173252279635258,
+        "macro_fpr": 0.34675297113752124,
+        "maximum_fpr": 0.5040322580645161,
+        "objects_without_non_slip_validation": [],
+        "per_object": [
+          {
+            "object": 1,
+            "positive_count": 329,
+            "negative_count": 248,
+            "balanced_accuracy": 0.6066464849495048,
+            "slip_recall": 0.7173252279635258,
+            "false_alarm_rate": 0.5040322580645161,
+            "tp": 236,
+            "fn": 93,
+            "fp": 125,
+            "tn": 123
+          },
+          {
+            "object": 2,
+            "positive_count": 110,
+            "negative_count": 380,
+            "balanced_accuracy": 0.814354066985646,
+            "slip_recall": 0.8181818181818182,
+            "false_alarm_rate": 0.18947368421052632,
+            "tp": 90,
+            "fn": 20,
+            "fp": 72,
+            "tn": 308
+          }
+        ]
+      }
+    },
+    {
+      "held_object": "brush",
+      "seed": 19,
+      "policy": "fpr20",
+      "family": "amplitude_lif",
+      "hidden": 8,
+      "window": 32,
+      "parameters": 89,
+      "threshold": 0.74,
+      "validation": {
+        "threshold": 0.74,
+        "macro_ba": 0.6288427722532137,
+        "macro_recall": 0.36428571428571427,
+        "minimum_recall": 0.3,
+        "macro_fpr": 0.10660016977928692,
+        "maximum_fpr": 0.18951612903225806,
+        "objects_without_non_slip_validation": [],
+        "per_object": [
+          {
+            "object": 1,
+            "positive_count": 329,
+            "negative_count": 248,
+            "balanced_accuracy": 0.6195276497695853,
+            "slip_recall": 0.42857142857142855,
+            "false_alarm_rate": 0.18951612903225806,
+            "tp": 141,
+            "fn": 188,
+            "fp": 47,
+            "tn": 201
+          },
+          {
+            "object": 2,
+            "positive_count": 110,
+            "negative_count": 380,
+            "balanced_accuracy": 0.6381578947368421,
+            "slip_recall": 0.3,
+            "false_alarm_rate": 0.02368421052631579,
+            "tp": 33,
+            "fn": 77,
+            "fp": 9,
+            "tn": 371
+          }
+        ],
+        "validation_fpr_cap": 0.2,
+        "useful_validation_recall": false
+      }
+    },
+    {
+      "held_object": "brush",
+      "seed": 19,
+      "policy": "fpr10",
+      "family": "amplitude_lif",
+      "hidden": 8,
+      "window": 32,
+      "parameters": 89,
+      "threshold": 0.85,
+      "validation": {
+        "threshold": 0.85,
+        "macro_ba": 0.5923956595097277,
+        "macro_recall": 0.23379386570875932,
+        "minimum_recall": 0.16363636363636364,
+        "macro_fpr": 0.04900254668930391,
+        "maximum_fpr": 0.09274193548387097,
+        "objects_without_non_slip_validation": [],
+        "per_object": [
+          {
+            "object": 1,
+            "positive_count": 329,
+            "negative_count": 248,
+            "balanced_accuracy": 0.605604716148642,
+            "slip_recall": 0.303951367781155,
+            "false_alarm_rate": 0.09274193548387097,
+            "tp": 100,
+            "fn": 229,
+            "fp": 23,
+            "tn": 225
+          },
+          {
+            "object": 2,
+            "positive_count": 110,
+            "negative_count": 380,
+            "balanced_accuracy": 0.5791866028708134,
+            "slip_recall": 0.16363636363636364,
+            "false_alarm_rate": 0.005263157894736842,
+            "tp": 18,
+            "fn": 92,
+            "fp": 2,
+            "tn": 378
+          }
+        ],
+        "validation_fpr_cap": 0.1,
+        "useful_validation_recall": false
+      }
+    },
+    {
+      "held_object": "screwDriver",
+      "seed": 7,
+      "policy": "balanced",
+      "family": "shrink_lif",
+      "hidden": 8,
+      "window": 32,
+      "parameters": 65,
+      "threshold": 0.425,
+      "validation": {
+        "threshold": 0.425,
+        "macro_ba": 0.7353369952379853,
+        "macro_recall": 0.8139083139083139,
+        "minimum_recall": 0.6581196581196581,
+        "macro_fpr": 0.3432343234323432,
+        "maximum_fpr": 0.3432343234323432,
+        "objects_without_non_slip_validation": [
+          0
+        ],
+        "per_object": [
+          {
+            "object": 0,
+            "positive_count": 33,
+            "negative_count": 0,
+            "balanced_accuracy": null,
+            "slip_recall": 0.9696969696969697,
+            "false_alarm_rate": null,
+            "tp": 32,
+            "fn": 1,
+            "fp": 0,
+            "tn": 0
+          },
+          {
+            "object": 2,
+            "positive_count": 117,
+            "negative_count": 303,
+            "balanced_accuracy": 0.6574426673436574,
+            "slip_recall": 0.6581196581196581,
+            "false_alarm_rate": 0.3432343234323432,
+            "tp": 77,
+            "fn": 40,
+            "fp": 104,
+            "tn": 199
+          }
+        ]
+      }
+    },
+    {
+      "held_object": "screwDriver",
+      "seed": 7,
+      "policy": "fpr20",
+      "family": "shrink_lif",
+      "hidden": 8,
+      "window": 32,
+      "parameters": 65,
+      "threshold": 0.505,
+      "validation": {
+        "threshold": 0.505,
+        "macro_ba": 0.7178121658319678,
+        "macro_recall": 0.6336441336441336,
+        "minimum_recall": 0.4188034188034188,
+        "macro_fpr": 0.19801980198019803,
+        "maximum_fpr": 0.19801980198019803,
+        "objects_without_non_slip_validation": [
+          0
+        ],
+        "per_object": [
+          {
+            "object": 0,
+            "positive_count": 33,
+            "negative_count": 0,
+            "balanced_accuracy": null,
+            "slip_recall": 0.8484848484848485,
+            "false_alarm_rate": null,
+            "tp": 28,
+            "fn": 5,
+            "fp": 0,
+            "tn": 0
+          },
+          {
+            "object": 2,
+            "positive_count": 117,
+            "negative_count": 303,
+            "balanced_accuracy": 0.6103918084116104,
+            "slip_recall": 0.4188034188034188,
+            "false_alarm_rate": 0.19801980198019803,
+            "tp": 49,
+            "fn": 68,
+            "fp": 60,
+            "tn": 243
+          }
+        ],
+        "validation_fpr_cap": 0.2,
+        "useful_validation_recall": true
+      }
+    },
+    {
+      "held_object": "screwDriver",
+      "seed": 7,
+      "policy": "fpr10",
+      "family": "shrink_lif",
+      "hidden": 8,
+      "window": 32,
+      "parameters": 65,
+      "threshold": 0.605,
+      "validation": {
+        "threshold": 0.605,
+        "macro_ba": 0.7143810534899644,
+        "macro_recall": 0.5178710178710179,
+        "minimum_recall": 0.24786324786324787,
+        "macro_fpr": 0.0891089108910891,
+        "maximum_fpr": 0.0891089108910891,
+        "objects_without_non_slip_validation": [
+          0
+        ],
+        "per_object": [
+          {
+            "object": 0,
+            "positive_count": 33,
+            "negative_count": 0,
+            "balanced_accuracy": null,
+            "slip_recall": 0.7878787878787878,
+            "false_alarm_rate": null,
+            "tp": 26,
+            "fn": 7,
+            "fp": 0,
+            "tn": 0
+          },
+          {
+            "object": 2,
+            "positive_count": 117,
+            "negative_count": 303,
+            "balanced_accuracy": 0.5793771684860793,
+            "slip_recall": 0.24786324786324787,
+            "false_alarm_rate": 0.0891089108910891,
+            "tp": 29,
+            "fn": 88,
+            "fp": 27,
+            "tn": 276
+          }
+        ],
+        "validation_fpr_cap": 0.1,
+        "useful_validation_recall": false
+      }
+    },
+    {
+      "held_object": "screwDriver",
+      "seed": 19,
+      "policy": "balanced",
+      "family": "shrink_lif",
+      "hidden": 8,
+      "window": 32,
+      "parameters": 65,
+      "threshold": 0.585,
+      "validation": {
+        "threshold": 0.585,
+        "macro_ba": 0.780219298245614,
+        "macro_recall": 0.6599999999999999,
+        "minimum_recall": 0.6,
+        "macro_fpr": 0.09956140350877193,
+        "maximum_fpr": 0.11578947368421053,
+        "objects_without_non_slip_validation": [],
+        "per_object": [
+          {
+            "object": 0,
+            "positive_count": 50,
+            "negative_count": 12,
+            "balanced_accuracy": 0.8183333333333334,
+            "slip_recall": 0.72,
+            "false_alarm_rate": 0.08333333333333333,
+            "tp": 36,
+            "fn": 14,
+            "fp": 1,
+            "tn": 11
+          },
+          {
+            "object": 2,
+            "positive_count": 110,
+            "negative_count": 380,
+            "balanced_accuracy": 0.7421052631578948,
+            "slip_recall": 0.6,
+            "false_alarm_rate": 0.11578947368421053,
+            "tp": 66,
+            "fn": 44,
+            "fp": 44,
+            "tn": 336
+          }
+        ]
+      }
+    },
+    {
+      "held_object": "screwDriver",
+      "seed": 19,
+      "policy": "fpr20",
+      "family": "shrink_lif",
+      "hidden": 8,
+      "window": 32,
+      "parameters": 65,
+      "threshold": 0.555,
+      "validation": {
+        "threshold": 0.555,
+        "macro_ba": 0.7727591706539075,
+        "macro_recall": 0.6972727272727273,
+        "minimum_recall": 0.6545454545454545,
+        "macro_fpr": 0.15175438596491228,
+        "maximum_fpr": 0.16666666666666666,
+        "objects_without_non_slip_validation": [],
+        "per_object": [
+          {
+            "object": 0,
+            "positive_count": 50,
+            "negative_count": 12,
+            "balanced_accuracy": 0.7866666666666666,
+            "slip_recall": 0.74,
+            "false_alarm_rate": 0.16666666666666666,
+            "tp": 37,
+            "fn": 13,
+            "fp": 2,
+            "tn": 10
+          },
+          {
+            "object": 2,
+            "positive_count": 110,
+            "negative_count": 380,
+            "balanced_accuracy": 0.7588516746411483,
+            "slip_recall": 0.6545454545454545,
+            "false_alarm_rate": 0.1368421052631579,
+            "tp": 72,
+            "fn": 38,
+            "fp": 52,
+            "tn": 328
+          }
+        ],
+        "validation_fpr_cap": 0.2,
+        "useful_validation_recall": true
+      }
+    },
+    {
+      "held_object": "screwDriver",
+      "seed": 19,
+      "policy": "fpr10",
+      "family": "shrink_lif",
+      "hidden": 8,
+      "window": 32,
+      "parameters": 65,
+      "threshold": 0.62,
+      "validation": {
+        "threshold": 0.62,
+        "macro_ba": 0.7466427432216906,
+        "macro_recall": 0.5836363636363636,
+        "minimum_recall": 0.5272727272727272,
+        "macro_fpr": 0.09035087719298246,
+        "maximum_fpr": 0.09736842105263158,
+        "objects_without_non_slip_validation": [],
+        "per_object": [
+          {
+            "object": 0,
+            "positive_count": 50,
+            "negative_count": 12,
+            "balanced_accuracy": 0.7783333333333334,
+            "slip_recall": 0.64,
+            "false_alarm_rate": 0.08333333333333333,
+            "tp": 32,
+            "fn": 18,
+            "fp": 1,
+            "tn": 11
+          },
+          {
+            "object": 2,
+            "positive_count": 110,
+            "negative_count": 380,
+            "balanced_accuracy": 0.7149521531100479,
+            "slip_recall": 0.5272727272727272,
+            "false_alarm_rate": 0.09736842105263158,
+            "tp": 58,
+            "fn": 52,
+            "fp": 37,
+            "tn": 343
+          }
+        ],
+        "validation_fpr_cap": 0.1,
+        "useful_validation_recall": true
+      }
+    },
+    {
+      "held_object": "SpoolSolder",
+      "seed": 7,
+      "policy": "balanced",
+      "family": "shrink_lif",
+      "hidden": 10,
+      "window": 32,
+      "parameters": 81,
+      "threshold": 0.46,
+      "validation": {
+        "threshold": 0.46,
+        "macro_ba": 0.803463633354398,
+        "macro_recall": 0.8244711263579187,
+        "minimum_recall": 0.6792452830188679,
+        "macro_fpr": 0.21754385964912282,
+        "maximum_fpr": 0.21754385964912282,
+        "objects_without_non_slip_validation": [
+          0
+        ],
+        "per_object": [
+          {
+            "object": 0,
+            "positive_count": 33,
+            "negative_count": 0,
+            "balanced_accuracy": null,
+            "slip_recall": 0.9696969696969697,
+            "false_alarm_rate": null,
+            "tp": 32,
+            "fn": 1,
+            "fp": 0,
+            "tn": 0
+          },
+          {
+            "object": 1,
+            "positive_count": 212,
+            "negative_count": 285,
+            "balanced_accuracy": 0.7308507116848725,
+            "slip_recall": 0.6792452830188679,
+            "false_alarm_rate": 0.21754385964912282,
+            "tp": 144,
+            "fn": 68,
+            "fp": 62,
+            "tn": 223
+          }
+        ]
+      }
+    },
+    {
+      "held_object": "SpoolSolder",
+      "seed": 7,
+      "policy": "fpr20",
+      "family": "amplitude_lif",
+      "hidden": 10,
+      "window": 32,
+      "parameters": 111,
+      "threshold": 0.47000000000000003,
+      "validation": {
+        "threshold": 0.47000000000000003,
+        "macro_ba": 0.7852915951972556,
+        "macro_recall": 0.7705831903945111,
+        "minimum_recall": 0.6320754716981132,
+        "macro_fpr": 0.2,
+        "maximum_fpr": 0.2,
+        "objects_without_non_slip_validation": [
+          0
+        ],
+        "per_object": [
+          {
+            "object": 0,
+            "positive_count": 33,
+            "negative_count": 0,
+            "balanced_accuracy": null,
+            "slip_recall": 0.9090909090909091,
+            "false_alarm_rate": null,
+            "tp": 30,
+            "fn": 3,
+            "fp": 0,
+            "tn": 0
+          },
+          {
+            "object": 1,
+            "positive_count": 212,
+            "negative_count": 285,
+            "balanced_accuracy": 0.7160377358490566,
+            "slip_recall": 0.6320754716981132,
+            "false_alarm_rate": 0.2,
+            "tp": 134,
+            "fn": 78,
+            "fp": 57,
+            "tn": 228
+          }
+        ],
+        "validation_fpr_cap": 0.2,
+        "useful_validation_recall": true
+      }
+    },
+    {
+      "held_object": "SpoolSolder",
+      "seed": 7,
+      "policy": "fpr10",
+      "family": "amplitude_lif",
+      "hidden": 10,
+      "window": 32,
+      "parameters": 111,
+      "threshold": 0.605,
+      "validation": {
+        "threshold": 0.605,
+        "macro_ba": 0.7739223165116909,
+        "macro_recall": 0.6425814751286449,
+        "minimum_recall": 0.4669811320754717,
+        "macro_fpr": 0.09473684210526316,
+        "maximum_fpr": 0.09473684210526316,
+        "objects_without_non_slip_validation": [
+          0
+        ],
+        "per_object": [
+          {
+            "object": 0,
+            "positive_count": 33,
+            "negative_count": 0,
+            "balanced_accuracy": null,
+            "slip_recall": 0.8181818181818182,
+            "false_alarm_rate": null,
+            "tp": 27,
+            "fn": 6,
+            "fp": 0,
+            "tn": 0
+          },
+          {
+            "object": 1,
+            "positive_count": 212,
+            "negative_count": 285,
+            "balanced_accuracy": 0.6861221449851043,
+            "slip_recall": 0.4669811320754717,
+            "false_alarm_rate": 0.09473684210526316,
+            "tp": 99,
+            "fn": 113,
+            "fp": 27,
+            "tn": 258
+          }
+        ],
+        "validation_fpr_cap": 0.1,
+        "useful_validation_recall": true
+      }
+    },
+    {
+      "held_object": "SpoolSolder",
+      "seed": 19,
+      "policy": "balanced",
+      "family": "amplitude_lif",
+      "hidden": 10,
+      "window": 32,
+      "parameters": 111,
+      "threshold": 0.5,
+      "validation": {
+        "threshold": 0.5,
+        "macro_ba": 0.8017392318457472,
+        "macro_recall": 0.7089830508474576,
+        "minimum_recall": 0.6779661016949152,
+        "macro_fpr": 0.10550458715596331,
+        "maximum_fpr": 0.21100917431192662,
+        "objects_without_non_slip_validation": [],
+        "per_object": [
+          {
+            "object": 0,
+            "positive_count": 50,
+            "negative_count": 12,
+            "balanced_accuracy": 0.87,
+            "slip_recall": 0.74,
+            "false_alarm_rate": 0.0,
+            "tp": 37,
+            "fn": 13,
+            "fp": 0,
+            "tn": 12
+          },
+          {
+            "object": 1,
+            "positive_count": 295,
+            "negative_count": 218,
+            "balanced_accuracy": 0.7334784636914943,
+            "slip_recall": 0.6779661016949152,
+            "false_alarm_rate": 0.21100917431192662,
+            "tp": 200,
+            "fn": 95,
+            "fp": 46,
+            "tn": 172
+          }
+        ]
+      }
+    },
+    {
+      "held_object": "SpoolSolder",
+      "seed": 19,
+      "policy": "fpr20",
+      "family": "shrink_lif",
+      "hidden": 8,
+      "window": 32,
+      "parameters": 65,
+      "threshold": 0.455,
+      "validation": {
+        "threshold": 0.455,
+        "macro_ba": 0.7939475457419789,
+        "macro_recall": 0.7606779661016949,
+        "minimum_recall": 0.6813559322033899,
+        "macro_fpr": 0.172782874617737,
+        "maximum_fpr": 0.17889908256880735,
+        "objects_without_non_slip_validation": [],
+        "per_object": [
+          {
+            "object": 0,
+            "positive_count": 50,
+            "negative_count": 12,
+            "balanced_accuracy": 0.8366666666666666,
+            "slip_recall": 0.84,
+            "false_alarm_rate": 0.16666666666666666,
+            "tp": 42,
+            "fn": 8,
+            "fp": 2,
+            "tn": 10
+          },
+          {
+            "object": 1,
+            "positive_count": 295,
+            "negative_count": 218,
+            "balanced_accuracy": 0.7512284248172914,
+            "slip_recall": 0.6813559322033899,
+            "false_alarm_rate": 0.17889908256880735,
+            "tp": 201,
+            "fn": 94,
+            "fp": 39,
+            "tn": 179
+          }
+        ],
+        "validation_fpr_cap": 0.2,
+        "useful_validation_recall": true
+      }
+    },
+    {
+      "held_object": "SpoolSolder",
+      "seed": 19,
+      "policy": "fpr10",
+      "family": "shrink_lif",
+      "hidden": 8,
+      "window": 32,
+      "parameters": 65,
+      "threshold": 0.5750000000000001,
+      "validation": {
+        "threshold": 0.5750000000000001,
+        "macro_ba": 0.7871038718706266,
+        "macro_recall": 0.6223728813559322,
+        "minimum_recall": 0.4847457627118644,
+        "macro_fpr": 0.0481651376146789,
+        "maximum_fpr": 0.0963302752293578,
+        "objects_without_non_slip_validation": [],
+        "per_object": [
+          {
+            "object": 0,
+            "positive_count": 50,
+            "negative_count": 12,
+            "balanced_accuracy": 0.88,
+            "slip_recall": 0.76,
+            "false_alarm_rate": 0.0,
+            "tp": 38,
+            "fn": 12,
+            "fp": 0,
+            "tn": 12
+          },
+          {
+            "object": 1,
+            "positive_count": 295,
+            "negative_count": 218,
+            "balanced_accuracy": 0.6942077437412534,
+            "slip_recall": 0.4847457627118644,
+            "false_alarm_rate": 0.0963302752293578,
+            "tp": 143,
+            "fn": 152,
+            "fp": 21,
+            "tn": 197
+          }
+        ],
+        "validation_fpr_cap": 0.1,
+        "useful_validation_recall": true
+      }
+    }
+  ],
+  "training_seconds": 99.10223582399999,
+  "limitations": "Exploratory conditional intervals; no new-object, retraining, selection or multiple-comparison adjustment."
+}

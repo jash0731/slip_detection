@@ -1,0 +1,93 @@
+{
+  "aggregate": [
+    {
+      "model": "ct_mean",
+      "balanced_accuracy": 0.6918651444089932,
+      "slip_recall": 0.5149397819045648,
+      "false_alarm_rate": 0.13120949308657873,
+      "pooled_accuracy": 0.7403062073556332,
+      "tp": 2133,
+      "tn": 6764,
+      "fp": 912,
+      "fn": 2209
+    },
+    {
+      "model": "ct_only",
+      "balanced_accuracy": 0.7182373835790626,
+      "slip_recall": 0.6329071736053603,
+      "false_alarm_rate": 0.19643240644723503,
+      "pooled_accuracy": 0.736145781328008,
+      "tp": 2604,
+      "tn": 6243,
+      "fp": 1433,
+      "fn": 1738
+    },
+    {
+      "model": "mean_lif",
+      "balanced_accuracy": 0.712216742545718,
+      "slip_recall": 0.6027464919448611,
+      "false_alarm_rate": 0.1783130068534253,
+      "pooled_accuracy": 0.7439673822599434,
+      "tp": 2597,
+      "tn": 6344,
+      "fp": 1332,
+      "fn": 1745
+    },
+    {
+      "model": "previous_optimized_mean",
+      "balanced_accuracy": 0.712216742545718,
+      "slip_recall": 0.6027464919448611,
+      "false_alarm_rate": 0.1783130068534253,
+      "pooled_accuracy": 0.7439673822599434,
+      "tp": 2597,
+      "tn": 6344,
+      "fp": 1332,
+      "fn": 1745
+    },
+    {
+      "model": "original_ct",
+      "balanced_accuracy": 0.6883112070745452,
+      "slip_recall": 0.6623423309333164,
+      "false_alarm_rate": 0.2857199167842258,
+      "pooled_accuracy": 0.6939590614078882,
+      "tp": 2902,
+      "tn": 5438,
+      "fp": 2238,
+      "fn": 1440
+    },
+    {
+      "model": "ct_v2_balanced",
+      "balanced_accuracy": 0.6797956235193979,
+      "slip_recall": 0.5886385044388073,
+      "false_alarm_rate": 0.2290472574000113,
+      "pooled_accuracy": 0.710434348477284,
+      "tp": 2572,
+      "tn": 5966,
+      "fp": 1710,
+      "fn": 1770
+    }
+  ],
+  "resources": [
+    {
+      "model": "ct_mean",
+      "parameters_mean": 214.33333333333334,
+      "parameters_min": 161,
+      "parameters_max": 241,
+      "input_macs_mean": 6144.0
+    },
+    {
+      "model": "ct_only",
+      "parameters_mean": 141.0,
+      "parameters_min": 113,
+      "parameters_max": 169,
+      "input_macs_mean": 3840.0
+    },
+    {
+      "model": "mean_lif",
+      "parameters_mean": 86.33333333333333,
+      "parameters_min": 65,
+      "parameters_max": 97,
+      "input_macs_mean": 2048.0
+    }
+  ]
+}

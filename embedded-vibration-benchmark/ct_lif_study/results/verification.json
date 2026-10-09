@@ -1,0 +1,22 @@
+{
+  "original_files_byte_identical": 460,
+  "fits": 48,
+  "prediction_rows": 96144,
+  "predictions_per_model": {
+    "ct_lif": 12018,
+    "ct_ann": 12018,
+    "ct_temporal": 12018,
+    "mean_lif16": 12018,
+    "mean_lif28": 12018,
+    "c_only_lif": 12018,
+    "turnover_lif": 12018,
+    "entropy_lif": 12018
+  },
+  "pooled_ct_correct": 8340,
+  "pooled_ct_total": 12018,
+  "candidate_unit_tests_passed": 13,
+  "aligned_test_endpoints": 6009,
+  "source_raw_checksums": "all three match bundled manifest",
+  "raw_dataset_relabelled": false,
+  "original_results_modified": false
+}

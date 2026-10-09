@@ -1,0 +1,106 @@
+{
+  "name": "object0_seed7_ct_only_recent_h12_lr0.01",
+  "variant": "ct_only",
+  "pooling": "recent",
+  "hidden": 12,
+  "rate": 0.01,
+  "parameters": 169,
+  "inputs": 12,
+  "threshold": 0.51,
+  "validation": {
+    "threshold": 0.51,
+    "balanced_accuracy": 0.6223068708855998,
+    "slip_recall": 0.4491064491064491,
+    "false_alarm_rate": 0.20449270733524966,
+    "per_object": [
+      {
+        "object": 1,
+        "balanced_accuracy": 0.6767877284006316,
+        "slip_recall": 0.6503496503496503,
+        "false_alarm_rate": 0.2967741935483871,
+        "tp": 186,
+        "fn": 100,
+        "fp": 46,
+        "tn": 109
+      },
+      {
+        "object": 2,
+        "balanced_accuracy": 0.5678260133705678,
+        "slip_recall": 0.24786324786324787,
+        "false_alarm_rate": 0.11221122112211221,
+        "tp": 29,
+        "fn": 88,
+        "fp": 34,
+        "tn": 269
+      }
+    ],
+    "objects_without_non_slip": [],
+    "validation_joint_improvement": true
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "validation_weighted_loss": 0.684186794251326
+    },
+    {
+      "epoch": 2,
+      "validation_weighted_loss": 0.6699007514009925
+    },
+    {
+      "epoch": 3,
+      "validation_weighted_loss": 0.6666438363632745
+    },
+    {
+      "epoch": 4,
+      "validation_weighted_loss": 0.6620580662609038
+    },
+    {
+      "epoch": 5,
+      "validation_weighted_loss": 0.6584670884340613
+    },
+    {
+      "epoch": 6,
+      "validation_weighted_loss": 0.6545329056716382
+    },
+    {
+      "epoch": 7,
+      "validation_weighted_loss": 0.6526215963578941
+    },
+    {
+      "epoch": 8,
+      "validation_weighted_loss": 0.6496037915060854
+    },
+    {
+      "epoch": 9,
+      "validation_weighted_loss": 0.6494558232860376
+    },
+    {
+      "epoch": 10,
+      "validation_weighted_loss": 0.642054161721253
+    },
+    {
+      "epoch": 11,
+      "validation_weighted_loss": 0.6440006983717808
+    },
+    {
+      "epoch": 12,
+      "validation_weighted_loss": 0.6438873590244156
+    },
+    {
+      "epoch": 13,
+      "validation_weighted_loss": 0.6516871944115835
+    },
+    {
+      "epoch": 14,
+      "validation_weighted_loss": 0.6436666569229205
+    },
+    {
+      "epoch": 15,
+      "validation_weighted_loss": 0.6652158480669621
+    },
+    {
+      "epoch": 16,
+      "validation_weighted_loss": 0.6655971016862486
+    }
+  ]
+}

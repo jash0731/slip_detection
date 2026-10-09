@@ -1,0 +1,10 @@
+{
+  "family": "mean_lif",
+  "policy": "balanced",
+  "family_recommendation": "posthoc following held-object comparison",
+  "fold_checkpoint_selection": "training/validation only, frozen before new test inference",
+  "scope": "exploratory reused benchmark; not a single deployment model or a new LIF neuron",
+  "reason": "observed higher macro balanced accuracy and recall, and lower FPR, than CT-LIF v2 balanced",
+  "tradeoff": "higher host latency and slightly more average parameters than CT-LIF v2 balanced",
+  "predeclared_candidate": "ct_v3, joint policy; did not improve held-object averages"
+}

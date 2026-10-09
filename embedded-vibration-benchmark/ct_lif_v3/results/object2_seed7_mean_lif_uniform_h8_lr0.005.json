@@ -1,0 +1,208 @@
+{
+  "name": "object2_seed7_mean_lif_uniform_h8_lr0.005",
+  "family": "mean_lif",
+  "kind": "lif",
+  "variant": "mean",
+  "pooling": "uniform",
+  "hidden": 8,
+  "inputs": 6,
+  "residual": false,
+  "rate": 0.005,
+  "parameters": 65,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_weighted_loss": 0.6824152913904853
+    },
+    {
+      "epoch": 2,
+      "validation_weighted_loss": 0.6660671149193363
+    },
+    {
+      "epoch": 3,
+      "validation_weighted_loss": 0.6777573393772772
+    },
+    {
+      "epoch": 4,
+      "validation_weighted_loss": 0.6550040840118184
+    },
+    {
+      "epoch": 5,
+      "validation_weighted_loss": 0.6353702248859887
+    },
+    {
+      "epoch": 6,
+      "validation_weighted_loss": 0.6219857178086892
+    },
+    {
+      "epoch": 7,
+      "validation_weighted_loss": 0.5925336330347192
+    },
+    {
+      "epoch": 8,
+      "validation_weighted_loss": 0.5817609474092088
+    },
+    {
+      "epoch": 9,
+      "validation_weighted_loss": 0.5706454885769934
+    },
+    {
+      "epoch": 10,
+      "validation_weighted_loss": 0.5574354338111129
+    },
+    {
+      "epoch": 11,
+      "validation_weighted_loss": 0.5396122201224417
+    },
+    {
+      "epoch": 12,
+      "validation_weighted_loss": 0.5450762091514525
+    },
+    {
+      "epoch": 13,
+      "validation_weighted_loss": 0.5268175083237354
+    },
+    {
+      "epoch": 14,
+      "validation_weighted_loss": 0.528017624986979
+    },
+    {
+      "epoch": 15,
+      "validation_weighted_loss": 0.5172593989665736
+    },
+    {
+      "epoch": 16,
+      "validation_weighted_loss": 0.5147953084333736
+    },
+    {
+      "epoch": 17,
+      "validation_weighted_loss": 0.5172972843398488
+    },
+    {
+      "epoch": 18,
+      "validation_weighted_loss": 0.5141692149980329
+    },
+    {
+      "epoch": 19,
+      "validation_weighted_loss": 0.5033157604133139
+    },
+    {
+      "epoch": 20,
+      "validation_weighted_loss": 0.48553932135427075
+    },
+    {
+      "epoch": 21,
+      "validation_weighted_loss": 0.48680705576552363
+    },
+    {
+      "epoch": 22,
+      "validation_weighted_loss": 0.4998362317962349
+    },
+    {
+      "epoch": 23,
+      "validation_weighted_loss": 0.4920167893598274
+    },
+    {
+      "epoch": 24,
+      "validation_weighted_loss": 0.4858098627325205
+    },
+    {
+      "epoch": 25,
+      "validation_weighted_loss": 0.4797141472074251
+    },
+    {
+      "epoch": 26,
+      "validation_weighted_loss": 0.4858200777825464
+    },
+    {
+      "epoch": 27,
+      "validation_weighted_loss": 0.48437231478853504
+    },
+    {
+      "epoch": 28,
+      "validation_weighted_loss": 0.4686516077699363
+    },
+    {
+      "epoch": 29,
+      "validation_weighted_loss": 0.4707811585469691
+    },
+    {
+      "epoch": 30,
+      "validation_weighted_loss": 0.4748663165698387
+    },
+    {
+      "epoch": 31,
+      "validation_weighted_loss": 0.465030910999492
+    },
+    {
+      "epoch": 32,
+      "validation_weighted_loss": 0.4789704525362877
+    }
+  ],
+  "operating_points": {
+    "balanced": {
+      "threshold": 0.56,
+      "balanced_accuracy": 0.7636397490295207,
+      "slip_recall": 0.7237707261292168,
+      "false_alarm_rate": 0.19649122807017544,
+      "per_object": [
+        {
+          "object": 0,
+          "balanced_accuracy": null,
+          "slip_recall": 0.8484848484848485,
+          "false_alarm_rate": null,
+          "tp": 28,
+          "fn": 5,
+          "fp": 0,
+          "tn": 0
+        },
+        {
+          "object": 1,
+          "balanced_accuracy": 0.7012826878517048,
+          "slip_recall": 0.5990566037735849,
+          "false_alarm_rate": 0.19649122807017544,
+          "tp": 127,
+          "fn": 85,
+          "fp": 56,
+          "tn": 229
+        }
+      ],
+      "objects_without_non_slip": [
+        0
+      ],
+      "validation_joint_improvement": false
+    },
+    "joint": {
+      "threshold": 0.56,
+      "balanced_accuracy": 0.7636397490295207,
+      "slip_recall": 0.7237707261292168,
+      "false_alarm_rate": 0.19649122807017544,
+      "per_object": [
+        {
+          "object": 0,
+          "balanced_accuracy": null,
+          "slip_recall": 0.8484848484848485,
+          "false_alarm_rate": null,
+          "tp": 28,
+          "fn": 5,
+          "fp": 0,
+          "tn": 0
+        },
+        {
+          "object": 1,
+          "balanced_accuracy": 0.7012826878517048,
+          "slip_recall": 0.5990566037735849,
+          "false_alarm_rate": 0.19649122807017544,
+          "tp": 127,
+          "fn": 85,
+          "fp": 56,
+          "tn": 229
+        }
+      ],
+      "objects_without_non_slip": [
+        0
+      ],
+      "validation_joint_improvement": false
+    }
+  }
+}

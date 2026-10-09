@@ -1,0 +1,9 @@
+{
+  "original_archive_sha256": "92062f8ca57a32468a01423fca25457b849ae9e85832d4b1d0174e44073d9213",
+  "original_files_byte_identical": 460,
+  "excluded_generated_files": [
+    "__pycache__",
+    "__MACOSX",
+    ".DS_Store"
+  ]
+}

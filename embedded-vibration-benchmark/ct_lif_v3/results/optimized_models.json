@@ -1,0 +1,250 @@
+{
+  "family": "mean_lif",
+  "policy": "balanced",
+  "models": [
+    {
+      "held": 0,
+      "held_object": "brush",
+      "seed": 7,
+      "checkpoint": "ct_lif_v3/results/object0_seed7_mean_lif_recent_h12_lr0.01.npz",
+      "threshold": 0.45,
+      "parameters": 97,
+      "hidden": 12,
+      "pooling": "recent",
+      "validation": {
+        "threshold": 0.45,
+        "balanced_accuracy": 0.6424910915409159,
+        "slip_recall": 0.49397824397824397,
+        "false_alarm_rate": 0.20899606089641223,
+        "per_object": [
+          {
+            "object": 1,
+            "balanced_accuracy": 0.6766636589217234,
+            "slip_recall": 0.6888111888111889,
+            "false_alarm_rate": 0.33548387096774196,
+            "tp": 197,
+            "fn": 89,
+            "fp": 52,
+            "tn": 103
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.6083185241601083,
+            "slip_recall": 0.29914529914529914,
+            "false_alarm_rate": 0.08250825082508251,
+            "tp": 35,
+            "fn": 82,
+            "fp": 25,
+            "tn": 278
+          }
+        ],
+        "objects_without_non_slip": [],
+        "validation_joint_improvement": false
+      }
+    },
+    {
+      "held": 0,
+      "held_object": "brush",
+      "seed": 19,
+      "checkpoint": "ct_lif_v3/results/object0_seed19_mean_lif_recent_h12_lr0.01.npz",
+      "threshold": 0.435,
+      "parameters": 97,
+      "hidden": 12,
+      "pooling": "recent",
+      "validation": {
+        "threshold": 0.435,
+        "balanced_accuracy": 0.7497385520955944,
+        "slip_recall": 0.7905636916275214,
+        "false_alarm_rate": 0.29108658743633276,
+        "per_object": [
+          {
+            "object": 1,
+            "balanced_accuracy": 0.6844053338562603,
+            "slip_recall": 0.7720364741641338,
+            "false_alarm_rate": 0.4032258064516129,
+            "tp": 254,
+            "fn": 75,
+            "fp": 100,
+            "tn": 148
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.8150717703349282,
+            "slip_recall": 0.8090909090909091,
+            "false_alarm_rate": 0.17894736842105263,
+            "tp": 89,
+            "fn": 21,
+            "fp": 68,
+            "tn": 312
+          }
+        ],
+        "objects_without_non_slip": [],
+        "validation_joint_improvement": true
+      }
+    },
+    {
+      "held": 1,
+      "held_object": "screwDriver",
+      "seed": 7,
+      "checkpoint": "ct_lif_v3/results/object1_seed7_mean_lif_recent_h8_lr0.01.npz",
+      "threshold": 0.535,
+      "parameters": 65,
+      "hidden": 8,
+      "pooling": "recent",
+      "validation": {
+        "threshold": 0.535,
+        "balanced_accuracy": 0.7789798210590291,
+        "slip_recall": 0.6833721833721834,
+        "false_alarm_rate": 0.1254125412541254,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": null,
+            "slip_recall": 0.9393939393939394,
+            "false_alarm_rate": null,
+            "tp": 31,
+            "fn": 2,
+            "fp": 0,
+            "tn": 0
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.650968943048151,
+            "slip_recall": 0.42735042735042733,
+            "false_alarm_rate": 0.1254125412541254,
+            "tp": 50,
+            "fn": 67,
+            "fp": 38,
+            "tn": 265
+          }
+        ],
+        "objects_without_non_slip": [
+          0
+        ],
+        "validation_joint_improvement": false
+      }
+    },
+    {
+      "held": 1,
+      "held_object": "screwDriver",
+      "seed": 19,
+      "checkpoint": "ct_lif_v3/results/object1_seed19_mean_lif_recent_h8_lr0.01.npz",
+      "threshold": 0.405,
+      "parameters": 65,
+      "hidden": 8,
+      "pooling": "recent",
+      "validation": {
+        "threshold": 0.405,
+        "balanced_accuracy": 0.8308811802232855,
+        "slip_recall": 0.8227272727272728,
+        "false_alarm_rate": 0.16096491228070176,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": 0.8666666666666666,
+            "slip_recall": 0.9,
+            "false_alarm_rate": 0.16666666666666666,
+            "tp": 45,
+            "fn": 5,
+            "fp": 2,
+            "tn": 10
+          },
+          {
+            "object": 2,
+            "balanced_accuracy": 0.7950956937799044,
+            "slip_recall": 0.7454545454545455,
+            "false_alarm_rate": 0.15526315789473685,
+            "tp": 82,
+            "fn": 28,
+            "fp": 59,
+            "tn": 321
+          }
+        ],
+        "objects_without_non_slip": [],
+        "validation_joint_improvement": false
+      }
+    },
+    {
+      "held": 2,
+      "held_object": "SpoolSolder",
+      "seed": 7,
+      "checkpoint": "ct_lif_v3/results/object2_seed7_mean_lif_recent_h12_lr0.01.npz",
+      "threshold": 0.535,
+      "parameters": 97,
+      "hidden": 12,
+      "pooling": "recent",
+      "validation": {
+        "threshold": 0.535,
+        "balanced_accuracy": 0.7946507026571575,
+        "slip_recall": 0.7928101772441396,
+        "false_alarm_rate": 0.20350877192982456,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": null,
+            "slip_recall": 0.9393939393939394,
+            "false_alarm_rate": null,
+            "tp": 31,
+            "fn": 2,
+            "fp": 0,
+            "tn": 0
+          },
+          {
+            "object": 1,
+            "balanced_accuracy": 0.7213588215822576,
+            "slip_recall": 0.6462264150943396,
+            "false_alarm_rate": 0.20350877192982456,
+            "tp": 137,
+            "fn": 75,
+            "fp": 58,
+            "tn": 227
+          }
+        ],
+        "objects_without_non_slip": [
+          0
+        ],
+        "validation_joint_improvement": false
+      }
+    },
+    {
+      "held": 2,
+      "held_object": "SpoolSolder",
+      "seed": 19,
+      "checkpoint": "ct_lif_v3/results/object2_seed19_mean_lif_uniform_h12_lr0.01.npz",
+      "threshold": 0.47000000000000003,
+      "parameters": 97,
+      "hidden": 12,
+      "pooling": "uniform",
+      "validation": {
+        "threshold": 0.47000000000000003,
+        "balanced_accuracy": 0.8313302752293578,
+        "slip_recall": 0.72,
+        "false_alarm_rate": 0.05733944954128441,
+        "per_object": [
+          {
+            "object": 0,
+            "balanced_accuracy": 0.9199999999999999,
+            "slip_recall": 0.84,
+            "false_alarm_rate": 0.0,
+            "tp": 42,
+            "fn": 8,
+            "fp": 0,
+            "tn": 12
+          },
+          {
+            "object": 1,
+            "balanced_accuracy": 0.7426605504587156,
+            "slip_recall": 0.6,
+            "false_alarm_rate": 0.11467889908256881,
+            "tp": 177,
+            "fn": 118,
+            "fp": 25,
+            "tn": 193
+          }
+        ],
+        "objects_without_non_slip": [],
+        "validation_joint_improvement": true
+      }
+    }
+  ]
+}

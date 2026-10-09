@@ -1,0 +1,11 @@
+source,input_activity_fraction,schedule,samples,repeats,input_contributions_evaluated,hidden_neuron_updates,host_median_us,host_min_us,host_max_us,parity
+synthetic_host_activity_sweep,0.0,dense,2048,7,98304,24576,16779.417,16681.792,17001.625,PASS
+synthetic_host_activity_sweep,0.0,sparse,2048,7,0,24576,10164.208,10089.167,10223.041,PASS
+synthetic_host_activity_sweep,0.25,dense,2048,7,98304,24576,17104.166,17034.041,17173.083,PASS
+synthetic_host_activity_sweep,0.25,sparse,2048,7,24576,24576,12351.75,12331.792,12389.167,PASS
+synthetic_host_activity_sweep,0.5,dense,2048,7,98304,24576,17120.75,17081.458,17288.0,PASS
+synthetic_host_activity_sweep,0.5,sparse,2048,7,49152,24576,14298.667,14270.75,14327.542,PASS
+synthetic_host_activity_sweep,0.75,dense,2048,7,98304,24576,17118.5,17070.833,17173.375,PASS
+synthetic_host_activity_sweep,0.75,sparse,2048,7,73728,24576,16075.25,16034.667,16115.875,PASS
+synthetic_host_activity_sweep,1.0,dense,2048,7,98304,24576,17159.458,16987.25,17447.083,PASS
+synthetic_host_activity_sweep,1.0,sparse,2048,7,98304,24576,17873.25,17830.542,17970.875,PASS

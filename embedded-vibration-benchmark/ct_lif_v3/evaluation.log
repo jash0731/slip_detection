@@ -1,0 +1,12 @@
+TEST brush/7 balanced: BA=0.6234 recall=0.6132 FPR=0.3664
+TEST brush/7 joint: BA=0.6174 recall=0.5788 FPR=0.3439
+TEST brush/19 balanced: BA=0.7977 recall=0.6533 FPR=0.0579
+TEST brush/19 joint: BA=0.7863 recall=0.8080 FPR=0.2355
+TEST screwDriver/7 balanced: BA=0.6310 recall=0.7420 FPR=0.4799
+TEST screwDriver/7 joint: BA=0.6310 recall=0.7420 FPR=0.4799
+TEST screwDriver/19 balanced: BA=0.6580 recall=0.4765 FPR=0.1605
+TEST screwDriver/19 joint: BA=0.6621 recall=0.4689 FPR=0.1447
+TEST SpoolSolder/7 balanced: BA=0.6193 recall=0.3655 FPR=0.1269
+TEST SpoolSolder/7 joint: BA=0.6193 recall=0.3655 FPR=0.1269
+TEST SpoolSolder/19 balanced: BA=0.6074 recall=0.3212 FPR=0.1064
+TEST SpoolSolder/19 joint: BA=0.6074 recall=0.3212 FPR=0.1064

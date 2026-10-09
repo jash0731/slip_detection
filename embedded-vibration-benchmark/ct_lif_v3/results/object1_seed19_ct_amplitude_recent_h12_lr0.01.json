@@ -1,0 +1,172 @@
+{
+  "name": "object1_seed19_ct_amplitude_recent_h12_lr0.01",
+  "family": "ct_amplitude",
+  "kind": "lif",
+  "variant": "amplitude",
+  "pooling": "recent",
+  "hidden": 12,
+  "inputs": 9,
+  "residual": true,
+  "rate": 0.01,
+  "parameters": 142,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_weighted_loss": 0.6778869904740402
+    },
+    {
+      "epoch": 2,
+      "validation_weighted_loss": 0.6641259481483169
+    },
+    {
+      "epoch": 3,
+      "validation_weighted_loss": 0.634871378268199
+    },
+    {
+      "epoch": 4,
+      "validation_weighted_loss": 0.6121982907213358
+    },
+    {
+      "epoch": 5,
+      "validation_weighted_loss": 0.5940296134588733
+    },
+    {
+      "epoch": 6,
+      "validation_weighted_loss": 0.5866628309044067
+    },
+    {
+      "epoch": 7,
+      "validation_weighted_loss": 0.5703904436265095
+    },
+    {
+      "epoch": 8,
+      "validation_weighted_loss": 0.5578987127681275
+    },
+    {
+      "epoch": 9,
+      "validation_weighted_loss": 0.5398972244491493
+    },
+    {
+      "epoch": 10,
+      "validation_weighted_loss": 0.5341635360076107
+    },
+    {
+      "epoch": 11,
+      "validation_weighted_loss": 0.5388243800098335
+    },
+    {
+      "epoch": 12,
+      "validation_weighted_loss": 0.5147479620893811
+    },
+    {
+      "epoch": 13,
+      "validation_weighted_loss": 0.5258175679712855
+    },
+    {
+      "epoch": 14,
+      "validation_weighted_loss": 0.5497597949917451
+    },
+    {
+      "epoch": 15,
+      "validation_weighted_loss": 0.5383390141397825
+    },
+    {
+      "epoch": 16,
+      "validation_weighted_loss": 0.5237725714021669
+    },
+    {
+      "epoch": 17,
+      "validation_weighted_loss": 0.5223954221036531
+    },
+    {
+      "epoch": 18,
+      "validation_weighted_loss": 0.4949311044649198
+    },
+    {
+      "epoch": 19,
+      "validation_weighted_loss": 0.5117875718963928
+    },
+    {
+      "epoch": 20,
+      "validation_weighted_loss": 0.514666417838118
+    },
+    {
+      "epoch": 21,
+      "validation_weighted_loss": 0.5032220797869346
+    },
+    {
+      "epoch": 22,
+      "validation_weighted_loss": 0.515847438748326
+    },
+    {
+      "epoch": 23,
+      "validation_weighted_loss": 0.5016610873639152
+    },
+    {
+      "epoch": 24,
+      "validation_weighted_loss": 0.5144758071957719
+    }
+  ],
+  "operating_points": {
+    "balanced": {
+      "threshold": 0.5650000000000001,
+      "balanced_accuracy": 0.7928987240829346,
+      "slip_recall": 0.6827272727272726,
+      "false_alarm_rate": 0.0969298245614035,
+      "per_object": [
+        {
+          "object": 0,
+          "balanced_accuracy": 0.8683333333333333,
+          "slip_recall": 0.82,
+          "false_alarm_rate": 0.08333333333333333,
+          "tp": 41,
+          "fn": 9,
+          "fp": 1,
+          "tn": 11
+        },
+        {
+          "object": 2,
+          "balanced_accuracy": 0.7174641148325359,
+          "slip_recall": 0.5454545454545454,
+          "false_alarm_rate": 0.11052631578947368,
+          "tp": 60,
+          "fn": 50,
+          "fp": 42,
+          "tn": 338
+        }
+      ],
+      "objects_without_non_slip": [],
+      "validation_joint_improvement": true
+    },
+    "joint": {
+      "threshold": 0.5650000000000001,
+      "balanced_accuracy": 0.7928987240829346,
+      "slip_recall": 0.6827272727272726,
+      "false_alarm_rate": 0.0969298245614035,
+      "per_object": [
+        {
+          "object": 0,
+          "balanced_accuracy": 0.8683333333333333,
+          "slip_recall": 0.82,
+          "false_alarm_rate": 0.08333333333333333,
+          "tp": 41,
+          "fn": 9,
+          "fp": 1,
+          "tn": 11
+        },
+        {
+          "object": 2,
+          "balanced_accuracy": 0.7174641148325359,
+          "slip_recall": 0.5454545454545454,
+          "false_alarm_rate": 0.11052631578947368,
+          "tp": 60,
+          "fn": 50,
+          "fp": 42,
+          "tn": 338
+        }
+      ],
+      "objects_without_non_slip": [],
+      "validation_joint_improvement": true
+    }
+  }
+}

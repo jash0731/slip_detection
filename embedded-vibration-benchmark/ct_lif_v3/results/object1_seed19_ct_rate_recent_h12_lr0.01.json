@@ -1,0 +1,172 @@
+{
+  "name": "object1_seed19_ct_rate_recent_h12_lr0.01",
+  "family": "ct_rate",
+  "kind": "lif",
+  "variant": "amplitude",
+  "pooling": "recent",
+  "hidden": 12,
+  "inputs": 9,
+  "residual": false,
+  "rate": 0.01,
+  "parameters": 133,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_weighted_loss": 0.67967574280772
+    },
+    {
+      "epoch": 2,
+      "validation_weighted_loss": 0.6706576392074963
+    },
+    {
+      "epoch": 3,
+      "validation_weighted_loss": 0.6393896862500863
+    },
+    {
+      "epoch": 4,
+      "validation_weighted_loss": 0.6235617488488301
+    },
+    {
+      "epoch": 5,
+      "validation_weighted_loss": 0.6016785884342467
+    },
+    {
+      "epoch": 6,
+      "validation_weighted_loss": 0.5927545255262199
+    },
+    {
+      "epoch": 7,
+      "validation_weighted_loss": 0.5724657082668371
+    },
+    {
+      "epoch": 8,
+      "validation_weighted_loss": 0.5639306808957654
+    },
+    {
+      "epoch": 9,
+      "validation_weighted_loss": 0.5523051858040063
+    },
+    {
+      "epoch": 10,
+      "validation_weighted_loss": 0.5317999942992363
+    },
+    {
+      "epoch": 11,
+      "validation_weighted_loss": 0.5383640066906428
+    },
+    {
+      "epoch": 12,
+      "validation_weighted_loss": 0.512422613532952
+    },
+    {
+      "epoch": 13,
+      "validation_weighted_loss": 0.5244170199624903
+    },
+    {
+      "epoch": 14,
+      "validation_weighted_loss": 0.5536348253775719
+    },
+    {
+      "epoch": 15,
+      "validation_weighted_loss": 0.5484356945428546
+    },
+    {
+      "epoch": 16,
+      "validation_weighted_loss": 0.5189080621127673
+    },
+    {
+      "epoch": 17,
+      "validation_weighted_loss": 0.530137313924128
+    },
+    {
+      "epoch": 18,
+      "validation_weighted_loss": 0.4879523745989187
+    },
+    {
+      "epoch": 19,
+      "validation_weighted_loss": 0.5035440808092684
+    },
+    {
+      "epoch": 20,
+      "validation_weighted_loss": 0.5186795999967011
+    },
+    {
+      "epoch": 21,
+      "validation_weighted_loss": 0.52304725752175
+    },
+    {
+      "epoch": 22,
+      "validation_weighted_loss": 0.5038184297825392
+    },
+    {
+      "epoch": 23,
+      "validation_weighted_loss": 0.4917467305924214
+    },
+    {
+      "epoch": 24,
+      "validation_weighted_loss": 0.4948071988968959
+    }
+  ],
+  "operating_points": {
+    "balanced": {
+      "threshold": 0.585,
+      "balanced_accuracy": 0.7786642743221691,
+      "slip_recall": 0.6463636363636364,
+      "false_alarm_rate": 0.08903508771929824,
+      "per_object": [
+        {
+          "object": 0,
+          "balanced_accuracy": 0.8683333333333333,
+          "slip_recall": 0.82,
+          "false_alarm_rate": 0.08333333333333333,
+          "tp": 41,
+          "fn": 9,
+          "fp": 1,
+          "tn": 11
+        },
+        {
+          "object": 2,
+          "balanced_accuracy": 0.6889952153110047,
+          "slip_recall": 0.4727272727272727,
+          "false_alarm_rate": 0.09473684210526316,
+          "tp": 52,
+          "fn": 58,
+          "fp": 36,
+          "tn": 344
+        }
+      ],
+      "objects_without_non_slip": [],
+      "validation_joint_improvement": false
+    },
+    "joint": {
+      "threshold": 0.585,
+      "balanced_accuracy": 0.7786642743221691,
+      "slip_recall": 0.6463636363636364,
+      "false_alarm_rate": 0.08903508771929824,
+      "per_object": [
+        {
+          "object": 0,
+          "balanced_accuracy": 0.8683333333333333,
+          "slip_recall": 0.82,
+          "false_alarm_rate": 0.08333333333333333,
+          "tp": 41,
+          "fn": 9,
+          "fp": 1,
+          "tn": 11
+        },
+        {
+          "object": 2,
+          "balanced_accuracy": 0.6889952153110047,
+          "slip_recall": 0.4727272727272727,
+          "false_alarm_rate": 0.09473684210526316,
+          "tp": 52,
+          "fn": 58,
+          "fp": 36,
+          "tn": 344
+        }
+      ],
+      "objects_without_non_slip": [],
+      "validation_joint_improvement": false
+    }
+  }
+}

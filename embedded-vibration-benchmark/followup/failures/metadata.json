@@ -1,0 +1,27 @@
+{
+  "source": "public_recorded_host_error_audit",
+  "original_predictions_sha256": "bef418717696ff8a4fb6b6ef56816af510fd975f9f8eade2a789763768cddf2e",
+  "source_data_sha256": "bdc90f416e6a523e3af29816c9389b0a28ac0301aaf1e85d5c92e6bd3ec55fbd",
+  "prediction_rows": 60090,
+  "unique_windows": 6009,
+  "seeds": [
+    7,
+    19
+  ],
+  "models": [
+    "alif",
+    "ann",
+    "lif",
+    "lif_frozen",
+    "logistic"
+  ],
+  "limits": [
+    "Descriptive subgroups defined after first results, not hypothesis-confirming independent tests",
+    "Label-run age is annotation history, not physical slip onset or detector latency",
+    "Overlapping windows and repeated seeds are dependent; no subgroup significance test",
+    "Single-class subgroup balanced accuracy is undefined and stored blank",
+    "Error-run span measures scored endpoints and may be shorter than full error duration",
+    "Illustrative errors selected by largest wrong margin are not typical-case accuracy",
+    "Feature shift uses all original train/test rows including ignored context; not a causal explanation"
+  ]
+}

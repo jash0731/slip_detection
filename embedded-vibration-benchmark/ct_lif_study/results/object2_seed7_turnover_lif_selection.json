@@ -1,0 +1,203 @@
+{
+  "tag": "object2_seed7_turnover_lif",
+  "held_object": "SpoolSolder",
+  "held": 2,
+  "seed": 7,
+  "model": "turnover_lif",
+  "variant": "turnover",
+  "kind": "lif",
+  "hidden": 16,
+  "threshold": 0.4599999999999999,
+  "gate": 0.02,
+  "rate": 0.005,
+  "parameters": 225,
+  "scale": [
+    50.72222222222222,
+    38.77777777777778,
+    24.77777777777778
+  ],
+  "split_groups": {
+    "train": [
+      17,
+      3,
+      27,
+      19,
+      18,
+      13,
+      0,
+      25,
+      23,
+      10,
+      8,
+      7,
+      1,
+      15,
+      6,
+      16,
+      20,
+      5,
+      29,
+      26,
+      2,
+      21,
+      9,
+      11,
+      31,
+      42,
+      30,
+      32,
+      36,
+      34,
+      37,
+      51,
+      33,
+      52,
+      49,
+      54,
+      44,
+      38,
+      47,
+      39,
+      56,
+      50,
+      59,
+      41,
+      45,
+      57,
+      43,
+      35
+    ],
+    "validation": [
+      12,
+      14,
+      4,
+      28,
+      22,
+      24,
+      46,
+      58,
+      55,
+      40,
+      48,
+      53
+    ],
+    "test": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89
+    ]
+  },
+  "train_windows": 2940,
+  "validation_windows": 530,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_loss": 0.7439020249493629
+    },
+    {
+      "epoch": 2,
+      "validation_loss": 0.7167461191223617
+    },
+    {
+      "epoch": 3,
+      "validation_loss": 0.6771967270862875
+    },
+    {
+      "epoch": 4,
+      "validation_loss": 0.6475671360972677
+    },
+    {
+      "epoch": 5,
+      "validation_loss": 0.6131543985665883
+    },
+    {
+      "epoch": 6,
+      "validation_loss": 0.5899297988486927
+    },
+    {
+      "epoch": 7,
+      "validation_loss": 0.5748601017829733
+    },
+    {
+      "epoch": 8,
+      "validation_loss": 0.5683929590396654
+    },
+    {
+      "epoch": 9,
+      "validation_loss": 0.5536798893105963
+    },
+    {
+      "epoch": 10,
+      "validation_loss": 0.5405610863812127
+    },
+    {
+      "epoch": 11,
+      "validation_loss": 0.5330440157852288
+    },
+    {
+      "epoch": 12,
+      "validation_loss": 0.5514979143231148
+    },
+    {
+      "epoch": 13,
+      "validation_loss": 0.5262162755557817
+    },
+    {
+      "epoch": 14,
+      "validation_loss": 0.5248824462528372
+    },
+    {
+      "epoch": 15,
+      "validation_loss": 0.5188678547923475
+    },
+    {
+      "epoch": 16,
+      "validation_loss": 0.5168931435443024
+    },
+    {
+      "epoch": 17,
+      "validation_loss": 0.5144447242538069
+    },
+    {
+      "epoch": 18,
+      "validation_loss": 0.515859305432288
+    }
+  ],
+  "validation": {
+    "balanced_accuracy": 0.795094880057286,
+    "slip_recall": 0.7551020408163265,
+    "false_alarm_rate": 0.1649122807017544,
+    "tp": 185,
+    "fn": 60,
+    "fp": 47,
+    "tn": 238
+  },
+  "training_seconds": 0.8257863970000017
+}

@@ -1,0 +1,3 @@
+# Optional computer-side training; Arduino needs none of these Python packages.
+-r requirements.txt
+torch>=2.2,<3

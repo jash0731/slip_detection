@@ -1,0 +1,1231 @@
+{
+  "dataset": "ARQ-CRISP slip_detection_dataset_2021",
+  "source_commit": "a536ee3301af0566218782b00de334b6a6630979",
+  "license": "BSD-3-Clause repository license; retained data/public/ARQ_CRISP_2021/LICENSE",
+  "evidence_type": "public_hardware_recording_not_our_hardware",
+  "files": [
+    {
+      "object": "brush",
+      "filename": "slipDataset_brush_tactile.h5",
+      "bytes": 41105856,
+      "sha256": "a2aef56bf4cfc5e2d17ae09772295cb207c733e3a73059913939ba5a7a1e2139",
+      "source_url": "https://media.githubusercontent.com/media/ARQ-CRISP/slip_detection_dataset_2021/a536ee3301af0566218782b00de334b6a6630979/data/slipDataset_brush_tactile.h5",
+      "verified": true,
+      "trials": [
+        {
+          "trial_id": "GGCNN2/brush/Pose1/Exp1",
+          "group": 0,
+          "samples": 635,
+          "label_counts": {
+            "0": 484,
+            "3": 95,
+            "5": 56
+          },
+          "duration_ms": 3522.143602371216
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose1/Exp10",
+          "group": 1,
+          "samples": 606,
+          "label_counts": {
+            "0": 435,
+            "3": 91,
+            "5": 80
+          },
+          "duration_ms": 3361.1581325531006
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose1/Exp2",
+          "group": 2,
+          "samples": 4071,
+          "label_counts": {
+            "0": 1326,
+            "1": 428,
+            "3": 151,
+            "4": 1277,
+            "5": 889
+          },
+          "duration_ms": 22611.265420913696
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose1/Exp3",
+          "group": 3,
+          "samples": 3543,
+          "label_counts": {
+            "0": 1261,
+            "1": 410,
+            "3": 131,
+            "4": 970,
+            "5": 771
+          },
+          "duration_ms": 19677.525997161865
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose1/Exp4",
+          "group": 4,
+          "samples": 651,
+          "label_counts": {
+            "0": 389,
+            "3": 144,
+            "5": 118
+          },
+          "duration_ms": 3611.417770385742
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose1/Exp5",
+          "group": 5,
+          "samples": 599,
+          "label_counts": {
+            "0": 436,
+            "3": 109,
+            "5": 54
+          },
+          "duration_ms": 3322.1559524536133
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose1/Exp6",
+          "group": 6,
+          "samples": 696,
+          "label_counts": {
+            "0": 446,
+            "3": 116,
+            "5": 134
+          },
+          "duration_ms": 3860.9840869903564
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose1/Exp7",
+          "group": 7,
+          "samples": 916,
+          "label_counts": {
+            "0": 410,
+            "1": 101,
+            "3": 92,
+            "5": 313
+          },
+          "duration_ms": 5083.352088928223
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose1/Exp8",
+          "group": 8,
+          "samples": 538,
+          "label_counts": {
+            "0": 395,
+            "3": 101,
+            "5": 42
+          },
+          "duration_ms": 2983.8218688964844
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose1/Exp9",
+          "group": 9,
+          "samples": 541,
+          "label_counts": {
+            "0": 351,
+            "3": 152,
+            "5": 38
+          },
+          "duration_ms": 3000.0181198120117
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose2/Exp1",
+          "group": 10,
+          "samples": 681,
+          "label_counts": {
+            "0": 477,
+            "3": 91,
+            "5": 113
+          },
+          "duration_ms": 3778.012752532959
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose2/Exp10",
+          "group": 11,
+          "samples": 773,
+          "label_counts": {
+            "0": 491,
+            "3": 82,
+            "5": 200
+          },
+          "duration_ms": 4288.898944854736
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose2/Exp2",
+          "group": 12,
+          "samples": 646,
+          "label_counts": {
+            "0": 425,
+            "1": 48,
+            "3": 88,
+            "5": 85
+          },
+          "duration_ms": 3583.303451538086
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose2/Exp3",
+          "group": 13,
+          "samples": 4054,
+          "label_counts": {
+            "0": 1820,
+            "2": 212,
+            "3": 91,
+            "4": 1860,
+            "5": 71
+          },
+          "duration_ms": 22516.759395599365
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose2/Exp4",
+          "group": 14,
+          "samples": 661,
+          "label_counts": {
+            "0": 355,
+            "3": 251,
+            "5": 55
+          },
+          "duration_ms": 3666.806936264038
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose2/Exp5",
+          "group": 15,
+          "samples": 234,
+          "label_counts": {
+            "0": 176,
+            "3": 58
+          },
+          "duration_ms": 1294.2123413085938
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose2/Exp6",
+          "group": 16,
+          "samples": 1697,
+          "label_counts": {
+            "0": 835,
+            "1": 267,
+            "3": 193,
+            "4": 364,
+            "5": 38
+          },
+          "duration_ms": 9422.335624694824
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose2/Exp7",
+          "group": 17,
+          "samples": 4039,
+          "label_counts": {
+            "0": 1827,
+            "2": 45,
+            "3": 187,
+            "4": 1980
+          },
+          "duration_ms": 22433.3016872406
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose2/Exp8",
+          "group": 18,
+          "samples": 3974,
+          "label_counts": {
+            "0": 1388,
+            "1": 315,
+            "2": 13,
+            "3": 213,
+            "4": 1462,
+            "5": 583
+          },
+          "duration_ms": 22072.01337814331
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose2/Exp9",
+          "group": 19,
+          "samples": 642,
+          "label_counts": {
+            "0": 526,
+            "3": 66,
+            "5": 50
+          },
+          "duration_ms": 3561.3017082214355
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose3/Exp1",
+          "group": 20,
+          "samples": 652,
+          "label_counts": {
+            "0": 386,
+            "3": 153,
+            "5": 113
+          },
+          "duration_ms": 3616.49489402771
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose3/Exp10",
+          "group": 21,
+          "samples": 620,
+          "label_counts": {
+            "0": 450,
+            "3": 101,
+            "5": 50,
+            "6": 19
+          },
+          "duration_ms": 3438.910961151123
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose3/Exp2",
+          "group": 22,
+          "samples": 650,
+          "label_counts": {
+            "0": 435,
+            "3": 110,
+            "5": 105
+          },
+          "duration_ms": 3605.417251586914
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose3/Exp3",
+          "group": 23,
+          "samples": 643,
+          "label_counts": {
+            "0": 452,
+            "3": 109,
+            "5": 82
+          },
+          "duration_ms": 3566.354751586914
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose3/Exp4",
+          "group": 24,
+          "samples": 640,
+          "label_counts": {
+            "0": 508,
+            "3": 64,
+            "5": 68
+          },
+          "duration_ms": 3550.1484870910645
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose3/Exp5",
+          "group": 25,
+          "samples": 1980,
+          "label_counts": {
+            "0": 814,
+            "1": 545,
+            "3": 92,
+            "4": 376,
+            "5": 141,
+            "6": 12
+          },
+          "duration_ms": 10994.544744491577
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose3/Exp6",
+          "group": 26,
+          "samples": 1928,
+          "label_counts": {
+            "0": 983,
+            "1": 285,
+            "3": 76,
+            "4": 187,
+            "5": 384,
+            "6": 13
+          },
+          "duration_ms": 10705.618619918823
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose3/Exp7",
+          "group": 27,
+          "samples": 1772,
+          "label_counts": {
+            "0": 787,
+            "1": 451,
+            "3": 108,
+            "4": 84,
+            "5": 330,
+            "6": 12
+          },
+          "duration_ms": 9838.68670463562
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose3/Exp8",
+          "group": 28,
+          "samples": 645,
+          "label_counts": {
+            "0": 474,
+            "3": 79,
+            "5": 92
+          },
+          "duration_ms": 3577.643632888794
+        },
+        {
+          "trial_id": "GGCNN2/brush/Pose3/Exp9",
+          "group": 29,
+          "samples": 1980,
+          "label_counts": {
+            "0": 927,
+            "1": 380,
+            "3": 82,
+            "4": 58,
+            "5": 533
+          },
+          "duration_ms": 10994.42172050476
+        }
+      ],
+      "samples": 41707,
+      "label_counts": {
+        "0": 20469,
+        "3": 3476,
+        "5": 5588,
+        "1": 3230,
+        "4": 8618,
+        "2": 270,
+        "6": 56
+      },
+      "min_dt_ms": 0.4622936248779297,
+      "max_dt_ms": 15.334844589233398
+    },
+    {
+      "object": "screwDriver",
+      "filename": "slipDataset_screwDriver_tactile.h5",
+      "bytes": 82416420,
+      "sha256": "c8124b295a6faf42c750c75e8dcd49dcc45289e06fa7cb4047476af2f570309a",
+      "source_url": "https://media.githubusercontent.com/media/ARQ-CRISP/slip_detection_dataset_2021/a536ee3301af0566218782b00de334b6a6630979/data/slipDataset_screwDriver_tactile.h5",
+      "verified": true,
+      "trials": [
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose1/Exp1",
+          "group": 30,
+          "samples": 4134,
+          "label_counts": {
+            "0": 1925,
+            "2": 20,
+            "3": 72,
+            "4": 2117
+          },
+          "duration_ms": 22960.466384887695
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose1/Exp10",
+          "group": 31,
+          "samples": 4031,
+          "label_counts": {
+            "0": 1037,
+            "1": 808,
+            "2": 14,
+            "3": 94,
+            "4": 1371,
+            "5": 707
+          },
+          "duration_ms": 22395.00641822815
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose1/Exp2",
+          "group": 32,
+          "samples": 4002,
+          "label_counts": {
+            "0": 1318,
+            "1": 437,
+            "2": 18,
+            "3": 113,
+            "4": 950,
+            "5": 1166
+          },
+          "duration_ms": 22228.798627853394
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose1/Exp3",
+          "group": 33,
+          "samples": 3768,
+          "label_counts": {
+            "0": 1004,
+            "1": 764,
+            "3": 116,
+            "4": 840,
+            "5": 1044
+          },
+          "duration_ms": 20927.590131759644
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose1/Exp4",
+          "group": 34,
+          "samples": 2561,
+          "label_counts": {
+            "0": 1243,
+            "1": 519,
+            "3": 78,
+            "4": 93,
+            "5": 628
+          },
+          "duration_ms": 14221.599340438843
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose1/Exp5",
+          "group": 35,
+          "samples": 2539,
+          "label_counts": {
+            "0": 1237,
+            "1": 460,
+            "3": 65,
+            "4": 42,
+            "5": 735
+          },
+          "duration_ms": 14100.615978240967
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose1/Exp6",
+          "group": 36,
+          "samples": 3678,
+          "label_counts": {
+            "0": 920,
+            "1": 759,
+            "3": 159,
+            "4": 1301,
+            "5": 539
+          },
+          "duration_ms": 20428.168296813965
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose1/Exp7",
+          "group": 37,
+          "samples": 2158,
+          "label_counts": {
+            "0": 921,
+            "1": 367,
+            "3": 104,
+            "5": 766
+          },
+          "duration_ms": 11982.020378112793
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose1/Exp8",
+          "group": 38,
+          "samples": 4104,
+          "label_counts": {
+            "0": 1445,
+            "1": 352,
+            "2": 64,
+            "3": 87,
+            "4": 1113,
+            "5": 1043
+          },
+          "duration_ms": 22793.704748153687
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose1/Exp9",
+          "group": 39,
+          "samples": 4130,
+          "label_counts": {
+            "0": 1088,
+            "1": 778,
+            "2": 19,
+            "3": 82,
+            "4": 1094,
+            "5": 1069
+          },
+          "duration_ms": 22938.997268676758
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose2/Exp1",
+          "group": 40,
+          "samples": 3829,
+          "label_counts": {
+            "0": 1818,
+            "2": 23,
+            "3": 123,
+            "4": 1865
+          },
+          "duration_ms": 21266.953945159912
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose2/Exp10",
+          "group": 41,
+          "samples": 665,
+          "label_counts": {
+            "0": 412,
+            "3": 115,
+            "5": 138
+          },
+          "duration_ms": 3685.120105743408
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose2/Exp2",
+          "group": 42,
+          "samples": 2018,
+          "label_counts": {
+            "0": 1251,
+            "1": 77,
+            "3": 174,
+            "4": 217,
+            "5": 299
+          },
+          "duration_ms": 11210.451126098633
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose2/Exp3",
+          "group": 43,
+          "samples": 2437,
+          "label_counts": {
+            "0": 1506,
+            "1": 129,
+            "3": 145,
+            "4": 138,
+            "5": 519
+          },
+          "duration_ms": 13539.695739746094
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose2/Exp4",
+          "group": 44,
+          "samples": 2315,
+          "label_counts": {
+            "0": 1547,
+            "3": 121,
+            "4": 86,
+            "5": 561
+          },
+          "duration_ms": 12857.120275497437
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose2/Exp5",
+          "group": 45,
+          "samples": 658,
+          "label_counts": {
+            "0": 445,
+            "3": 101,
+            "5": 112
+          },
+          "duration_ms": 3650.753974914551
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose2/Exp6",
+          "group": 46,
+          "samples": 1820,
+          "label_counts": {
+            "0": 917,
+            "1": 356,
+            "3": 144,
+            "4": 97,
+            "5": 306
+          },
+          "duration_ms": 10104.549169540405
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose2/Exp7",
+          "group": 47,
+          "samples": 2131,
+          "label_counts": {
+            "0": 1037,
+            "1": 504,
+            "3": 100,
+            "4": 76,
+            "5": 414
+          },
+          "duration_ms": 11833.505392074585
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose2/Exp8",
+          "group": 48,
+          "samples": 1795,
+          "label_counts": {
+            "0": 836,
+            "1": 342,
+            "3": 155,
+            "4": 144,
+            "5": 318
+          },
+          "duration_ms": 9964.511632919312
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose2/Exp9",
+          "group": 49,
+          "samples": 3764,
+          "label_counts": {
+            "0": 1733,
+            "2": 26,
+            "3": 109,
+            "4": 1896
+          },
+          "duration_ms": 20931.254863739014
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose3/Exp1",
+          "group": 50,
+          "samples": 755,
+          "label_counts": {
+            "0": 434,
+            "3": 105,
+            "5": 216
+          },
+          "duration_ms": 4183.924436569214
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose3/Exp10",
+          "group": 51,
+          "samples": 4010,
+          "label_counts": {
+            "0": 944,
+            "1": 763,
+            "2": 30,
+            "3": 101,
+            "4": 1320,
+            "5": 852
+          },
+          "duration_ms": 22272.374391555786
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose3/Exp2",
+          "group": 52,
+          "samples": 4030,
+          "label_counts": {
+            "0": 1171,
+            "1": 646,
+            "2": 100,
+            "3": 95,
+            "4": 935,
+            "5": 1083
+          },
+          "duration_ms": 22383.363485336304
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose3/Exp3",
+          "group": 53,
+          "samples": 4213,
+          "label_counts": {
+            "0": 1466,
+            "1": 368,
+            "2": 226,
+            "3": 101,
+            "4": 789,
+            "5": 1263
+          },
+          "duration_ms": 23400.025606155396
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose3/Exp4",
+          "group": 54,
+          "samples": 4170,
+          "label_counts": {
+            "0": 1480,
+            "1": 410,
+            "2": 218,
+            "3": 105,
+            "4": 805,
+            "5": 1152
+          },
+          "duration_ms": 23160.88080406189
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose3/Exp5",
+          "group": 55,
+          "samples": 3961,
+          "label_counts": {
+            "0": 1356,
+            "1": 455,
+            "2": 47,
+            "3": 99,
+            "4": 1360,
+            "5": 644
+          },
+          "duration_ms": 21999.809741973877
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose3/Exp6",
+          "group": 56,
+          "samples": 4213,
+          "label_counts": {
+            "0": 1307,
+            "1": 493,
+            "2": 258,
+            "3": 100,
+            "4": 690,
+            "5": 1365
+          },
+          "duration_ms": 23400.196075439453
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose3/Exp7",
+          "group": 57,
+          "samples": 3759,
+          "label_counts": {
+            "0": 1337,
+            "1": 464,
+            "3": 99,
+            "4": 1142,
+            "5": 717
+          },
+          "duration_ms": 20878.222942352295
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose3/Exp8",
+          "group": 58,
+          "samples": 2935,
+          "label_counts": {
+            "0": 1294,
+            "1": 353,
+            "3": 90,
+            "4": 320,
+            "5": 878
+          },
+          "duration_ms": 16300.4469871521
+        },
+        {
+          "trial_id": "GGCNN2/screwDriver/Pose3/Exp9",
+          "group": 59,
+          "samples": 4077,
+          "label_counts": {
+            "0": 1010,
+            "1": 829,
+            "2": 33,
+            "3": 111,
+            "4": 1503,
+            "5": 591
+          },
+          "duration_ms": 22644.386768341064
+        }
+      ],
+      "samples": 92660,
+      "label_counts": {
+        "0": 35439,
+        "2": 1096,
+        "3": 3263,
+        "4": 22304,
+        "1": 11433,
+        "5": 19125
+      },
+      "min_dt_ms": 0.6577968597412109,
+      "max_dt_ms": 19.803524017333984
+    },
+    {
+      "object": "SpoolSolder",
+      "filename": "slipDataset_SpoolSolder_tactile.h5",
+      "bytes": 142749496,
+      "sha256": "a8c4f14e71c0b4d7da738997c965e745f75123fea7f5c6d338810ba4adfdeeff",
+      "source_url": "https://media.githubusercontent.com/media/ARQ-CRISP/slip_detection_dataset_2021/a536ee3301af0566218782b00de334b6a6630979/data/slipDataset_SpoolSolder_tactile.h5",
+      "verified": true,
+      "trials": [
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose1/Exp1",
+          "group": 60,
+          "samples": 4138,
+          "label_counts": {
+            "0": 1818,
+            "1": 475,
+            "2": 16,
+            "3": 42,
+            "4": 1626,
+            "5": 34,
+            "6": 127
+          },
+          "duration_ms": 22983.09087753296
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose1/Exp10",
+          "group": 61,
+          "samples": 4129,
+          "label_counts": {
+            "0": 1482,
+            "1": 494,
+            "2": 18,
+            "3": 85,
+            "4": 1843,
+            "5": 207
+          },
+          "duration_ms": 22943.794012069702
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose1/Exp2",
+          "group": 62,
+          "samples": 4124,
+          "label_counts": {
+            "0": 1636,
+            "1": 480,
+            "2": 68,
+            "3": 71,
+            "4": 1451,
+            "5": 169,
+            "6": 249
+          },
+          "duration_ms": 22905.587911605835
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose1/Exp3",
+          "group": 63,
+          "samples": 4192,
+          "label_counts": {
+            "0": 1813,
+            "1": 468,
+            "2": 14,
+            "3": 55,
+            "4": 1461,
+            "5": 302,
+            "6": 79
+          },
+          "duration_ms": 23283.356428146362
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose1/Exp4",
+          "group": 64,
+          "samples": 4069,
+          "label_counts": {
+            "0": 1781,
+            "1": 480,
+            "2": 20,
+            "3": 57,
+            "4": 869,
+            "5": 862
+          },
+          "duration_ms": 22600.01492500305
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose1/Exp5",
+          "group": 65,
+          "samples": 4210,
+          "label_counts": {
+            "0": 2332,
+            "1": 69,
+            "2": 30,
+            "3": 42,
+            "4": 1737
+          },
+          "duration_ms": 23383.27145576477
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose1/Exp6",
+          "group": 66,
+          "samples": 2082,
+          "label_counts": {
+            "0": 1260,
+            "1": 75,
+            "3": 87,
+            "4": 196,
+            "5": 245,
+            "6": 219
+          },
+          "duration_ms": 11561.356782913208
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose1/Exp7",
+          "group": 67,
+          "samples": 4253,
+          "label_counts": {
+            "0": 1938,
+            "1": 155,
+            "2": 46,
+            "3": 54,
+            "4": 2060
+          },
+          "duration_ms": 23622.303247451782
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose1/Exp8",
+          "group": 68,
+          "samples": 4142,
+          "label_counts": {
+            "0": 1602,
+            "1": 474,
+            "2": 13,
+            "3": 102,
+            "4": 1099,
+            "5": 833,
+            "6": 19
+          },
+          "duration_ms": 23005.494594573975
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose1/Exp9",
+          "group": 69,
+          "samples": 1668,
+          "label_counts": {
+            "0": 500,
+            "1": 616,
+            "3": 97,
+            "5": 455
+          },
+          "duration_ms": 9260.969877243042
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose2/Exp1",
+          "group": 70,
+          "samples": 666,
+          "label_counts": {
+            "0": 537,
+            "1": 56,
+            "3": 73
+          },
+          "duration_ms": 3694.748878479004
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose2/Exp10",
+          "group": 71,
+          "samples": 2241,
+          "label_counts": {
+            "0": 506,
+            "1": 1073,
+            "3": 104,
+            "4": 206,
+            "5": 321,
+            "6": 31
+          },
+          "duration_ms": 12444.407224655151
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose2/Exp2",
+          "group": 72,
+          "samples": 2234,
+          "label_counts": {
+            "0": 487,
+            "1": 1068,
+            "3": 98,
+            "4": 138,
+            "5": 443
+          },
+          "duration_ms": 12405.505657196045
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose2/Exp3",
+          "group": 73,
+          "samples": 4114,
+          "label_counts": {
+            "0": 1997,
+            "1": 49,
+            "2": 37,
+            "3": 143,
+            "4": 1873,
+            "6": 15
+          },
+          "duration_ms": 22849.8113155365
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose2/Exp4",
+          "group": 74,
+          "samples": 830,
+          "label_counts": {
+            "0": 434,
+            "3": 134,
+            "5": 262
+          },
+          "duration_ms": 4605.611324310303
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose2/Exp5",
+          "group": 75,
+          "samples": 635,
+          "label_counts": {
+            "0": 482,
+            "3": 105,
+            "5": 48
+          },
+          "duration_ms": 3522.19820022583
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose2/Exp6",
+          "group": 76,
+          "samples": 4073,
+          "label_counts": {
+            "0": 1882,
+            "1": 72,
+            "2": 46,
+            "3": 109,
+            "4": 1704,
+            "5": 260
+          },
+          "duration_ms": 22622.328758239746
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose2/Exp7",
+          "group": 77,
+          "samples": 4095,
+          "label_counts": {
+            "0": 1869,
+            "1": 57,
+            "2": 34,
+            "3": 102,
+            "4": 1832,
+            "5": 201
+          },
+          "duration_ms": 22744.21977996826
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose2/Exp8",
+          "group": 78,
+          "samples": 1427,
+          "label_counts": {
+            "0": 796,
+            "3": 124,
+            "4": 268,
+            "5": 239
+          },
+          "duration_ms": 7922.46675491333
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose2/Exp9",
+          "group": 79,
+          "samples": 643,
+          "label_counts": {
+            "0": 477,
+            "1": 60,
+            "3": 106
+          },
+          "duration_ms": 3566.547155380249
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose3/Exp1",
+          "group": 80,
+          "samples": 4145,
+          "label_counts": {
+            "0": 1513,
+            "1": 424,
+            "2": 27,
+            "3": 47,
+            "4": 1265,
+            "5": 792,
+            "6": 77
+          },
+          "duration_ms": 23022.2749710083
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose3/Exp10",
+          "group": 81,
+          "samples": 4127,
+          "label_counts": {
+            "0": 1495,
+            "1": 406,
+            "2": 15,
+            "3": 91,
+            "4": 1815,
+            "5": 305
+          },
+          "duration_ms": 22922.123908996582
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose3/Exp2",
+          "group": 82,
+          "samples": 2144,
+          "label_counts": {
+            "0": 1410,
+            "1": 127,
+            "3": 50,
+            "4": 382,
+            "5": 175
+          },
+          "duration_ms": 11922.151327133179
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose3/Exp3",
+          "group": 83,
+          "samples": 970,
+          "label_counts": {
+            "0": 523,
+            "1": 120,
+            "3": 60,
+            "5": 267
+          },
+          "duration_ms": 5383.200883865356
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose3/Exp4",
+          "group": 84,
+          "samples": 4163,
+          "label_counts": {
+            "0": 1508,
+            "1": 407,
+            "2": 23,
+            "3": 118,
+            "4": 1559,
+            "5": 548
+          },
+          "duration_ms": 23122.291326522827
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose3/Exp5",
+          "group": 85,
+          "samples": 3972,
+          "label_counts": {
+            "0": 1482,
+            "1": 412,
+            "2": 39,
+            "3": 109,
+            "4": 1708,
+            "5": 175,
+            "6": 47
+          },
+          "duration_ms": 22061.26832962036
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose3/Exp6",
+          "group": 86,
+          "samples": 4149,
+          "label_counts": {
+            "0": 1513,
+            "1": 431,
+            "2": 23,
+            "3": 139,
+            "4": 1408,
+            "5": 635
+          },
+          "duration_ms": 23044.199228286743
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose3/Exp7",
+          "group": 87,
+          "samples": 4077,
+          "label_counts": {
+            "0": 1511,
+            "1": 423,
+            "2": 13,
+            "3": 100,
+            "4": 1028,
+            "5": 1002
+          },
+          "duration_ms": 22644.373893737793
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose3/Exp8",
+          "group": 88,
+          "samples": 4221,
+          "label_counts": {
+            "0": 1629,
+            "1": 405,
+            "2": 42,
+            "3": 65,
+            "4": 1151,
+            "5": 929
+          },
+          "duration_ms": 23444.315671920776
+        },
+        {
+          "trial_id": "GGCNN2/SpoolSolder/Pose3/Exp9",
+          "group": 89,
+          "samples": 4221,
+          "label_counts": {
+            "0": 1502,
+            "1": 397,
+            "2": 48,
+            "3": 73,
+            "4": 1764,
+            "5": 413,
+            "6": 24
+          },
+          "duration_ms": 23444.45514678955
+        }
+      ],
+      "samples": 94154,
+      "label_counts": {
+        "0": 39715,
+        "1": 9773,
+        "2": 572,
+        "3": 2642,
+        "4": 30443,
+        "5": 10122,
+        "6": 887
+      },
+      "min_dt_ms": 0.4570484161376953,
+      "max_dt_ms": 20.627737045288086
+    }
+  ],
+  "prepared": {
+    "filename": "arq_all_trials.npz",
+    "sha256": "bdc90f416e6a523e3af29816c9389b0a28ac0301aaf1e85d5c92e6bd3ec55fbd",
+    "samples": 228521,
+    "trials": 90,
+    "features": 54,
+    "label_mapping": "y_held:4=>0,5=>1,all other labels=>-1; all samples retained"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source": "host_reference",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin",
+  "flags": "-std=c++11 -O2 -Wall -Wextra -pedantic",
+  "repetitions": 10,
+  "ticks_per_condition": 200000,
+  "model_id": "arq_brush_fixed_lif_trained_readout_v1",
+  "raw_sha256": "f6406e48f9a682189653bf550663f0a115e38fc916a710e6b27ad333f794fc43",
+  "benchmark_source_sha256": "60107ebe1c929d2eb438c7bc80f46586767bf9a338942809c660cef373c982e9",
+  "model_header_sha256": "68fe9076eeb86ae043e64b17948c5e02564fc6859d03fe9a1583e45cb5454f1d",
+  "median_ns_per_tick": {
+    "dense": [
+      22.038335,
+      25.460522500000003,
+      30.1963525,
+      29.77198,
+      30.403647499999998
+    ],
+    "sparse": [
+      6.226875,
+      14.1460425,
+      21.64698,
+      26.002812499999997,
+      30.3627075
+    ]
+  },
+  "timing_scope": "hidden updates only; excludes input encoding and readout",
+  "evidence_limit": "Host/compiler-specific controlled synthetic workload; no ESP32 or slip-onset measurement"
+}

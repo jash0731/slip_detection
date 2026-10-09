@@ -1,0 +1,74 @@
+{
+  "name": "object0_seed19_linear_amplitude_recent_ridge0.1",
+  "family": "linear_control",
+  "kind": "linear",
+  "variant": "amplitude",
+  "pooling": "recent",
+  "hidden": 0,
+  "inputs": 9,
+  "residual": false,
+  "ridge": 0.1,
+  "parameters": 10,
+  "operating_points": {
+    "balanced": {
+      "threshold": 0.5,
+      "balanced_accuracy": 0.5389003653843537,
+      "slip_recall": 0.37973197015750204,
+      "false_alarm_rate": 0.30193123938879457,
+      "per_object": [
+        {
+          "object": 1,
+          "balanced_accuracy": 0.5635662810079418,
+          "slip_recall": 0.6231003039513677,
+          "false_alarm_rate": 0.4959677419354839,
+          "tp": 205,
+          "fn": 124,
+          "fp": 123,
+          "tn": 125
+        },
+        {
+          "object": 2,
+          "balanced_accuracy": 0.5142344497607655,
+          "slip_recall": 0.13636363636363635,
+          "false_alarm_rate": 0.10789473684210527,
+          "tp": 15,
+          "fn": 95,
+          "fp": 41,
+          "tn": 339
+        }
+      ],
+      "objects_without_non_slip": [],
+      "validation_joint_improvement": false
+    },
+    "joint": {
+      "threshold": 0.5,
+      "balanced_accuracy": 0.5389003653843537,
+      "slip_recall": 0.37973197015750204,
+      "false_alarm_rate": 0.30193123938879457,
+      "per_object": [
+        {
+          "object": 1,
+          "balanced_accuracy": 0.5635662810079418,
+          "slip_recall": 0.6231003039513677,
+          "false_alarm_rate": 0.4959677419354839,
+          "tp": 205,
+          "fn": 124,
+          "fp": 123,
+          "tn": 125
+        },
+        {
+          "object": 2,
+          "balanced_accuracy": 0.5142344497607655,
+          "slip_recall": 0.13636363636363635,
+          "false_alarm_rate": 0.10789473684210527,
+          "tp": 15,
+          "fn": 95,
+          "fp": 41,
+          "tn": 339
+        }
+      ],
+      "objects_without_non_slip": [],
+      "validation_joint_improvement": false
+    }
+  }
+}

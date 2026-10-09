@@ -1,0 +1,331 @@
+{
+  "source": "public_recorded_host_followup",
+  "selected_models": {
+    "means": {
+      "ann": 0.5722455726364862,
+      "leaky_relu": 0.599427987811611,
+      "lif": 0.6285867106749311
+    },
+    "comparisons": [
+      {
+        "first": "lif",
+        "second": "ann",
+        "difference_percentage_points": 5.634113803844487,
+        "conditional_95_percentage_points": [
+          3.4376767501906325,
+          7.664378202103316
+        ]
+      },
+      {
+        "first": "lif",
+        "second": "leaky_relu",
+        "difference_percentage_points": 2.915872286332011,
+        "conditional_95_percentage_points": [
+          1.333979899589769,
+          4.573334830409573
+        ]
+      }
+    ],
+    "replicates_requested": 2000,
+    "replicates_retained": 2000,
+    "excluded_single_class": 0,
+    "unit": "whole grasp trial within object, paired across methods and the two fixed seeds",
+    "limits": "Conditional on observed objects/fitted models; excludes training/model-selection uncertainty; exploratory comparisons",
+    "unique_windows": 6009,
+    "seeds": [
+      7,
+      19
+    ],
+    "per_object": {
+      "SpoolSolder": {
+        "ann": 0.5370331573217925,
+        "leaky_relu": 0.5558495765102587,
+        "lif": 0.5696078073453565
+      },
+      "brush": {
+        "ann": 0.6365463406796454,
+        "leaky_relu": 0.7015263904881772,
+        "lif": 0.7566612216479662
+      },
+      "screwDriver": {
+        "ann": 0.5431572199080205,
+        "leaky_relu": 0.540907996436397,
+        "lif": 0.5594911030314704
+      }
+    }
+  },
+  "frozen_order_diagnostics": {
+    "means": {
+      "alif:ordered": 0.5750577907607078,
+      "alif:reversed_history": 0.5739126773370576,
+      "alif:shuffled_history": 0.5724653842859863,
+      "ann:ordered": 0.5720898615496348,
+      "ann:reversed_history": 0.5720898615496348,
+      "ann:shuffled_history": 0.5720898615496347,
+      "lif:ordered": 0.6078428086056881,
+      "lif:reversed_history": 0.6040595536408736,
+      "lif:shuffled_history": 0.5886997047999346
+    },
+    "comparisons": [
+      {
+        "first": "lif:ordered",
+        "second": "lif:shuffled_history",
+        "difference_percentage_points": 1.9143103805753459,
+        "conditional_95_percentage_points": [
+          0.8678903132802979,
+          3.135918932149847
+        ]
+      },
+      {
+        "first": "lif:ordered",
+        "second": "lif:reversed_history",
+        "difference_percentage_points": 0.3783254964814464,
+        "conditional_95_percentage_points": [
+          0.057260211591809995,
+          0.7641491522159193
+        ]
+      },
+      {
+        "first": "alif:ordered",
+        "second": "alif:shuffled_history",
+        "difference_percentage_points": 0.2592406474721587,
+        "conditional_95_percentage_points": [
+          -0.0016212476813409753,
+          0.5083811338673822
+        ]
+      }
+    ],
+    "replicates_requested": 2000,
+    "replicates_retained": 2000,
+    "excluded_single_class": 0,
+    "unit": "whole grasp trial within object, paired across methods and the two fixed seeds",
+    "limits": "Conditional on observed objects/fitted models; excludes training/model-selection uncertainty; exploratory comparisons"
+  },
+  "matched_shuffled_retraining": {
+    "means": {
+      "leaky_relu:ordered": 0.590350432572563,
+      "leaky_relu:shuffled_history": 0.5763987691806007,
+      "lif:ordered": 0.6078428086056881,
+      "lif:shuffled_history": 0.5724888866649225
+    },
+    "comparisons": [
+      {
+        "first": "lif:ordered",
+        "second": "lif:shuffled_history",
+        "difference_percentage_points": 3.5353921940765587,
+        "conditional_95_percentage_points": [
+          1.729633981115692,
+          5.316254615458043
+        ]
+      },
+      {
+        "first": "leaky_relu:ordered",
+        "second": "leaky_relu:shuffled_history",
+        "difference_percentage_points": 1.39516633919623,
+        "conditional_95_percentage_points": [
+          0.1257774289181396,
+          2.4173959756319188
+        ]
+      },
+      {
+        "first": "lif:ordered",
+        "second": "leaky_relu:ordered",
+        "difference_percentage_points": 1.7492376033125034,
+        "conditional_95_percentage_points": [
+          0.16350730939588637,
+          3.6673866556036674
+        ]
+      }
+    ],
+    "replicates_requested": 2000,
+    "replicates_retained": 2000,
+    "excluded_single_class": 0,
+    "unit": "whole grasp trial within object, paired across methods and the two fixed seeds",
+    "limits": "Conditional on observed objects/fitted models; excludes training/model-selection uncertainty; exploratory comparisons"
+  },
+  "frozen_decision_changes": {
+    "ann:reversed_history": {
+      "changed_decisions": 0,
+      "repeated_evaluations": 12018,
+      "max_absolute_logit_change": 9.5367431640625e-07
+    },
+    "ann:shuffled_history": {
+      "changed_decisions": 0,
+      "repeated_evaluations": 36054,
+      "max_absolute_logit_change": 1.430511474609375e-06
+    },
+    "lif:reversed_history": {
+      "changed_decisions": 293,
+      "repeated_evaluations": 12018,
+      "max_absolute_logit_change": 1.2618114948272705
+    },
+    "lif:shuffled_history": {
+      "changed_decisions": 1491,
+      "repeated_evaluations": 36054,
+      "max_absolute_logit_change": 1.6750388145446777
+    },
+    "alif:reversed_history": {
+      "changed_decisions": 190,
+      "repeated_evaluations": 12018,
+      "max_absolute_logit_change": 0.5950019359588623
+    },
+    "alif:shuffled_history": {
+      "changed_decisions": 661,
+      "repeated_evaluations": 36054,
+      "max_absolute_logit_change": 0.7827432155609131
+    }
+  },
+  "fixed_grid": [
+    {
+      "source": "public_recorded_host_followup",
+      "model": "ann",
+      "window": 16,
+      "learning_rate": 0.005,
+      "macro_object_seed_balanced_accuracy": 0.5762448133405009,
+      "fixed_fold_seed_runs": 6
+    },
+    {
+      "source": "public_recorded_host_followup",
+      "model": "ann",
+      "window": 16,
+      "learning_rate": 0.01,
+      "macro_object_seed_balanced_accuracy": 0.5803736533793313,
+      "fixed_fold_seed_runs": 6
+    },
+    {
+      "source": "public_recorded_host_followup",
+      "model": "ann",
+      "window": 32,
+      "learning_rate": 0.005,
+      "macro_object_seed_balanced_accuracy": 0.5805320341899057,
+      "fixed_fold_seed_runs": 6
+    },
+    {
+      "source": "public_recorded_host_followup",
+      "model": "ann",
+      "window": 32,
+      "learning_rate": 0.01,
+      "macro_object_seed_balanced_accuracy": 0.5720898615496348,
+      "fixed_fold_seed_runs": 6
+    },
+    {
+      "source": "public_recorded_host_followup",
+      "model": "ann",
+      "window": 64,
+      "learning_rate": 0.005,
+      "macro_object_seed_balanced_accuracy": 0.5817751585522183,
+      "fixed_fold_seed_runs": 6
+    },
+    {
+      "source": "public_recorded_host_followup",
+      "model": "ann",
+      "window": 64,
+      "learning_rate": 0.01,
+      "macro_object_seed_balanced_accuracy": 0.5697492295623211,
+      "fixed_fold_seed_runs": 6
+    },
+    {
+      "source": "public_recorded_host_followup",
+      "model": "leaky_relu",
+      "window": 16,
+      "learning_rate": 0.005,
+      "macro_object_seed_balanced_accuracy": 0.5748689336037932,
+      "fixed_fold_seed_runs": 6
+    },
+    {
+      "source": "public_recorded_host_followup",
+      "model": "leaky_relu",
+      "window": 16,
+      "learning_rate": 0.01,
+      "macro_object_seed_balanced_accuracy": 0.5865669176646976,
+      "fixed_fold_seed_runs": 6
+    },
+    {
+      "source": "public_recorded_host_followup",
+      "model": "leaky_relu",
+      "window": 32,
+      "learning_rate": 0.005,
+      "macro_object_seed_balanced_accuracy": 0.5733824403892619,
+      "fixed_fold_seed_runs": 6
+    },
+    {
+      "source": "public_recorded_host_followup",
+      "model": "leaky_relu",
+      "window": 32,
+      "learning_rate": 0.01,
+      "macro_object_seed_balanced_accuracy": 0.590350432572563,
+      "fixed_fold_seed_runs": 6
+    },
+    {
+      "source": "public_recorded_host_followup",
+      "model": "leaky_relu",
+      "window": 64,
+      "learning_rate": 0.005,
+      "macro_object_seed_balanced_accuracy": 0.5598387311551308,
+      "fixed_fold_seed_runs": 6
+    },
+    {
+      "source": "public_recorded_host_followup",
+      "model": "leaky_relu",
+      "window": 64,
+      "learning_rate": 0.01,
+      "macro_object_seed_balanced_accuracy": 0.5975899873944021,
+      "fixed_fold_seed_runs": 6
+    },
+    {
+      "source": "public_recorded_host_followup",
+      "model": "lif",
+      "window": 16,
+      "learning_rate": 0.005,
+      "macro_object_seed_balanced_accuracy": 0.5774382786399513,
+      "fixed_fold_seed_runs": 6
+    },
+    {
+      "source": "public_recorded_host_followup",
+      "model": "lif",
+      "window": 16,
+      "learning_rate": 0.01,
+      "macro_object_seed_balanced_accuracy": 0.6219102306458296,
+      "fixed_fold_seed_runs": 6
+    },
+    {
+      "source": "public_recorded_host_followup",
+      "model": "lif",
+      "window": 32,
+      "learning_rate": 0.005,
+      "macro_object_seed_balanced_accuracy": 0.5765752571608876,
+      "fixed_fold_seed_runs": 6
+    },
+    {
+      "source": "public_recorded_host_followup",
+      "model": "lif",
+      "window": 32,
+      "learning_rate": 0.01,
+      "macro_object_seed_balanced_accuracy": 0.6078428086056881,
+      "fixed_fold_seed_runs": 6
+    },
+    {
+      "source": "public_recorded_host_followup",
+      "model": "lif",
+      "window": 64,
+      "learning_rate": 0.005,
+      "macro_object_seed_balanced_accuracy": 0.5897898777107855,
+      "fixed_fold_seed_runs": 6
+    },
+    {
+      "source": "public_recorded_host_followup",
+      "model": "lif",
+      "window": 64,
+      "learning_rate": 0.01,
+      "macro_object_seed_balanced_accuracy": 0.6204981800266168,
+      "fixed_fold_seed_runs": 6
+    }
+  ],
+  "selection_warning": "Fixed-grid test maximum is sensitivity evidence, never model selection or a new deployment export",
+  "threshold_grid_boundary_fits": 0,
+  "artifacts_sha256": {
+    "selected_predictions.csv": "0a2dc659dec549e9096d807b6a3fe6cced48851bc19b32c03d669314ae2e2433",
+    "robustness_predictions.csv": "4ad9c2db8f64c233a364baf13e990f222745afdea4c54cfc8ac6e4a12974304f",
+    "temporal_diagnostics_predictions.csv": "1c16830fc934997fefc6458b8ca9b7eda2c678c5ea2f239bc79d39ddfc0c560b"
+  }
+}

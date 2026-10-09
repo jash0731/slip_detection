@@ -1,0 +1,161 @@
+{
+  "source": "public_recorded_host_trained",
+  "prediction_sha256": "bef418717696ff8a4fb6b6ef56816af510fd975f9f8eade2a789763768cddf2e",
+  "window_samples": 32,
+  "unique_test_windows": 6009,
+  "objects": [
+    "SpoolSolder",
+    "brush",
+    "screwDriver"
+  ],
+  "seeds": [
+    7,
+    19
+  ],
+  "evaluated_trials": {
+    "SpoolSolder": 28,
+    "brush": 29,
+    "screwDriver": 30
+  },
+  "estimand": "Mean per-object window balanced accuracy, averaged over two fixed training/split seeds",
+  "bootstrap": {
+    "requested": 2000,
+    "retained": 2000,
+    "omitted_single_class": 0,
+    "seed": 20261007,
+    "unit": "whole grasp trial, sampled within each object with identical multiplicities for all models/seeds"
+  },
+  "model_results": {
+    "logistic": {
+      "macro_object_balanced_accuracy": 0.5734212590465789,
+      "conditional_trial_bootstrap_95": [
+        0.541433667743268,
+        0.602633881549149
+      ]
+    },
+    "ann": {
+      "macro_object_balanced_accuracy": 0.5720898615496348,
+      "conditional_trial_bootstrap_95": [
+        0.5418930413395799,
+        0.5995245907293035
+      ]
+    },
+    "lif_frozen": {
+      "macro_object_balanced_accuracy": 0.5740316242106579,
+      "conditional_trial_bootstrap_95": [
+        0.5225267346242624,
+        0.6171092730494123
+      ]
+    },
+    "lif": {
+      "macro_object_balanced_accuracy": 0.6078428086056881,
+      "conditional_trial_bootstrap_95": [
+        0.5652270071005738,
+        0.6476678619044427
+      ]
+    },
+    "alif": {
+      "macro_object_balanced_accuracy": 0.5750577907607078,
+      "conditional_trial_bootstrap_95": [
+        0.5401574264448932,
+        0.606427278430015
+      ]
+    }
+  },
+  "paired_comparisons": [
+    {
+      "first": "lif",
+      "second": "ann",
+      "difference_percentage_points": 3.5752947056053253,
+      "conditional_paired_trial_95_percentage_points": [
+        1.5084274920650576,
+        5.703402403717312
+      ]
+    },
+    {
+      "first": "alif",
+      "second": "lif",
+      "difference_percentage_points": -3.2785017844980224,
+      "conditional_paired_trial_95_percentage_points": [
+        -5.069556012932195,
+        -1.6473102951678698
+      ]
+    },
+    {
+      "first": "lif",
+      "second": "lif_frozen",
+      "difference_percentage_points": 3.381118439503017,
+      "conditional_paired_trial_95_percentage_points": [
+        1.1059253351110077,
+        6.517635241570001
+      ]
+    },
+    {
+      "first": "lif",
+      "second": "logistic",
+      "difference_percentage_points": 3.4421549559109144,
+      "conditional_paired_trial_95_percentage_points": [
+        1.081005846765575,
+        5.827617816596923
+      ]
+    }
+  ],
+  "per_object_seed_balanced_accuracy": {
+    "SpoolSolder": {
+      "7": {
+        "logistic": 0.516705193391436,
+        "ann": 0.506880878575269,
+        "lif_frozen": 0.5058412378113943,
+        "lif": 0.5295571611584237,
+        "alif": 0.5081918381977126
+      },
+      "19": {
+        "logistic": 0.5235586911644641,
+        "ann": 0.5465179087041081,
+        "lif_frozen": 0.539573141590277,
+        "lif": 0.5671539066596749,
+        "alif": 0.5628173683896106
+      }
+    },
+    "brush": {
+      "7": {
+        "logistic": 0.6390193610582974,
+        "ann": 0.6298636960072839,
+        "lif_frozen": 0.6718715689687491,
+        "lif": 0.7458265270599577,
+        "alif": 0.6313579519588678
+      },
+      "19": {
+        "logistic": 0.6614224888198592,
+        "ann": 0.6431673941568701,
+        "lif_frozen": 0.6648260718206893,
+        "lif": 0.680954931312428,
+        "alif": 0.6402913531317784
+      }
+    },
+    "screwDriver": {
+      "7": {
+        "logistic": 0.5547253858563482,
+        "ann": 0.5612193301389323,
+        "lif_frozen": 0.5560466880161807,
+        "lif": 0.5775583299222268,
+        "alif": 0.5671167320796513
+      },
+      "19": {
+        "logistic": 0.5450964339890684,
+        "ann": 0.5448899617153452,
+        "lif_frozen": 0.5060310370566565,
+        "lif": 0.5460059955214177,
+        "alif": 0.5405715008066263
+      }
+    }
+  },
+  "limits": [
+    "Conditional on these three objects and fixed fitted models; not population object generalization",
+    "Does not propagate training/model-selection uncertainty; seeds also vary inner validation splits",
+    "Windows overlap and are dependent; resampling preserves entire trials",
+    "Window-weighted quality within object; longer trials still contribute more windows",
+    "No physical incipient onset, hardware timing or measured energy",
+    "Comparisons are exploratory; no multiple-testing-adjusted significance or noninferiority claim"
+  ]
+}

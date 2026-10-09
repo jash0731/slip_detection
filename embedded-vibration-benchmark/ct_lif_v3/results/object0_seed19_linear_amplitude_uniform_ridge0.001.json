@@ -1,0 +1,74 @@
+{
+  "name": "object0_seed19_linear_amplitude_uniform_ridge0.001",
+  "family": "linear_control",
+  "kind": "linear",
+  "variant": "amplitude",
+  "pooling": "uniform",
+  "hidden": 0,
+  "inputs": 9,
+  "residual": false,
+  "ridge": 0.001,
+  "parameters": 10,
+  "operating_points": {
+    "balanced": {
+      "threshold": 0.47500000000000003,
+      "balanced_accuracy": 0.5943063098174086,
+      "slip_recall": 0.7284470848300635,
+      "false_alarm_rate": 0.5398344651952462,
+      "per_object": [
+        {
+          "object": 1,
+          "balanced_accuracy": 0.5266508971467792,
+          "slip_recall": 0.7750759878419453,
+          "false_alarm_rate": 0.7217741935483871,
+          "tp": 255,
+          "fn": 74,
+          "fp": 179,
+          "tn": 69
+        },
+        {
+          "object": 2,
+          "balanced_accuracy": 0.6619617224880382,
+          "slip_recall": 0.6818181818181818,
+          "false_alarm_rate": 0.35789473684210527,
+          "tp": 75,
+          "fn": 35,
+          "fp": 136,
+          "tn": 244
+        }
+      ],
+      "objects_without_non_slip": [],
+      "validation_joint_improvement": false
+    },
+    "joint": {
+      "threshold": 0.47500000000000003,
+      "balanced_accuracy": 0.5943063098174086,
+      "slip_recall": 0.7284470848300635,
+      "false_alarm_rate": 0.5398344651952462,
+      "per_object": [
+        {
+          "object": 1,
+          "balanced_accuracy": 0.5266508971467792,
+          "slip_recall": 0.7750759878419453,
+          "false_alarm_rate": 0.7217741935483871,
+          "tp": 255,
+          "fn": 74,
+          "fp": 179,
+          "tn": 69
+        },
+        {
+          "object": 2,
+          "balanced_accuracy": 0.6619617224880382,
+          "slip_recall": 0.6818181818181818,
+          "false_alarm_rate": 0.35789473684210527,
+          "tp": 75,
+          "fn": 35,
+          "fp": 136,
+          "tn": 244
+        }
+      ],
+      "objects_without_non_slip": [],
+      "validation_joint_improvement": false
+    }
+  }
+}

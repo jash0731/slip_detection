@@ -1,0 +1,1073 @@
+{
+  "evidence": "public recorded gripper tactile classification, computer only",
+  "environment": {
+    "python": "3.13.5 (v3.13.5:6cb20a219a8, Jun 11 2025, 12:23:45) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "torch": "2.9.1",
+    "numpy": "2.2.6",
+    "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+    "threads": 2,
+    "deterministic_algorithms": true
+  },
+  "data_sha256": "bdc90f416e6a523e3af29816c9389b0a28ac0301aaf1e85d5c92e6bd3ec55fbd",
+  "source_sha256": [
+    "a2aef56bf4cfc5e2d17ae09772295cb207c733e3a73059913939ba5a7a1e2139",
+    "c8124b295a6faf42c750c75e8dcd49dcc45289e06fa7cb4047476af2f570309a",
+    "a8c4f14e71c0b4d7da738997c965e745f75123fea7f5c6d338810ba4adfdeeff"
+  ],
+  "object_names": [
+    "brush",
+    "screwDriver",
+    "SpoolSolder"
+  ],
+  "protocol": {
+    "outer_test": "leave-one-object-out",
+    "inner_validation": "20% whole trials per remaining object",
+    "window": 32,
+    "stride": 16,
+    "target": "held-state label4/5 at finaltick only",
+    "context": "all past samples, including ignored/nonheld and transitions",
+    "epoch_budget": 18,
+    "seeds": [
+      7,
+      19
+    ],
+    "early_stop": "validation weighted loss patience4",
+    "decision_threshold": "validation balanced accuracy grid -2.5..2.5 step0.1",
+    "optimization": "Adam0.01 weightdecay0.0001 batch256 clipgradient5",
+    "surrogate": "hard threshold forward; fast sigmoid derivative (1+5abs(v-threshold))^-2",
+    "model_capacity": "LIF/ALIF/ANN each129 learned parameters; logistic7",
+    "state": "reset each window; current-driven inputs, not binary input spikes",
+    "run_mode": "all three outer folds and both predetermined seeds; no best-test-seed selection"
+  },
+  "folds": [
+    {
+      "name": "object0_seed7_window32",
+      "split_groups": {
+        "train": [
+          47,
+          33,
+          57,
+          49,
+          48,
+          43,
+          30,
+          55,
+          53,
+          40,
+          38,
+          37,
+          31,
+          45,
+          36,
+          46,
+          50,
+          35,
+          59,
+          56,
+          32,
+          51,
+          39,
+          41,
+          61,
+          72,
+          60,
+          62,
+          66,
+          64,
+          67,
+          81,
+          63,
+          82,
+          79,
+          84,
+          74,
+          68,
+          77,
+          69,
+          86,
+          80,
+          89,
+          71,
+          75,
+          87,
+          73,
+          65
+        ],
+        "validation": [
+          42,
+          44,
+          34,
+          58,
+          52,
+          54,
+          76,
+          88,
+          85,
+          70,
+          78,
+          83
+        ],
+        "test": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "axis_scales_train_only": [
+        22.390625,
+        15.888671875,
+        9.77734375
+      ],
+      "class_counts": {
+        "train": {
+          "0": 2845,
+          "1": 1419
+        },
+        "validation": {
+          "0": 458,
+          "1": 403
+        },
+        "test": {
+          "0": 535,
+          "1": 349
+        }
+      },
+      "models": {
+        "logistic": {
+          "selected_epoch": 2,
+          "validation_loss": 0.9704799652099609,
+          "positive_loss_weight": 2.0049330514446795,
+          "max_input_weight_change": null,
+          "parameters": 7,
+          "trainable_parameters": 7
+        },
+        "ann": {
+          "selected_epoch": 9,
+          "validation_loss": 0.9476041793823242,
+          "positive_loss_weight": 2.0049330514446795,
+          "max_input_weight_change": 0.9420957565307617,
+          "parameters": 129,
+          "trainable_parameters": 129
+        },
+        "lif": {
+          "selected_epoch": 18,
+          "validation_loss": 0.9228941202163696,
+          "positive_loss_weight": 2.0049330514446795,
+          "max_input_weight_change": 2.9267654418945312,
+          "parameters": 129,
+          "trainable_parameters": 129
+        },
+        "alif": {
+          "selected_epoch": 9,
+          "validation_loss": 0.9423110485076904,
+          "positive_loss_weight": 2.0049330514446795,
+          "max_input_weight_change": 0.8747913837432861,
+          "parameters": 129,
+          "trainable_parameters": 129
+        }
+      },
+      "thresholds": {
+        "logistic": 0.30000000000000027,
+        "ann": 0.5,
+        "lif": -0.19999999999999973,
+        "alif": 0.6000000000000001
+      },
+      "paired_trial_bootstrap": {
+        "comparison": "paired LIF minus ANN balanced accuracy",
+        "resampling_unit": "whole held-out trial",
+        "repetitions_valid": 1000,
+        "lower_95": 0.04745635335351781,
+        "upper_95": 0.1733895909705728,
+        "limitations": "descriptive conditional on trained models and this object, not across-object population inference",
+        "repetitions_requested": 1000,
+        "excluded_single_class": 0
+      }
+    },
+    {
+      "name": "object0_seed19_window32",
+      "split_groups": {
+        "train": [
+          34,
+          35,
+          59,
+          46,
+          58,
+          42,
+          55,
+          54,
+          48,
+          31,
+          38,
+          32,
+          37,
+          50,
+          30,
+          49,
+          43,
+          40,
+          36,
+          47,
+          45,
+          33,
+          57,
+          52,
+          75,
+          74,
+          80,
+          78,
+          61,
+          81,
+          62,
+          87,
+          66,
+          60,
+          63,
+          79,
+          68,
+          85,
+          72,
+          84,
+          82,
+          77,
+          89,
+          88,
+          73,
+          76,
+          69,
+          71
+        ],
+        "validation": [
+          51,
+          53,
+          39,
+          41,
+          44,
+          56,
+          86,
+          83,
+          65,
+          67,
+          70,
+          64
+        ],
+        "test": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      "axis_scales_train_only": [
+        21.390625,
+        15.3896484375,
+        10.111328125
+      ],
+      "class_counts": {
+        "train": {
+          "0": 2675,
+          "1": 1383
+        },
+        "validation": {
+          "0": 628,
+          "1": 439
+        },
+        "test": {
+          "0": 535,
+          "1": 349
+        }
+      },
+      "models": {
+        "logistic": {
+          "selected_epoch": 14,
+          "validation_loss": 0.9171983003616333,
+          "positive_loss_weight": 1.9342010122921185,
+          "max_input_weight_change": null,
+          "parameters": 7,
+          "trainable_parameters": 7
+        },
+        "ann": {
+          "selected_epoch": 12,
+          "validation_loss": 0.9049729108810425,
+          "positive_loss_weight": 1.9342010122921185,
+          "max_input_weight_change": 0.8214688897132874,
+          "parameters": 129,
+          "trainable_parameters": 129
+        },
+        "lif": {
+          "selected_epoch": 17,
+          "validation_loss": 0.8613088726997375,
+          "positive_loss_weight": 1.9342010122921185,
+          "max_input_weight_change": 2.136113166809082,
+          "parameters": 129,
+          "trainable_parameters": 129
+        },
+        "alif": {
+          "selected_epoch": 12,
+          "validation_loss": 0.8992583155632019,
+          "positive_loss_weight": 1.9342010122921185,
+          "max_input_weight_change": 0.9642288684844971,
+          "parameters": 129,
+          "trainable_parameters": 129
+        }
+      },
+      "thresholds": {
+        "logistic": 0.0,
+        "ann": 0.10000000000000009,
+        "lif": -0.2999999999999998,
+        "alif": 0.0
+      },
+      "paired_trial_bootstrap": {
+        "comparison": "paired LIF minus ANN balanced accuracy",
+        "resampling_unit": "whole held-out trial",
+        "repetitions_valid": 1000,
+        "lower_95": -0.02367442947605983,
+        "upper_95": 0.11331627571191992,
+        "limitations": "descriptive conditional on trained models and this object, not across-object population inference",
+        "repetitions_requested": 1000,
+        "excluded_single_class": 0
+      }
+    },
+    {
+      "name": "object1_seed7_window32",
+      "split_groups": {
+        "train": [
+          17,
+          3,
+          27,
+          19,
+          18,
+          13,
+          0,
+          25,
+          23,
+          10,
+          8,
+          7,
+          1,
+          15,
+          6,
+          16,
+          20,
+          5,
+          29,
+          26,
+          2,
+          21,
+          9,
+          11,
+          61,
+          72,
+          60,
+          62,
+          66,
+          64,
+          67,
+          81,
+          63,
+          82,
+          79,
+          84,
+          74,
+          68,
+          77,
+          69,
+          86,
+          80,
+          89,
+          71,
+          75,
+          87,
+          73,
+          65
+        ],
+        "validation": [
+          12,
+          14,
+          4,
+          28,
+          22,
+          24,
+          76,
+          88,
+          85,
+          70,
+          78,
+          83
+        ],
+        "test": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ]
+      },
+      "axis_scales_train_only": [
+        16.83203125,
+        10.3330078125,
+        9.0
+      ],
+      "class_counts": {
+        "train": {
+          "0": 2139,
+          "1": 831
+        },
+        "validation": {
+          "0": 303,
+          "1": 150
+        },
+        "test": {
+          "0": 1396,
+          "1": 1190
+        }
+      },
+      "models": {
+        "logistic": {
+          "selected_epoch": 18,
+          "validation_loss": 0.9682796597480774,
+          "positive_loss_weight": 2.5740072202166067,
+          "max_input_weight_change": null,
+          "parameters": 7,
+          "trainable_parameters": 7
+        },
+        "ann": {
+          "selected_epoch": 15,
+          "validation_loss": 0.9624072909355164,
+          "positive_loss_weight": 2.5740072202166067,
+          "max_input_weight_change": 0.6528695821762085,
+          "parameters": 129,
+          "trainable_parameters": 129
+        },
+        "lif": {
+          "selected_epoch": 18,
+          "validation_loss": 0.9536778330802917,
+          "positive_loss_weight": 2.5740072202166067,
+          "max_input_weight_change": 1.3922162055969238,
+          "parameters": 129,
+          "trainable_parameters": 129
+        },
+        "alif": {
+          "selected_epoch": 18,
+          "validation_loss": 0.95635586977005,
+          "positive_loss_weight": 2.5740072202166067,
+          "max_input_weight_change": 1.073964238166809,
+          "parameters": 129,
+          "trainable_parameters": 129
+        }
+      },
+      "thresholds": {
+        "logistic": -0.09999999999999964,
+        "ann": 0.0,
+        "lif": -0.19999999999999973,
+        "alif": -0.19999999999999973
+      },
+      "paired_trial_bootstrap": {
+        "comparison": "paired LIF minus ANN balanced accuracy",
+        "resampling_unit": "whole held-out trial",
+        "repetitions_valid": 1000,
+        "lower_95": -0.0018292238409917476,
+        "upper_95": 0.035102412369177965,
+        "limitations": "descriptive conditional on trained models and this object, not across-object population inference",
+        "repetitions_requested": 1000,
+        "excluded_single_class": 0
+      }
+    },
+    {
+      "name": "object1_seed19_window32",
+      "split_groups": {
+        "train": [
+          4,
+          5,
+          29,
+          16,
+          28,
+          12,
+          25,
+          24,
+          18,
+          1,
+          8,
+          2,
+          7,
+          20,
+          0,
+          19,
+          13,
+          10,
+          6,
+          17,
+          15,
+          3,
+          27,
+          22,
+          75,
+          74,
+          80,
+          78,
+          61,
+          81,
+          62,
+          87,
+          66,
+          60,
+          63,
+          79,
+          68,
+          85,
+          72,
+          84,
+          82,
+          77,
+          89,
+          88,
+          73,
+          76,
+          69,
+          71
+        ],
+        "validation": [
+          21,
+          23,
+          9,
+          11,
+          14,
+          26,
+          86,
+          83,
+          65,
+          67,
+          70,
+          64
+        ],
+        "test": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ]
+      },
+      "axis_scales_train_only": [
+        16.33203125,
+        10.064613342285156,
+        9.22265625
+      ],
+      "class_counts": {
+        "train": {
+          "0": 2050,
+          "1": 821
+        },
+        "validation": {
+          "0": 392,
+          "1": 160
+        },
+        "test": {
+          "0": 1396,
+          "1": 1190
+        }
+      },
+      "models": {
+        "logistic": {
+          "selected_epoch": 18,
+          "validation_loss": 0.919177234172821,
+          "positive_loss_weight": 2.496954933008526,
+          "max_input_weight_change": null,
+          "parameters": 7,
+          "trainable_parameters": 7
+        },
+        "ann": {
+          "selected_epoch": 16,
+          "validation_loss": 0.8768932819366455,
+          "positive_loss_weight": 2.496954933008526,
+          "max_input_weight_change": 0.5049090385437012,
+          "parameters": 129,
+          "trainable_parameters": 129
+        },
+        "lif": {
+          "selected_epoch": 11,
+          "validation_loss": 0.8785410523414612,
+          "positive_loss_weight": 2.496954933008526,
+          "max_input_weight_change": 0.5930774211883545,
+          "parameters": 129,
+          "trainable_parameters": 129
+        },
+        "alif": {
+          "selected_epoch": 16,
+          "validation_loss": 0.8728653788566589,
+          "positive_loss_weight": 2.496954933008526,
+          "max_input_weight_change": 0.8232964873313904,
+          "parameters": 129,
+          "trainable_parameters": 129
+        }
+      },
+      "thresholds": {
+        "logistic": -0.09999999999999964,
+        "ann": -0.19999999999999973,
+        "lif": -0.09999999999999964,
+        "alif": -0.19999999999999973
+      },
+      "paired_trial_bootstrap": {
+        "comparison": "paired LIF minus ANN balanced accuracy",
+        "resampling_unit": "whole held-out trial",
+        "repetitions_valid": 1000,
+        "lower_95": -0.015790443375855032,
+        "upper_95": 0.019269549837831492,
+        "limitations": "descriptive conditional on trained models and this object, not across-object population inference",
+        "repetitions_requested": 1000,
+        "excluded_single_class": 0
+      }
+    },
+    {
+      "name": "object2_seed7_window32",
+      "split_groups": {
+        "train": [
+          17,
+          3,
+          27,
+          19,
+          18,
+          13,
+          0,
+          25,
+          23,
+          10,
+          8,
+          7,
+          1,
+          15,
+          6,
+          16,
+          20,
+          5,
+          29,
+          26,
+          2,
+          21,
+          9,
+          11,
+          31,
+          42,
+          30,
+          32,
+          36,
+          34,
+          37,
+          51,
+          33,
+          52,
+          49,
+          54,
+          44,
+          38,
+          47,
+          39,
+          56,
+          50,
+          59,
+          41,
+          45,
+          57,
+          43,
+          35
+        ],
+        "validation": [
+          12,
+          14,
+          4,
+          28,
+          22,
+          24,
+          46,
+          58,
+          55,
+          40,
+          48,
+          53
+        ],
+        "test": [
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89
+        ]
+      },
+      "axis_scales_train_only": [
+        27.0,
+        21.77734375,
+        13.111328125
+      ],
+      "class_counts": {
+        "train": {
+          "0": 1646,
+          "1": 1294
+        },
+        "validation": {
+          "0": 285,
+          "1": 245
+        },
+        "test": {
+          "0": 1907,
+          "1": 632
+        }
+      },
+      "models": {
+        "logistic": {
+          "selected_epoch": 18,
+          "validation_loss": 0.7540990710258484,
+          "positive_loss_weight": 1.2720247295208655,
+          "max_input_weight_change": null,
+          "parameters": 7,
+          "trainable_parameters": 7
+        },
+        "ann": {
+          "selected_epoch": 8,
+          "validation_loss": 0.7536433935165405,
+          "positive_loss_weight": 1.2720247295208655,
+          "max_input_weight_change": 0.6846068501472473,
+          "parameters": 129,
+          "trainable_parameters": 129
+        },
+        "lif": {
+          "selected_epoch": 18,
+          "validation_loss": 0.7229198813438416,
+          "positive_loss_weight": 1.2720247295208655,
+          "max_input_weight_change": 1.8983405828475952,
+          "parameters": 129,
+          "trainable_parameters": 129
+        },
+        "alif": {
+          "selected_epoch": 18,
+          "validation_loss": 0.7492786049842834,
+          "positive_loss_weight": 1.2720247295208655,
+          "max_input_weight_change": 1.4583079814910889,
+          "parameters": 129,
+          "trainable_parameters": 129
+        }
+      },
+      "thresholds": {
+        "logistic": 0.30000000000000027,
+        "ann": 0.8000000000000003,
+        "lif": 0.6000000000000001,
+        "alif": 0.8000000000000003
+      },
+      "paired_trial_bootstrap": {
+        "comparison": "paired LIF minus ANN balanced accuracy",
+        "resampling_unit": "whole held-out trial",
+        "repetitions_valid": 1000,
+        "lower_95": 0.01239365221789046,
+        "upper_95": 0.03606222652694771,
+        "limitations": "descriptive conditional on trained models and this object, not across-object population inference",
+        "repetitions_requested": 1000,
+        "excluded_single_class": 0
+      }
+    },
+    {
+      "name": "object2_seed19_window32",
+      "split_groups": {
+        "train": [
+          4,
+          5,
+          29,
+          16,
+          28,
+          12,
+          25,
+          24,
+          18,
+          1,
+          8,
+          2,
+          7,
+          20,
+          0,
+          19,
+          13,
+          10,
+          6,
+          17,
+          15,
+          3,
+          27,
+          22,
+          45,
+          44,
+          50,
+          48,
+          31,
+          51,
+          32,
+          57,
+          36,
+          30,
+          33,
+          49,
+          38,
+          55,
+          42,
+          54,
+          52,
+          47,
+          59,
+          58,
+          43,
+          46,
+          39,
+          41
+        ],
+        "validation": [
+          21,
+          23,
+          9,
+          11,
+          14,
+          26,
+          56,
+          53,
+          35,
+          37,
+          40,
+          34
+        ],
+        "test": [
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89
+        ]
+      },
+      "axis_scales_train_only": [
+        26.72265625,
+        22.0546875,
+        13.279296875
+      ],
+      "class_counts": {
+        "train": {
+          "0": 1701,
+          "1": 1194
+        },
+        "validation": {
+          "0": 230,
+          "1": 345
+        },
+        "test": {
+          "0": 1907,
+          "1": 632
+        }
+      },
+      "models": {
+        "logistic": {
+          "selected_epoch": 2,
+          "validation_loss": 0.8403889536857605,
+          "positive_loss_weight": 1.4246231155778895,
+          "max_input_weight_change": null,
+          "parameters": 7,
+          "trainable_parameters": 7
+        },
+        "ann": {
+          "selected_epoch": 1,
+          "validation_loss": 0.8293392658233643,
+          "positive_loss_weight": 1.4246231155778895,
+          "max_input_weight_change": 0.11174130439758301,
+          "parameters": 129,
+          "trainable_parameters": 129
+        },
+        "lif": {
+          "selected_epoch": 5,
+          "validation_loss": 0.8307439684867859,
+          "positive_loss_weight": 1.4246231155778895,
+          "max_input_weight_change": 0.41762030124664307,
+          "parameters": 129,
+          "trainable_parameters": 129
+        },
+        "alif": {
+          "selected_epoch": 2,
+          "validation_loss": 0.8400028944015503,
+          "positive_loss_weight": 1.4246231155778895,
+          "max_input_weight_change": 0.21959705650806427,
+          "parameters": 129,
+          "trainable_parameters": 129
+        }
+      },
+      "thresholds": {
+        "logistic": 0.30000000000000027,
+        "ann": 0.10000000000000009,
+        "lif": -0.19999999999999973,
+        "alif": 0.0
+      },
+      "paired_trial_bootstrap": {
+        "comparison": "paired LIF minus ANN balanced accuracy",
+        "resampling_unit": "whole held-out trial",
+        "repetitions_valid": 1000,
+        "lower_95": -0.004399641141632052,
+        "upper_95": 0.042043140127918675,
+        "limitations": "descriptive conditional on trained models and this object, not across-object population inference",
+        "repetitions_requested": 1000,
+        "excluded_single_class": 0
+      }
+    }
+  ],
+  "wall_seconds": 225.14413512499596,
+  "limitations": [
+    "Three source objects, one recorded sensor setup; not population generalization",
+    "Finaltick existing-slip labels, no independently measured incipient onset",
+    "32samples approximately178ms; inference speed is not observation delay",
+    "Original timestamps irregular; neuron decay per sample not time-corrected",
+    "No ESP32 measurements or energy claim",
+    "Group bootstrap conditional on trained models; two seeds not independent datasets"
+  ]
+}

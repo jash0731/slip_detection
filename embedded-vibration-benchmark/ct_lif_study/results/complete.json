@@ -1,0 +1,7 @@
+{
+  "fits": 48,
+  "prediction_rows": 96144,
+  "unique_endpoints": 6009,
+  "protocol_sha256": "d98a992133d45678adf2409336fec7f7c984a14f71104571ebfed7ca4819ea53",
+  "selections_sha256": "248a049904fe9345a57ed130660f73584c493b1c4f2de48149c5755af02c1aa1"
+}

@@ -1,0 +1,108 @@
+{
+  "name": "object2_seed7_ct_invariant_recent_h12_lr0.01",
+  "family": "ct_invariant",
+  "kind": "lif",
+  "variant": "invariant",
+  "pooling": "recent",
+  "hidden": 12,
+  "inputs": 6,
+  "residual": true,
+  "rate": 0.01,
+  "parameters": 103,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_weighted_loss": 0.674184561997836
+    },
+    {
+      "epoch": 2,
+      "validation_weighted_loss": 0.6752917269959372
+    },
+    {
+      "epoch": 3,
+      "validation_weighted_loss": 0.7223412184064155
+    },
+    {
+      "epoch": 4,
+      "validation_weighted_loss": 0.6991222575409155
+    },
+    {
+      "epoch": 5,
+      "validation_weighted_loss": 0.7133508369930543
+    },
+    {
+      "epoch": 6,
+      "validation_weighted_loss": 0.7109228871441473
+    },
+    {
+      "epoch": 7,
+      "validation_weighted_loss": 0.6936873072480243
+    }
+  ],
+  "operating_points": {
+    "balanced": {
+      "threshold": 0.485,
+      "balanced_accuracy": 0.565863200024074,
+      "slip_recall": 0.6089193825042882,
+      "false_alarm_rate": 0.47719298245614034,
+      "per_object": [
+        {
+          "object": 0,
+          "balanced_accuracy": null,
+          "slip_recall": 0.7272727272727273,
+          "false_alarm_rate": null,
+          "tp": 24,
+          "fn": 9,
+          "fp": 0,
+          "tn": 0
+        },
+        {
+          "object": 1,
+          "balanced_accuracy": 0.5066865276398543,
+          "slip_recall": 0.49056603773584906,
+          "false_alarm_rate": 0.47719298245614034,
+          "tp": 104,
+          "fn": 108,
+          "fp": 136,
+          "tn": 149
+        }
+      ],
+      "objects_without_non_slip": [
+        0
+      ],
+      "validation_joint_improvement": false
+    },
+    "joint": {
+      "threshold": 0.485,
+      "balanced_accuracy": 0.565863200024074,
+      "slip_recall": 0.6089193825042882,
+      "false_alarm_rate": 0.47719298245614034,
+      "per_object": [
+        {
+          "object": 0,
+          "balanced_accuracy": null,
+          "slip_recall": 0.7272727272727273,
+          "false_alarm_rate": null,
+          "tp": 24,
+          "fn": 9,
+          "fp": 0,
+          "tn": 0
+        },
+        {
+          "object": 1,
+          "balanced_accuracy": 0.5066865276398543,
+          "slip_recall": 0.49056603773584906,
+          "false_alarm_rate": 0.47719298245614034,
+          "tp": 104,
+          "fn": 108,
+          "fp": 136,
+          "tn": 149
+        }
+      ],
+      "objects_without_non_slip": [
+        0
+      ],
+      "validation_joint_improvement": false
+    }
+  }
+}

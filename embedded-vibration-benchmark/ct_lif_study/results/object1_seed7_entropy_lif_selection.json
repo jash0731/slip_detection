@@ -1,0 +1,183 @@
+{
+  "tag": "object1_seed7_entropy_lif",
+  "held_object": "screwDriver",
+  "held": 1,
+  "seed": 7,
+  "model": "entropy_lif",
+  "variant": "entropy",
+  "kind": "lif",
+  "hidden": 16,
+  "threshold": 0.5599999999999999,
+  "gate": 0.02,
+  "rate": 0.005,
+  "parameters": 225,
+  "scale": [
+    28.555555555555557,
+    18.11111111111111,
+    17.88888888888889
+  ],
+  "split_groups": {
+    "train": [
+      17,
+      3,
+      27,
+      19,
+      18,
+      13,
+      0,
+      25,
+      23,
+      10,
+      8,
+      7,
+      1,
+      15,
+      6,
+      16,
+      20,
+      5,
+      29,
+      26,
+      2,
+      21,
+      9,
+      11,
+      61,
+      72,
+      60,
+      62,
+      66,
+      64,
+      67,
+      81,
+      63,
+      82,
+      79,
+      84,
+      74,
+      68,
+      77,
+      69,
+      86,
+      80,
+      89,
+      71,
+      75,
+      87,
+      73,
+      65
+    ],
+    "validation": [
+      12,
+      14,
+      4,
+      28,
+      22,
+      24,
+      76,
+      88,
+      85,
+      70,
+      78,
+      83
+    ],
+    "test": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ]
+  },
+  "train_windows": 2970,
+  "validation_windows": 453,
+  "history": [
+    {
+      "epoch": 1,
+      "validation_loss": 1.0134317825270478
+    },
+    {
+      "epoch": 2,
+      "validation_loss": 0.9976414552738053
+    },
+    {
+      "epoch": 3,
+      "validation_loss": 0.9934109905516252
+    },
+    {
+      "epoch": 4,
+      "validation_loss": 1.0314693093974971
+    },
+    {
+      "epoch": 5,
+      "validation_loss": 0.9669360756779853
+    },
+    {
+      "epoch": 6,
+      "validation_loss": 0.9842519380541583
+    },
+    {
+      "epoch": 7,
+      "validation_loss": 0.9599369749972502
+    },
+    {
+      "epoch": 8,
+      "validation_loss": 0.9467377313528095
+    },
+    {
+      "epoch": 9,
+      "validation_loss": 0.9276276270143701
+    },
+    {
+      "epoch": 10,
+      "validation_loss": 0.9602365448034166
+    },
+    {
+      "epoch": 11,
+      "validation_loss": 0.9414054010933941
+    },
+    {
+      "epoch": 12,
+      "validation_loss": 0.9582641038358206
+    },
+    {
+      "epoch": 13,
+      "validation_loss": 0.9850493762037399
+    }
+  ],
+  "validation": {
+    "balanced_accuracy": 0.6644884488448846,
+    "slip_recall": 0.56,
+    "false_alarm_rate": 0.23102310231023102,
+    "tp": 84,
+    "fn": 66,
+    "fp": 70,
+    "tn": 233
+  },
+  "training_seconds": 0.5767399529999011
+}

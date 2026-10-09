@@ -1,0 +1,252 @@
+{
+  "source": "public_recorded_host",
+  "environment": {
+    "python": "3.13.5 (v3.13.5:6cb20a219a8, Jun 11 2025, 12:23:45) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+    "numpy": "2.2.6"
+  },
+  "model_configuration": {
+    "hidden_weights_seed": 20261007,
+    "snn_hidden": 12,
+    "ann_hidden": 8,
+    "leak": 0.875,
+    "thresholds": [
+      0.12,
+      0.3,
+      0.6,
+      1.0
+    ],
+    "snn_weights": [
+      [
+        0.1947794287006997,
+        0.5475322830621714,
+        0.1049995865065462,
+        0.4192661218885025,
+        0.47521376483086086,
+        0.39288297876767403,
+        0.11981141749945182,
+        0.570269833438426,
+        0.1357295248313382,
+        0.38795016680510624,
+        0.5035373621439063,
+        0.5446961019254004
+      ],
+      [
+        0.3400206560763614,
+        0.6465831335885874,
+        0.43290138179338694,
+        0.5996748810732213,
+        0.13066521733193603,
+        0.6478595391644675,
+        0.15801869581547184,
+        0.1248607153907209,
+        0.47008042906428676,
+        0.6409514762008366,
+        0.4141408721745468,
+        0.5864281392723847
+      ],
+      [
+        0.06156981939634462,
+        0.2592207021748714,
+        0.4969532667242736,
+        0.4485924510503049,
+        0.18594162123328029,
+        0.09424944258157086,
+        0.4896360682801155,
+        0.0835583533342211,
+        0.6429848113033265,
+        0.36151880560008887,
+        0.6234782731201602,
+        0.3281626476172963
+      ],
+      [
+        0.43710559930341825,
+        0.2304173561068973,
+        0.5884594848801321,
+        0.43074976132258813,
+        0.08977606040102196,
+        0.33176232429986674,
+        0.35942625707061265,
+        0.28461643514691626,
+        0.49271620362211427,
+        0.29308054043068343,
+        0.19136454120147275,
+        0.37733901233612216
+      ]
+    ],
+    "state_reset": "zero each32samplewindow",
+    "readout_steps": 400
+  },
+  "fixture_selection": {
+    "rule": "first held-out positive window in deterministic order; no prediction screening; parity only",
+    "trial": "GGCNN2/brush/Pose3/Exp1",
+    "label": 1,
+    "start_sample": 544,
+    "end_sample_exclusive": 576
+  },
+  "timing_protocol": "one pass per window; fixed model order; descriptive only, not a reliable host cost comparison",
+  "dataset": "ARQ-CRISP 2021 brush only",
+  "source_sha256": "a2aef56bf4cfc5e2d17ae09772295cb207c733e3a73059913939ba5a7a1e2139",
+  "converted_sha256": "ab2efcdaada6abf528ff2e349ccec2b4b4bd6888eaa0e5373ce7b8df44a6cde4",
+  "window_samples": 32,
+  "split": "poses 1/2 training; pose 3 untouched test",
+  "train_trials": [
+    "GGCNN2/brush/Pose1/Exp10",
+    "GGCNN2/brush/Pose1/Exp2",
+    "GGCNN2/brush/Pose1/Exp3",
+    "GGCNN2/brush/Pose1/Exp4",
+    "GGCNN2/brush/Pose1/Exp6",
+    "GGCNN2/brush/Pose1/Exp7",
+    "GGCNN2/brush/Pose2/Exp1",
+    "GGCNN2/brush/Pose2/Exp10",
+    "GGCNN2/brush/Pose2/Exp2",
+    "GGCNN2/brush/Pose2/Exp3",
+    "GGCNN2/brush/Pose2/Exp4",
+    "GGCNN2/brush/Pose2/Exp6",
+    "GGCNN2/brush/Pose2/Exp7",
+    "GGCNN2/brush/Pose2/Exp8"
+  ],
+  "test_trials": [
+    "GGCNN2/brush/Pose3/Exp1",
+    "GGCNN2/brush/Pose3/Exp2",
+    "GGCNN2/brush/Pose3/Exp3",
+    "GGCNN2/brush/Pose3/Exp4",
+    "GGCNN2/brush/Pose3/Exp5",
+    "GGCNN2/brush/Pose3/Exp6",
+    "GGCNN2/brush/Pose3/Exp7",
+    "GGCNN2/brush/Pose3/Exp8",
+    "GGCNN2/brush/Pose3/Exp9"
+  ],
+  "train_windows": 306,
+  "test_windows": 55,
+  "train_class_counts": {
+    "0": 223,
+    "1": 83
+  },
+  "test_class_counts": {
+    "0": 13,
+    "1": 42
+  },
+  "excluded_nonhomogeneous_or_nonheld_windows": 929,
+  "test_trial_class_counts": {
+    "GGCNN2/brush/Pose3/Exp1": {
+      "0": 0,
+      "1": 3
+    },
+    "GGCNN2/brush/Pose3/Exp2": {
+      "0": 0,
+      "1": 2
+    },
+    "GGCNN2/brush/Pose3/Exp3": {
+      "0": 0,
+      "1": 2
+    },
+    "GGCNN2/brush/Pose3/Exp4": {
+      "0": 0,
+      "1": 2
+    },
+    "GGCNN2/brush/Pose3/Exp5": {
+      "0": 8,
+      "1": 1
+    },
+    "GGCNN2/brush/Pose3/Exp6": {
+      "0": 4,
+      "1": 8
+    },
+    "GGCNN2/brush/Pose3/Exp7": {
+      "0": 1,
+      "1": 7
+    },
+    "GGCNN2/brush/Pose3/Exp8": {
+      "0": 0,
+      "1": 2
+    },
+    "GGCNN2/brush/Pose3/Exp9": {
+      "0": 0,
+      "1": 15
+    }
+  },
+  "input_normalization_train_p95": 64.20162106595032,
+  "fitted_readouts": {
+    "threshold": [
+      [
+        2.2630920200883513
+      ],
+      -1.9578215745318066
+    ],
+    "ema": [
+      [
+        2.571488959435706
+      ],
+      -1.7342938430729935
+    ],
+    "scalar_lif": [
+      [
+        2.627532599479726
+      ],
+      -1.7082524688026366
+    ],
+    "ann": [
+      [
+        0.13489064300093415,
+        -0.8191898322482911,
+        -0.5251963598714374,
+        0.7652301563440522,
+        -0.2924605700044115,
+        -0.6584348286473235,
+        -0.22381420502598384,
+        0.45100447363120627
+      ],
+      -2.5985968466512093
+    ],
+    "snn_dense": [
+      [
+        -0.12088168120837625,
+        0.1243492314323668,
+        0.19833694265120475,
+        0.43969268069582834,
+        0.4548252802871627,
+        0.5205793940455534,
+        -0.3912247835006009,
+        0.3965218397578702,
+        -0.11644747538985248,
+        0.5469960547590453,
+        0.44127285425226137,
+        0.26276236442184303
+      ],
+      -2.497486940478816
+    ],
+    "snn_sparse": [
+      [
+        -0.12088168120837625,
+        0.1243492314323668,
+        0.19833694265120475,
+        0.43969268069582834,
+        0.4548252802871627,
+        0.5205793940455534,
+        -0.3912247835006009,
+        0.3965218397578702,
+        -0.11644747538985248,
+        0.5469960547590453,
+        0.44127285425226137,
+        0.26276236442184303
+      ],
+      -2.497486940478816
+    ]
+  },
+  "fixture": "arq_brush_trial20_sample0544",
+  "training": "fixed hidden weights; logistic readouts, 400 full-batch steps, train-only normalization",
+  "limitations": [
+    "Only one brush object; small pose-held-out sample",
+    "Windows within each trial are dependent; no independent-window confidence intervals",
+    "Original label4 held no-slip vs label5 held slip; labels0/1/2/3/6 excluded",
+    "Only completely homogeneous windows retained using labels: conditional selected-subset score, not general online accuracy",
+    "Zero-state reset per window, not continuous streaming",
+    "ANN8 and SNN12 are not capacity matched; no general architecture comparison",
+    "Approximately 178ms observation horizon; not incipient-slip lead time",
+    "Input preprocessing not included in model timing; exported scalar fixture precomputed",
+    "Host timing is Python; no ESP32 results",
+    "Not piezo sensor validation; original sensor has 54 tactile axes",
+    "No hyperparameter search and no validation set; fixed demonstration configuration"
+  ]
+}

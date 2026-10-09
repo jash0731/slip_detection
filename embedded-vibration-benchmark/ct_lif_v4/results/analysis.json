@@ -1,0 +1,311 @@
+{
+  "aggregate": [
+    {
+      "model": "ct_mean",
+      "balanced_accuracy": 0.6918651444089932,
+      "slip_recall": 0.5149397819045648,
+      "false_alarm_rate": 0.13120949308657873,
+      "pooled_accuracy": 0.7403062073556332,
+      "tp": 2133,
+      "tn": 6764,
+      "fp": 912,
+      "fn": 2209
+    },
+    {
+      "model": "ct_only",
+      "balanced_accuracy": 0.7182373835790626,
+      "slip_recall": 0.6329071736053603,
+      "false_alarm_rate": 0.19643240644723503,
+      "pooled_accuracy": 0.736145781328008,
+      "tp": 2604,
+      "tn": 6243,
+      "fp": 1433,
+      "fn": 1738
+    },
+    {
+      "model": "mean_lif",
+      "balanced_accuracy": 0.712216742545718,
+      "slip_recall": 0.6027464919448611,
+      "false_alarm_rate": 0.1783130068534253,
+      "pooled_accuracy": 0.7439673822599434,
+      "tp": 2597,
+      "tn": 6344,
+      "fp": 1332,
+      "fn": 1745
+    },
+    {
+      "model": "previous_optimized_mean",
+      "balanced_accuracy": 0.712216742545718,
+      "slip_recall": 0.6027464919448611,
+      "false_alarm_rate": 0.1783130068534253,
+      "pooled_accuracy": 0.7439673822599434,
+      "tp": 2597,
+      "tn": 6344,
+      "fp": 1332,
+      "fn": 1745
+    },
+    {
+      "model": "original_ct",
+      "balanced_accuracy": 0.6883112070745452,
+      "slip_recall": 0.6623423309333164,
+      "false_alarm_rate": 0.2857199167842258,
+      "pooled_accuracy": 0.6939590614078882,
+      "tp": 2902,
+      "tn": 5438,
+      "fp": 2238,
+      "fn": 1440
+    },
+    {
+      "model": "ct_v2_balanced",
+      "balanced_accuracy": 0.6797956235193979,
+      "slip_recall": 0.5886385044388073,
+      "false_alarm_rate": 0.2290472574000113,
+      "pooled_accuracy": 0.710434348477284,
+      "tp": 2572,
+      "tn": 5966,
+      "fp": 1710,
+      "fn": 1770
+    }
+  ],
+  "per_object": [
+    {
+      "model": "ct_mean",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7873871943871676,
+      "slip_recall": 0.7177650429799427,
+      "false_alarm_rate": 0.14299065420560747
+    },
+    {
+      "model": "ct_mean",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.66646842117936,
+      "slip_recall": 0.5256302521008404,
+      "false_alarm_rate": 0.19269340974212035
+    },
+    {
+      "model": "ct_mean",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6217398176604514,
+      "slip_recall": 0.3014240506329114,
+      "false_alarm_rate": 0.05794441531200839
+    },
+    {
+      "model": "ct_only",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7774120986530273,
+      "slip_recall": 0.7679083094555874,
+      "false_alarm_rate": 0.2130841121495327
+    },
+    {
+      "model": "ct_only",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6736702704004238,
+      "slip_recall": 0.5722689075630252,
+      "false_alarm_rate": 0.22492836676217765
+    },
+    {
+      "model": "ct_only",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.7036297816837368,
+      "slip_recall": 0.5585443037974683,
+      "false_alarm_rate": 0.15128474042999476
+    },
+    {
+      "model": "mean_lif",
+      "held_object": "brush",
+      "balanced_accuracy": 0.8217403529443269,
+      "slip_recall": 0.7836676217765043,
+      "false_alarm_rate": 0.14018691588785048
+    },
+    {
+      "model": "mean_lif",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6799258385302545,
+      "slip_recall": 0.6764705882352942,
+      "false_alarm_rate": 0.31661891117478513
+    },
+    {
+      "model": "mean_lif",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6349840361625723,
+      "slip_recall": 0.3481012658227848,
+      "false_alarm_rate": 0.07813319349764028
+    },
+    {
+      "model": "previous_optimized_mean",
+      "held_object": "brush",
+      "balanced_accuracy": 0.8217403529443269,
+      "slip_recall": 0.7836676217765043,
+      "false_alarm_rate": 0.14018691588785048
+    },
+    {
+      "model": "previous_optimized_mean",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6799258385302545,
+      "slip_recall": 0.6764705882352942,
+      "false_alarm_rate": 0.31661891117478513
+    },
+    {
+      "model": "previous_optimized_mean",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6349840361625723,
+      "slip_recall": 0.3481012658227848,
+      "false_alarm_rate": 0.07813319349764028
+    },
+    {
+      "model": "original_ct",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7835203384837854,
+      "slip_recall": 0.7492836676217765,
+      "false_alarm_rate": 0.1822429906542056
+    },
+    {
+      "model": "original_ct",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6050663961859817,
+      "slip_recall": 0.7298319327731093,
+      "false_alarm_rate": 0.5196991404011462
+    },
+    {
+      "model": "original_ct",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6763468865538689,
+      "slip_recall": 0.5079113924050633,
+      "false_alarm_rate": 0.15521761929732564
+    },
+    {
+      "model": "ct_v2_balanced",
+      "held_object": "brush",
+      "balanced_accuracy": 0.7884422783386444,
+      "slip_recall": 0.7507163323782235,
+      "false_alarm_rate": 0.17383177570093455
+    },
+    {
+      "model": "ct_v2_balanced",
+      "held_object": "screwDriver",
+      "balanced_accuracy": 0.6304335917748187,
+      "slip_recall": 0.6852941176470588,
+      "false_alarm_rate": 0.4244269340974212
+    },
+    {
+      "model": "ct_v2_balanced",
+      "held_object": "SpoolSolder",
+      "balanced_accuracy": 0.6205110004447305,
+      "slip_recall": 0.3299050632911392,
+      "false_alarm_rate": 0.08888306240167804
+    }
+  ],
+  "intervals": [
+    {
+      "opponent": "ct_only",
+      "interval_95": {
+        "balanced_accuracy": [
+          -0.0458000992930042,
+          -0.006851351928724165
+        ],
+        "slip_recall": [
+          -0.15524124401243317,
+          -0.08100000857582138
+        ],
+        "false_alarm_rate": [
+          -0.0887369178859755,
+          -0.04426532839039077
+        ]
+      }
+    },
+    {
+      "opponent": "mean_lif",
+      "interval_95": {
+        "balanced_accuracy": [
+          -0.03208757708350845,
+          -0.007288290579168653
+        ],
+        "slip_recall": [
+          -0.10865541483952461,
+          -0.06609243169411795
+        ],
+        "false_alarm_rate": [
+          -0.06840789607617927,
+          -0.027202702225255043
+        ]
+      }
+    },
+    {
+      "opponent": "original_ct",
+      "interval_95": {
+        "balanced_accuracy": [
+          -0.02038094999977693,
+          0.02942278497114088
+        ],
+        "slip_recall": [
+          -0.19142354082050314,
+          -0.10365682920159383
+        ],
+        "false_alarm_rate": [
+          -0.18995283126545376,
+          -0.12467906525303371
+        ]
+      }
+    },
+    {
+      "opponent": "previous_optimized_mean",
+      "interval_95": {
+        "balanced_accuracy": [
+          -0.03208757708350845,
+          -0.007288290579168653
+        ],
+        "slip_recall": [
+          -0.10865541483952461,
+          -0.06609243169411795
+        ],
+        "false_alarm_rate": [
+          -0.06840789607617927,
+          -0.027202702225255043
+        ]
+      }
+    },
+    {
+      "opponent": "ct_v2_balanced",
+      "interval_95": {
+        "balanced_accuracy": [
+          -0.004572286638139705,
+          0.031132717468542005
+        ],
+        "slip_recall": [
+          -0.09747058689926251,
+          -0.044606816221891145
+        ],
+        "false_alarm_rate": [
+          -0.1276210077836087,
+          -0.06706959332167586
+        ]
+      }
+    }
+  ],
+  "resources": [
+    {
+      "model": "ct_mean",
+      "parameters_mean": 214.33333333333334,
+      "parameters_min": 161,
+      "parameters_max": 241,
+      "input_macs_mean": 6144.0
+    },
+    {
+      "model": "ct_only",
+      "parameters_mean": 141.0,
+      "parameters_min": 113,
+      "parameters_max": 169,
+      "input_macs_mean": 3840.0
+    },
+    {
+      "model": "mean_lif",
+      "parameters_mean": 86.33333333333333,
+      "parameters_min": 65,
+      "parameters_max": 97,
+      "input_macs_mean": 2048.0
+    }
+  ],
+  "training_seconds": 178.4731063019999,
+  "valid_bootstraps": 2000,
+  "limitation": "Exploratory reused benchmark; conditional trial intervals omit family selection/retraining/new-object uncertainty; no hardware timing."
+}
