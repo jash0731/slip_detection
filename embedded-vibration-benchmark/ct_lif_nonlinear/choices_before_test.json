@@ -1,0 +1,887 @@
+[
+  {
+    "held": 0,
+    "seed": 7,
+    "selections": {
+      "baseline": {
+        "name": "baseline",
+        "point": {
+          "threshold": 0.52,
+          "balanced_accuracy": 0.6366837738364408,
+          "slip_recall": 0.5398212898212899,
+          "false_alarm_rate": 0.2664537421484084,
+          "per_object": [
+            {
+              "object": 1,
+              "balanced_accuracy": 0.6882359575907964,
+              "slip_recall": 0.7377622377622378,
+              "false_alarm_rate": 0.36129032258064514,
+              "tp": 211,
+              "fn": 75,
+              "fp": 56,
+              "tn": 99
+            },
+            {
+              "object": 2,
+              "balanced_accuracy": 0.5851315900820852,
+              "slip_recall": 0.3418803418803419,
+              "false_alarm_rate": 0.1716171617161716,
+              "tp": 40,
+              "fn": 77,
+              "fp": 52,
+              "tn": 251
+            }
+          ],
+          "objects_without_non_slip": []
+        },
+        "nodes": 0,
+        "depth_sum": 0
+      },
+      "joint": {
+        "name": "leaves3_iterations80_rate0.1",
+        "nodes": 400,
+        "depth_sum": 160,
+        "point": {
+          "threshold": 0.59,
+          "balanced_accuracy": 0.6812473927293474,
+          "slip_recall": 0.5411810411810412,
+          "false_alarm_rate": 0.17868625572234642,
+          "per_object": [
+            {
+              "object": 1,
+              "balanced_accuracy": 0.7305662079855628,
+              "slip_recall": 0.7062937062937062,
+              "false_alarm_rate": 0.24516129032258063,
+              "tp": 202,
+              "fn": 84,
+              "fp": 38,
+              "tn": 117
+            },
+            {
+              "object": 2,
+              "balanced_accuracy": 0.6319285774731319,
+              "slip_recall": 0.37606837606837606,
+              "false_alarm_rate": 0.11221122112211221,
+              "tp": 44,
+              "fn": 73,
+              "fp": 34,
+              "tn": 269
+            }
+          ],
+          "objects_without_non_slip": [],
+          "validation_joint_improvement": true
+        }
+      },
+      "balanced": {
+        "name": "leaves3_iterations80_rate0.1",
+        "nodes": 400,
+        "depth_sum": 160,
+        "point": {
+          "threshold": 0.59,
+          "balanced_accuracy": 0.6812473927293474,
+          "slip_recall": 0.5411810411810412,
+          "false_alarm_rate": 0.17868625572234642,
+          "per_object": [
+            {
+              "object": 1,
+              "balanced_accuracy": 0.7305662079855628,
+              "slip_recall": 0.7062937062937062,
+              "false_alarm_rate": 0.24516129032258063,
+              "tp": 202,
+              "fn": 84,
+              "fp": 38,
+              "tn": 117
+            },
+            {
+              "object": 2,
+              "balanced_accuracy": 0.6319285774731319,
+              "slip_recall": 0.37606837606837606,
+              "false_alarm_rate": 0.11221122112211221,
+              "tp": 44,
+              "fn": 73,
+              "fp": 34,
+              "tn": 269
+            }
+          ],
+          "objects_without_non_slip": [],
+          "validation_joint_improvement": true
+        }
+      },
+      "nonlinear": {
+        "name": "leaves3_iterations80_rate0.1",
+        "nodes": 400,
+        "depth_sum": 160,
+        "point": {
+          "threshold": 0.59,
+          "balanced_accuracy": 0.6812473927293474,
+          "slip_recall": 0.5411810411810412,
+          "false_alarm_rate": 0.17868625572234642,
+          "per_object": [
+            {
+              "object": 1,
+              "balanced_accuracy": 0.7305662079855628,
+              "slip_recall": 0.7062937062937062,
+              "false_alarm_rate": 0.24516129032258063,
+              "tp": 202,
+              "fn": 84,
+              "fp": 38,
+              "tn": 117
+            },
+            {
+              "object": 2,
+              "balanced_accuracy": 0.6319285774731319,
+              "slip_recall": 0.37606837606837606,
+              "false_alarm_rate": 0.11221122112211221,
+              "tp": 44,
+              "fn": 73,
+              "fp": 34,
+              "tn": 269
+            }
+          ],
+          "objects_without_non_slip": [],
+          "validation_joint_improvement": true
+        }
+      }
+    }
+  },
+  {
+    "held": 0,
+    "seed": 19,
+    "selections": {
+      "baseline": {
+        "name": "baseline",
+        "point": {
+          "threshold": 0.395,
+          "balanced_accuracy": 0.7367515889539784,
+          "slip_recall": 0.7995855208621165,
+          "false_alarm_rate": 0.3260823429541596,
+          "per_object": [
+            {
+              "object": 1,
+              "balanced_accuracy": 0.6555605941758996,
+              "slip_recall": 0.7264437689969605,
+              "false_alarm_rate": 0.4153225806451613,
+              "tp": 239,
+              "fn": 90,
+              "fp": 103,
+              "tn": 145
+            },
+            {
+              "object": 2,
+              "balanced_accuracy": 0.8179425837320573,
+              "slip_recall": 0.8727272727272727,
+              "false_alarm_rate": 0.23684210526315788,
+              "tp": 96,
+              "fn": 14,
+              "fp": 90,
+              "tn": 290
+            }
+          ],
+          "objects_without_non_slip": []
+        },
+        "nodes": 0,
+        "depth_sum": 0
+      },
+      "joint": {
+        "name": "leaves7_iterations40_rate0.1",
+        "nodes": 520,
+        "depth_sum": 191,
+        "point": {
+          "threshold": 0.46,
+          "balanced_accuracy": 0.7374933764263407,
+          "slip_recall": 0.7996684166896932,
+          "false_alarm_rate": 0.3246816638370119,
+          "per_object": [
+            {
+              "object": 1,
+              "balanced_accuracy": 0.6869484753407197,
+              "slip_recall": 0.7811550151975684,
+              "false_alarm_rate": 0.40725806451612906,
+              "tp": 257,
+              "fn": 72,
+              "fp": 101,
+              "tn": 147
+            },
+            {
+              "object": 2,
+              "balanced_accuracy": 0.7880382775119618,
+              "slip_recall": 0.8181818181818182,
+              "false_alarm_rate": 0.24210526315789474,
+              "tp": 90,
+              "fn": 20,
+              "fp": 92,
+              "tn": 288
+            }
+          ],
+          "objects_without_non_slip": [],
+          "validation_joint_improvement": true
+        }
+      },
+      "balanced": {
+        "name": "leaves7_iterations80_rate0.1",
+        "nodes": 1040,
+        "depth_sum": 377,
+        "point": {
+          "threshold": 0.55,
+          "balanced_accuracy": 0.7408893697243044,
+          "slip_recall": 0.6858109975131251,
+          "false_alarm_rate": 0.20403225806451614,
+          "per_object": [
+            {
+              "object": 1,
+              "balanced_accuracy": 0.6885969212667908,
+              "slip_recall": 0.6352583586626139,
+              "false_alarm_rate": 0.25806451612903225,
+              "tp": 209,
+              "fn": 120,
+              "fp": 64,
+              "tn": 184
+            },
+            {
+              "object": 2,
+              "balanced_accuracy": 0.7931818181818182,
+              "slip_recall": 0.7363636363636363,
+              "false_alarm_rate": 0.15,
+              "tp": 81,
+              "fn": 29,
+              "fp": 57,
+              "tn": 323
+            }
+          ],
+          "objects_without_non_slip": [],
+          "validation_joint_improvement": false
+        }
+      },
+      "nonlinear": {
+        "name": "leaves7_iterations80_rate0.1",
+        "nodes": 1040,
+        "depth_sum": 377,
+        "point": {
+          "threshold": 0.55,
+          "balanced_accuracy": 0.7408893697243044,
+          "slip_recall": 0.6858109975131251,
+          "false_alarm_rate": 0.20403225806451614,
+          "per_object": [
+            {
+              "object": 1,
+              "balanced_accuracy": 0.6885969212667908,
+              "slip_recall": 0.6352583586626139,
+              "false_alarm_rate": 0.25806451612903225,
+              "tp": 209,
+              "fn": 120,
+              "fp": 64,
+              "tn": 184
+            },
+            {
+              "object": 2,
+              "balanced_accuracy": 0.7931818181818182,
+              "slip_recall": 0.7363636363636363,
+              "false_alarm_rate": 0.15,
+              "tp": 81,
+              "fn": 29,
+              "fp": 57,
+              "tn": 323
+            }
+          ],
+          "objects_without_non_slip": [],
+          "validation_joint_improvement": false
+        }
+      }
+    }
+  },
+  {
+    "held": 1,
+    "seed": 7,
+    "selections": {
+      "baseline": {
+        "name": "baseline",
+        "point": {
+          "threshold": 0.615,
+          "balanced_accuracy": 0.7684864640310185,
+          "slip_recall": 0.6491841491841492,
+          "false_alarm_rate": 0.11221122112211221,
+          "per_object": [
+            {
+              "object": 0,
+              "balanced_accuracy": null,
+              "slip_recall": 0.9393939393939394,
+              "false_alarm_rate": null,
+              "tp": 31,
+              "fn": 2,
+              "fp": 0,
+              "tn": 0
+            },
+            {
+              "object": 2,
+              "balanced_accuracy": 0.6233815689261234,
+              "slip_recall": 0.358974358974359,
+              "false_alarm_rate": 0.11221122112211221,
+              "tp": 42,
+              "fn": 75,
+              "fp": 34,
+              "tn": 269
+            }
+          ],
+          "objects_without_non_slip": [
+            0
+          ]
+        },
+        "nodes": 0,
+        "depth_sum": 0
+      },
+      "joint": {
+        "name": "leaves7_iterations80_rate0.1",
+        "nodes": 1040,
+        "depth_sum": 389,
+        "point": {
+          "threshold": 0.675,
+          "balanced_accuracy": 0.7750890473662752,
+          "slip_recall": 0.6557886557886559,
+          "false_alarm_rate": 0.10561056105610561,
+          "per_object": [
+            {
+              "object": 0,
+              "balanced_accuracy": null,
+              "slip_recall": 0.9696969696969697,
+              "false_alarm_rate": null,
+              "tp": 32,
+              "fn": 1,
+              "fp": 0,
+              "tn": 0
+            },
+            {
+              "object": 2,
+              "balanced_accuracy": 0.6181348904121182,
+              "slip_recall": 0.3418803418803419,
+              "false_alarm_rate": 0.10561056105610561,
+              "tp": 40,
+              "fn": 77,
+              "fp": 32,
+              "tn": 271
+            }
+          ],
+          "objects_without_non_slip": [
+            0
+          ],
+          "validation_joint_improvement": true
+        }
+      },
+      "balanced": {
+        "name": "leaves7_iterations80_rate0.1",
+        "nodes": 1040,
+        "depth_sum": 389,
+        "point": {
+          "threshold": 0.675,
+          "balanced_accuracy": 0.7750890473662752,
+          "slip_recall": 0.6557886557886559,
+          "false_alarm_rate": 0.10561056105610561,
+          "per_object": [
+            {
+              "object": 0,
+              "balanced_accuracy": null,
+              "slip_recall": 0.9696969696969697,
+              "false_alarm_rate": null,
+              "tp": 32,
+              "fn": 1,
+              "fp": 0,
+              "tn": 0
+            },
+            {
+              "object": 2,
+              "balanced_accuracy": 0.6181348904121182,
+              "slip_recall": 0.3418803418803419,
+              "false_alarm_rate": 0.10561056105610561,
+              "tp": 40,
+              "fn": 77,
+              "fp": 32,
+              "tn": 271
+            }
+          ],
+          "objects_without_non_slip": [
+            0
+          ],
+          "validation_joint_improvement": true
+        }
+      },
+      "nonlinear": {
+        "name": "leaves7_iterations80_rate0.1",
+        "nodes": 1040,
+        "depth_sum": 389,
+        "point": {
+          "threshold": 0.675,
+          "balanced_accuracy": 0.7750890473662752,
+          "slip_recall": 0.6557886557886559,
+          "false_alarm_rate": 0.10561056105610561,
+          "per_object": [
+            {
+              "object": 0,
+              "balanced_accuracy": null,
+              "slip_recall": 0.9696969696969697,
+              "false_alarm_rate": null,
+              "tp": 32,
+              "fn": 1,
+              "fp": 0,
+              "tn": 0
+            },
+            {
+              "object": 2,
+              "balanced_accuracy": 0.6181348904121182,
+              "slip_recall": 0.3418803418803419,
+              "false_alarm_rate": 0.10561056105610561,
+              "tp": 40,
+              "fn": 77,
+              "fp": 32,
+              "tn": 271
+            }
+          ],
+          "objects_without_non_slip": [
+            0
+          ],
+          "validation_joint_improvement": true
+        }
+      }
+    }
+  },
+  {
+    "held": 1,
+    "seed": 19,
+    "selections": {
+      "baseline": {
+        "name": "baseline",
+        "point": {
+          "threshold": 0.555,
+          "balanced_accuracy": 0.8018460925039872,
+          "slip_recall": 0.7427272727272727,
+          "false_alarm_rate": 0.13903508771929823,
+          "per_object": [
+            {
+              "object": 0,
+              "balanced_accuracy": 0.8283333333333334,
+              "slip_recall": 0.74,
+              "false_alarm_rate": 0.08333333333333333,
+              "tp": 37,
+              "fn": 13,
+              "fp": 1,
+              "tn": 11
+            },
+            {
+              "object": 2,
+              "balanced_accuracy": 0.7753588516746412,
+              "slip_recall": 0.7454545454545455,
+              "false_alarm_rate": 0.19473684210526315,
+              "tp": 82,
+              "fn": 28,
+              "fp": 74,
+              "tn": 306
+            }
+          ],
+          "objects_without_non_slip": []
+        },
+        "nodes": 0,
+        "depth_sum": 0
+      },
+      "joint": {
+        "name": "baseline",
+        "point": {
+          "threshold": 0.555,
+          "balanced_accuracy": 0.8018460925039872,
+          "slip_recall": 0.7427272727272727,
+          "false_alarm_rate": 0.13903508771929823,
+          "per_object": [
+            {
+              "object": 0,
+              "balanced_accuracy": 0.8283333333333334,
+              "slip_recall": 0.74,
+              "false_alarm_rate": 0.08333333333333333,
+              "tp": 37,
+              "fn": 13,
+              "fp": 1,
+              "tn": 11
+            },
+            {
+              "object": 2,
+              "balanced_accuracy": 0.7753588516746412,
+              "slip_recall": 0.7454545454545455,
+              "false_alarm_rate": 0.19473684210526315,
+              "tp": 82,
+              "fn": 28,
+              "fp": 74,
+              "tn": 306
+            }
+          ],
+          "objects_without_non_slip": []
+        },
+        "nodes": 0,
+        "depth_sum": 0
+      },
+      "balanced": {
+        "name": "leaves3_iterations80_rate0.1",
+        "nodes": 400,
+        "depth_sum": 160,
+        "point": {
+          "threshold": 0.655,
+          "balanced_accuracy": 0.8219019138755981,
+          "slip_recall": 0.7109090909090909,
+          "false_alarm_rate": 0.06710526315789474,
+          "per_object": [
+            {
+              "object": 0,
+              "balanced_accuracy": 0.87,
+              "slip_recall": 0.74,
+              "false_alarm_rate": 0.0,
+              "tp": 37,
+              "fn": 13,
+              "fp": 0,
+              "tn": 12
+            },
+            {
+              "object": 2,
+              "balanced_accuracy": 0.773803827751196,
+              "slip_recall": 0.6818181818181818,
+              "false_alarm_rate": 0.13421052631578947,
+              "tp": 75,
+              "fn": 35,
+              "fp": 51,
+              "tn": 329
+            }
+          ],
+          "objects_without_non_slip": [],
+          "validation_joint_improvement": false
+        }
+      },
+      "nonlinear": {
+        "name": "leaves3_iterations80_rate0.1",
+        "nodes": 400,
+        "depth_sum": 160,
+        "point": {
+          "threshold": 0.655,
+          "balanced_accuracy": 0.8219019138755981,
+          "slip_recall": 0.7109090909090909,
+          "false_alarm_rate": 0.06710526315789474,
+          "per_object": [
+            {
+              "object": 0,
+              "balanced_accuracy": 0.87,
+              "slip_recall": 0.74,
+              "false_alarm_rate": 0.0,
+              "tp": 37,
+              "fn": 13,
+              "fp": 0,
+              "tn": 12
+            },
+            {
+              "object": 2,
+              "balanced_accuracy": 0.773803827751196,
+              "slip_recall": 0.6818181818181818,
+              "false_alarm_rate": 0.13421052631578947,
+              "tp": 75,
+              "fn": 35,
+              "fp": 51,
+              "tn": 329
+            }
+          ],
+          "objects_without_non_slip": [],
+          "validation_joint_improvement": false
+        }
+      }
+    }
+  },
+  {
+    "held": 2,
+    "seed": 7,
+    "selections": {
+      "baseline": {
+        "name": "baseline",
+        "point": {
+          "threshold": 0.65,
+          "balanced_accuracy": 0.8302676717522794,
+          "slip_recall": 0.8008862206975415,
+          "false_alarm_rate": 0.14035087719298245,
+          "per_object": [
+            {
+              "object": 0,
+              "balanced_accuracy": null,
+              "slip_recall": 0.9696969696969697,
+              "false_alarm_rate": null,
+              "tp": 32,
+              "fn": 1,
+              "fp": 0,
+              "tn": 0
+            },
+            {
+              "object": 1,
+              "balanced_accuracy": 0.7458622972525654,
+              "slip_recall": 0.6320754716981132,
+              "false_alarm_rate": 0.14035087719298245,
+              "tp": 134,
+              "fn": 78,
+              "fp": 40,
+              "tn": 245
+            }
+          ],
+          "objects_without_non_slip": [
+            0
+          ]
+        },
+        "nodes": 0,
+        "depth_sum": 0
+      },
+      "joint": {
+        "name": "leaves7_iterations80_rate0.1",
+        "nodes": 1040,
+        "depth_sum": 378,
+        "point": {
+          "threshold": 0.55,
+          "balanced_accuracy": 0.8380221028557673,
+          "slip_recall": 0.8163950829045169,
+          "false_alarm_rate": 0.14035087719298245,
+          "per_object": [
+            {
+              "object": 0,
+              "balanced_accuracy": null,
+              "slip_recall": 0.9393939393939394,
+              "false_alarm_rate": null,
+              "tp": 31,
+              "fn": 2,
+              "fp": 0,
+              "tn": 0
+            },
+            {
+              "object": 1,
+              "balanced_accuracy": 0.776522674611056,
+              "slip_recall": 0.6933962264150944,
+              "false_alarm_rate": 0.14035087719298245,
+              "tp": 147,
+              "fn": 65,
+              "fp": 40,
+              "tn": 245
+            }
+          ],
+          "objects_without_non_slip": [
+            0
+          ],
+          "validation_joint_improvement": true
+        }
+      },
+      "balanced": {
+        "name": "leaves7_iterations40_rate0.1",
+        "nodes": 520,
+        "depth_sum": 206,
+        "point": {
+          "threshold": 0.48,
+          "balanced_accuracy": 0.8509020191989407,
+          "slip_recall": 0.8632075471698113,
+          "false_alarm_rate": 0.16140350877192983,
+          "per_object": [
+            {
+              "object": 0,
+              "balanced_accuracy": null,
+              "slip_recall": 1.0,
+              "false_alarm_rate": null,
+              "tp": 33,
+              "fn": 0,
+              "fp": 0,
+              "tn": 0
+            },
+            {
+              "object": 1,
+              "balanced_accuracy": 0.7825057927838464,
+              "slip_recall": 0.7264150943396226,
+              "false_alarm_rate": 0.16140350877192983,
+              "tp": 154,
+              "fn": 58,
+              "fp": 46,
+              "tn": 239
+            }
+          ],
+          "objects_without_non_slip": [
+            0
+          ],
+          "validation_joint_improvement": false
+        }
+      },
+      "nonlinear": {
+        "name": "leaves7_iterations40_rate0.1",
+        "nodes": 520,
+        "depth_sum": 206,
+        "point": {
+          "threshold": 0.48,
+          "balanced_accuracy": 0.8509020191989407,
+          "slip_recall": 0.8632075471698113,
+          "false_alarm_rate": 0.16140350877192983,
+          "per_object": [
+            {
+              "object": 0,
+              "balanced_accuracy": null,
+              "slip_recall": 1.0,
+              "false_alarm_rate": null,
+              "tp": 33,
+              "fn": 0,
+              "fp": 0,
+              "tn": 0
+            },
+            {
+              "object": 1,
+              "balanced_accuracy": 0.7825057927838464,
+              "slip_recall": 0.7264150943396226,
+              "false_alarm_rate": 0.16140350877192983,
+              "tp": 154,
+              "fn": 58,
+              "fp": 46,
+              "tn": 239
+            }
+          ],
+          "objects_without_non_slip": [
+            0
+          ],
+          "validation_joint_improvement": false
+        }
+      }
+    }
+  },
+  {
+    "held": 2,
+    "seed": 19,
+    "selections": {
+      "baseline": {
+        "name": "baseline",
+        "point": {
+          "threshold": 0.34500000000000003,
+          "balanced_accuracy": 0.8310808324262686,
+          "slip_recall": 0.8047457627118644,
+          "false_alarm_rate": 0.1425840978593272,
+          "per_object": [
+            {
+              "object": 0,
+              "balanced_accuracy": 0.8783333333333333,
+              "slip_recall": 0.84,
+              "false_alarm_rate": 0.08333333333333333,
+              "tp": 42,
+              "fn": 8,
+              "fp": 1,
+              "tn": 11
+            },
+            {
+              "object": 1,
+              "balanced_accuracy": 0.7838283315192038,
+              "slip_recall": 0.7694915254237288,
+              "false_alarm_rate": 0.2018348623853211,
+              "tp": 227,
+              "fn": 68,
+              "fp": 44,
+              "tn": 174
+            }
+          ],
+          "objects_without_non_slip": []
+        },
+        "nodes": 0,
+        "depth_sum": 0
+      },
+      "joint": {
+        "name": "leaves3_iterations40_rate0.1",
+        "nodes": 200,
+        "depth_sum": 80,
+        "point": {
+          "threshold": 0.375,
+          "balanced_accuracy": 0.8370130358160992,
+          "slip_recall": 0.8166101694915254,
+          "false_alarm_rate": 0.1425840978593272,
+          "per_object": [
+            {
+              "object": 0,
+              "balanced_accuracy": 0.8783333333333333,
+              "slip_recall": 0.84,
+              "false_alarm_rate": 0.08333333333333333,
+              "tp": 42,
+              "fn": 8,
+              "fp": 1,
+              "tn": 11
+            },
+            {
+              "object": 1,
+              "balanced_accuracy": 0.7956927382988648,
+              "slip_recall": 0.7932203389830509,
+              "false_alarm_rate": 0.2018348623853211,
+              "tp": 234,
+              "fn": 61,
+              "fp": 44,
+              "tn": 174
+            }
+          ],
+          "objects_without_non_slip": [],
+          "validation_joint_improvement": true
+        }
+      },
+      "balanced": {
+        "name": "leaves3_iterations40_rate0.1",
+        "nodes": 200,
+        "depth_sum": 80,
+        "point": {
+          "threshold": 0.375,
+          "balanced_accuracy": 0.8370130358160992,
+          "slip_recall": 0.8166101694915254,
+          "false_alarm_rate": 0.1425840978593272,
+          "per_object": [
+            {
+              "object": 0,
+              "balanced_accuracy": 0.8783333333333333,
+              "slip_recall": 0.84,
+              "false_alarm_rate": 0.08333333333333333,
+              "tp": 42,
+              "fn": 8,
+              "fp": 1,
+              "tn": 11
+            },
+            {
+              "object": 1,
+              "balanced_accuracy": 0.7956927382988648,
+              "slip_recall": 0.7932203389830509,
+              "false_alarm_rate": 0.2018348623853211,
+              "tp": 234,
+              "fn": 61,
+              "fp": 44,
+              "tn": 174
+            }
+          ],
+          "objects_without_non_slip": [],
+          "validation_joint_improvement": true
+        }
+      },
+      "nonlinear": {
+        "name": "leaves3_iterations40_rate0.1",
+        "nodes": 200,
+        "depth_sum": 80,
+        "point": {
+          "threshold": 0.375,
+          "balanced_accuracy": 0.8370130358160992,
+          "slip_recall": 0.8166101694915254,
+          "false_alarm_rate": 0.1425840978593272,
+          "per_object": [
+            {
+              "object": 0,
+              "balanced_accuracy": 0.8783333333333333,
+              "slip_recall": 0.84,
+              "false_alarm_rate": 0.08333333333333333,
+              "tp": 42,
+              "fn": 8,
+              "fp": 1,
+              "tn": 11
+            },
+            {
+              "object": 1,
+              "balanced_accuracy": 0.7956927382988648,
+              "slip_recall": 0.7932203389830509,
+              "false_alarm_rate": 0.2018348623853211,
+              "tp": 234,
+              "fn": 61,
+              "fp": 44,
+              "tn": 174
+            }
+          ],
+          "objects_without_non_slip": [],
+          "validation_joint_improvement": true
+        }
+      }
+    }
+  }
+]
