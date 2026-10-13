@@ -1,0 +1,46 @@
+{
+  "experiment": "trial weighting and regularization",
+  "fits": 72,
+  "metric_units": "proportions",
+  "aggregation": "macro over 6 object/seed folds; accuracy is pooled",
+  "baseline": {
+    "balanced_accuracy": 0.7182373835790626,
+    "slip_recall": 0.6329071736053603,
+    "false_alarm_rate": 0.19643240644723503,
+    "accuracy": 0.736145781328008
+  },
+  "primary": {
+    "balanced_accuracy": 0.7170583446282387,
+    "slip_recall": 0.6274449887314107,
+    "false_alarm_rate": 0.1933282994749332,
+    "accuracy": 0.7350640705608255
+  },
+  "secondary": {
+    "balanced_accuracy": 0.7118824029771762,
+    "slip_recall": 0.5777901124542524,
+    "false_alarm_rate": 0.15402530649989998,
+    "accuracy": 0.7382259943418206
+  },
+  "trial_balanced": {
+    "balanced_accuracy": 0.6914884006429406,
+    "slip_recall": 0.5143410476155933,
+    "false_alarm_rate": 0.13136424632971208,
+    "accuracy": 0.7259943418206024
+  },
+  "regularized": {
+    "balanced_accuracy": 0.7058141773774521,
+    "slip_recall": 0.6148515515886815,
+    "false_alarm_rate": 0.20322319683377735,
+    "accuracy": 0.7319853553003828
+  },
+  "trial_regularized": {
+    "balanced_accuracy": 0.6894667919055366,
+    "slip_recall": 0.5338784817543135,
+    "false_alarm_rate": 0.15494489794324032,
+    "accuracy": 0.7249126310534199
+  },
+  "all_methods_mean_parameters": 141,
+  "all_methods_mean_input_MACs": 3840,
+  "experimental_weights_saved": false,
+  "exploratory_reused_benchmark": true
+}
