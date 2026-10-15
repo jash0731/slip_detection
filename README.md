@@ -1,5 +1,19 @@
 # Slip detection with CT-LIF
 
+## Pressure-conditioned LIF prototype
+
+A separate [pressure-conditioned LIF experiment](embedded-vibration-benchmark/pressure_lif/README.md) implements the uploaded ADXL345 + FSR protocol. Its Python and host C++ kernels passed software checks, including 20,000 randomized parity updates. **Real slip accuracy and ESP32 performance are unmeasured:** no matching sensor recordings with independent video labels are available. The tests also demonstrate that limited inhibition can suppress weak evidence and pressure decrease can create an alarm after recent acceleration. These software checks do not replace the physical pilot or held-out test session.
+
+From `embedded-vibration-benchmark`:
+
+```bash
+python -B -m pressure_lif.validate
+python -B -m pressure_lif.replay recordings.csv --config pressure_lif/starting_config.json
+```
+
+## Earlier nonlinear and temporal CT-LIF experiments
+
+
 The project contains a nonlinear CT-LIF classifier and experimental temporal decision rules. The latest work adds smoothing with an immediate-alarm bypass, and a separate rule that preserves all existing alarms.
 
 [Temporal approach: results, setup and streaming inference](embedded-vibration-benchmark/ct_lif_temporal/README.md)
