@@ -8,3 +8,5 @@ embedded-vibration-benchmark/data/arq_all_trials.npz
 *.log
 *.joblib
 embedded-vibration-benchmark/ct_lif_nonlinear/outputs/
+
+embedded-vibration-benchmark/ct_lif_temporal/outputs/

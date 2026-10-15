@@ -1,0 +1,470 @@
+[
+  {
+    "held": 0,
+    "seed": 7,
+    "current_threshold": 0.59,
+    "selections": {
+      "current_nonlinear": {
+        "name": "current_nonlinear",
+        "kind": "bypass",
+        "alpha": 1.0,
+        "gap": 0.0,
+        "margin": null,
+        "threshold": 0.59,
+        "recall": 0.5411810411810412,
+        "fpr": 0.17868625572234642,
+        "ba": 0.6812473927293474,
+        "event": 0.9375
+      },
+      "previous_smoothing": {
+        "kind": "bypass",
+        "alpha": 0.7,
+        "gap": 0.0,
+        "margin": null,
+        "name": "a0.7_g0.0_minf_t0.59",
+        "threshold": 0.59,
+        "recall": 0.5299145299145299,
+        "fpr": 0.17373576067284147,
+        "ba": 0.6780893846208442,
+        "event": 0.9375
+      },
+      "recall_constrained": {
+        "kind": "bypass",
+        "alpha": 0.7,
+        "gap": 0.0,
+        "margin": 0.0,
+        "name": "a0.7_g0.0_m0.0_t0.605",
+        "threshold": 0.605,
+        "recall": 0.541958041958042,
+        "fpr": 0.17868625572234642,
+        "ba": 0.6816358931178479,
+        "event": 0.9375
+      },
+      "event_protected": {
+        "kind": "bypass",
+        "alpha": 0.7,
+        "gap": 0.0,
+        "margin": 0.0,
+        "name": "a0.7_g0.0_m0.0_t0.605",
+        "threshold": 0.605,
+        "recall": 0.541958041958042,
+        "fpr": 0.17868625572234642,
+        "ba": 0.6816358931178479,
+        "event": 0.9375
+      },
+      "balanced_secondary": {
+        "kind": "bypass",
+        "alpha": 0.4,
+        "gap": 0.0,
+        "margin": 0.0,
+        "name": "a0.4_g0.0_m0.0_t0.61",
+        "threshold": 0.61,
+        "recall": 0.5670163170163169,
+        "fpr": 0.19811561801341424,
+        "ba": 0.6844503495014513,
+        "event": 0.9375
+      },
+      "add_only": {
+        "kind": "add_only",
+        "alpha": 0.7,
+        "guard": 0.05,
+        "name": "a0.7_slack0.05_extra_t0.63",
+        "threshold": 0.63,
+        "recall": 0.5472027972027972,
+        "fpr": 0.17868625572234642,
+        "ba": 0.6842582707402254,
+        "event": 0.9375
+      }
+    }
+  },
+  {
+    "held": 0,
+    "seed": 19,
+    "current_threshold": 0.55,
+    "selections": {
+      "current_nonlinear": {
+        "name": "current_nonlinear",
+        "kind": "bypass",
+        "alpha": 1.0,
+        "gap": 0.0,
+        "margin": null,
+        "threshold": 0.55,
+        "recall": 0.6858109975131251,
+        "fpr": 0.20403225806451614,
+        "ba": 0.7408893697243044,
+        "event": 0.9655172413793103
+      },
+      "previous_smoothing": {
+        "kind": "bypass",
+        "alpha": 0.4,
+        "gap": 0.0,
+        "margin": null,
+        "name": "a0.4_g0.0_minf_t0.51",
+        "threshold": 0.51,
+        "recall": 0.7920281845813761,
+        "fpr": 0.23438030560271644,
+        "ba": 0.7788239394893298,
+        "event": 0.9482758620689655
+      },
+      "recall_constrained": {
+        "kind": "bypass",
+        "alpha": 0.4,
+        "gap": 0.05,
+        "margin": 0.25,
+        "name": "a0.4_g0.05_m0.25_t0.54",
+        "threshold": 0.54,
+        "recall": 0.7601132909643549,
+        "fpr": 0.19422750424448215,
+        "ba": 0.7829428933599364,
+        "event": 0.9310344827586207
+      },
+      "event_protected": {
+        "kind": "bypass",
+        "alpha": 0.4,
+        "gap": 0.0,
+        "margin": 0.05,
+        "name": "a0.4_g0.0_m0.05_t0.5650000000000001",
+        "threshold": 0.5650000000000001,
+        "recall": 0.7327991157778392,
+        "fpr": 0.2011460101867572,
+        "ba": 0.765826552795541,
+        "event": 0.9655172413793103
+      },
+      "balanced_secondary": {
+        "kind": "bypass",
+        "alpha": 0.4,
+        "gap": 0.05,
+        "margin": 0.25,
+        "name": "a0.4_g0.05_m0.25_t0.585",
+        "threshold": 0.585,
+        "recall": 0.7054434926775353,
+        "fpr": 0.13705432937181666,
+        "ba": 0.7841945816528593,
+        "event": 0.896551724137931
+      },
+      "add_only": {
+        "kind": "add_only",
+        "alpha": 0.4,
+        "guard": 0.05,
+        "name": "a0.4_slack0.05_extra_t0.7000000000000001",
+        "threshold": 0.7000000000000001,
+        "recall": 0.6858109975131251,
+        "fpr": 0.20403225806451614,
+        "ba": 0.7408893697243044,
+        "event": 0.9655172413793103
+      }
+    }
+  },
+  {
+    "held": 1,
+    "seed": 7,
+    "current_threshold": 0.675,
+    "selections": {
+      "current_nonlinear": {
+        "name": "current_nonlinear",
+        "kind": "bypass",
+        "alpha": 1.0,
+        "gap": 0.0,
+        "margin": null,
+        "threshold": 0.675,
+        "recall": 0.6557886557886559,
+        "fpr": 0.10561056105610561,
+        "ba": 0.7750890473662752,
+        "event": 0.875
+      },
+      "previous_smoothing": {
+        "kind": "bypass",
+        "alpha": 0.4,
+        "gap": 0.0,
+        "margin": null,
+        "name": "a0.4_g0.0_minf_t0.655",
+        "threshold": 0.655,
+        "recall": 0.6666666666666666,
+        "fpr": 0.066006600660066,
+        "ba": 0.8003300330033003,
+        "event": 0.8125
+      },
+      "recall_constrained": {
+        "kind": "bypass",
+        "alpha": 0.4,
+        "gap": 0.05,
+        "margin": 0.25,
+        "name": "a0.4_g0.05_m0.25_t0.61",
+        "threshold": 0.61,
+        "recall": 0.6923076923076923,
+        "fpr": 0.09900990099009901,
+        "ba": 0.7966488956587966,
+        "event": 0.875
+      },
+      "event_protected": {
+        "kind": "bypass",
+        "alpha": 0.4,
+        "gap": 0.05,
+        "margin": 0.25,
+        "name": "a0.4_g0.05_m0.25_t0.61",
+        "threshold": 0.61,
+        "recall": 0.6923076923076923,
+        "fpr": 0.09900990099009901,
+        "ba": 0.7966488956587966,
+        "event": 0.875
+      },
+      "balanced_secondary": {
+        "kind": "bypass",
+        "alpha": 0.4,
+        "gap": 0.0,
+        "margin": 0.15,
+        "name": "a0.4_g0.0_m0.15_t0.715",
+        "threshold": 0.715,
+        "recall": 0.6666666666666666,
+        "fpr": 0.066006600660066,
+        "ba": 0.8003300330033003,
+        "event": 0.875
+      },
+      "add_only": {
+        "kind": "add_only",
+        "alpha": 0.4,
+        "guard": 0.05,
+        "name": "a0.4_slack0.05_extra_t0.775",
+        "threshold": 0.775,
+        "recall": 0.6557886557886559,
+        "fpr": 0.10561056105610561,
+        "ba": 0.7750890473662752,
+        "event": 0.875
+      }
+    }
+  },
+  {
+    "held": 1,
+    "seed": 19,
+    "current_threshold": 0.655,
+    "selections": {
+      "current_nonlinear": {
+        "name": "current_nonlinear",
+        "kind": "bypass",
+        "alpha": 1.0,
+        "gap": 0.0,
+        "margin": null,
+        "threshold": 0.655,
+        "recall": 0.7109090909090909,
+        "fpr": 0.06710526315789474,
+        "ba": 0.8219019138755981,
+        "event": 0.95
+      },
+      "previous_smoothing": {
+        "kind": "bypass",
+        "alpha": 0.7,
+        "gap": 0.0,
+        "margin": null,
+        "name": "a0.7_g0.0_minf_t0.655",
+        "threshold": 0.655,
+        "recall": 0.7009090909090909,
+        "fpr": 0.05921052631578947,
+        "ba": 0.8208492822966508,
+        "event": 0.95
+      },
+      "recall_constrained": {
+        "name": "current_nonlinear",
+        "kind": "bypass",
+        "alpha": 1.0,
+        "gap": 0.0,
+        "margin": null,
+        "threshold": 0.655,
+        "recall": 0.7109090909090909,
+        "fpr": 0.06710526315789474,
+        "ba": 0.8219019138755981,
+        "event": 0.95
+      },
+      "event_protected": {
+        "name": "current_nonlinear",
+        "kind": "bypass",
+        "alpha": 1.0,
+        "gap": 0.0,
+        "margin": null,
+        "threshold": 0.655,
+        "recall": 0.7109090909090909,
+        "fpr": 0.06710526315789474,
+        "ba": 0.8219019138755981,
+        "event": 0.95
+      },
+      "balanced_secondary": {
+        "kind": "bypass",
+        "alpha": 0.4,
+        "gap": 0.0,
+        "margin": 0.0,
+        "name": "a0.4_g0.0_m0.0_t0.65",
+        "threshold": 0.65,
+        "recall": 0.739090909090909,
+        "fpr": 0.07894736842105263,
+        "ba": 0.8300717703349282,
+        "event": 0.95
+      },
+      "add_only": {
+        "kind": "add_only",
+        "alpha": 0.4,
+        "guard": 0.1,
+        "name": "a0.4_slack0.1_extra_t0.73",
+        "threshold": 0.73,
+        "recall": 0.72,
+        "fpr": 0.06710526315789474,
+        "ba": 0.8264473684210526,
+        "event": 0.95
+      }
+    }
+  },
+  {
+    "held": 2,
+    "seed": 7,
+    "current_threshold": 0.48,
+    "selections": {
+      "current_nonlinear": {
+        "name": "current_nonlinear",
+        "kind": "bypass",
+        "alpha": 1.0,
+        "gap": 0.0,
+        "margin": null,
+        "threshold": 0.48,
+        "recall": 0.8632075471698113,
+        "fpr": 0.16140350877192983,
+        "ba": 0.8509020191989407,
+        "event": 0.9761904761904762
+      },
+      "previous_smoothing": {
+        "kind": "bypass",
+        "alpha": 0.7,
+        "gap": 0.0,
+        "margin": null,
+        "name": "a0.7_g0.0_minf_t0.485",
+        "threshold": 0.485,
+        "recall": 0.8655660377358491,
+        "fpr": 0.16140350877192983,
+        "ba": 0.8520812644819595,
+        "event": 0.9761904761904762
+      },
+      "recall_constrained": {
+        "kind": "bypass",
+        "alpha": 0.7,
+        "gap": 0.0,
+        "margin": 0.15,
+        "name": "a0.7_g0.0_m0.15_t0.485",
+        "threshold": 0.485,
+        "recall": 0.8655660377358491,
+        "fpr": 0.16140350877192983,
+        "ba": 0.8520812644819595,
+        "event": 0.9761904761904762
+      },
+      "event_protected": {
+        "kind": "bypass",
+        "alpha": 0.7,
+        "gap": 0.0,
+        "margin": 0.15,
+        "name": "a0.7_g0.0_m0.15_t0.485",
+        "threshold": 0.485,
+        "recall": 0.8655660377358491,
+        "fpr": 0.16140350877192983,
+        "ba": 0.8520812644819595,
+        "event": 0.9761904761904762
+      },
+      "balanced_secondary": {
+        "kind": "bypass",
+        "alpha": 0.7,
+        "gap": 0.0,
+        "margin": 0.15,
+        "name": "a0.7_g0.0_m0.15_t0.485",
+        "threshold": 0.485,
+        "recall": 0.8655660377358491,
+        "fpr": 0.16140350877192983,
+        "ba": 0.8520812644819595,
+        "event": 0.9761904761904762
+      },
+      "add_only": {
+        "kind": "add_only",
+        "alpha": 0.4,
+        "guard": 0.05,
+        "name": "a0.4_slack0.05_extra_t0.725",
+        "threshold": 0.725,
+        "recall": 0.8632075471698113,
+        "fpr": 0.16140350877192983,
+        "ba": 0.8509020191989407,
+        "event": 0.9761904761904762
+      }
+    }
+  },
+  {
+    "held": 2,
+    "seed": 19,
+    "current_threshold": 0.375,
+    "selections": {
+      "current_nonlinear": {
+        "name": "current_nonlinear",
+        "kind": "bypass",
+        "alpha": 1.0,
+        "gap": 0.0,
+        "margin": null,
+        "threshold": 0.375,
+        "recall": 0.8166101694915254,
+        "fpr": 0.1425840978593272,
+        "ba": 0.8370130358160992,
+        "event": 0.98
+      },
+      "previous_smoothing": {
+        "kind": "bypass",
+        "alpha": 0.4,
+        "gap": 0.0,
+        "margin": null,
+        "name": "a0.4_g0.0_minf_t0.38",
+        "threshold": 0.38,
+        "recall": 0.8667796610169491,
+        "fpr": 0.10091743119266056,
+        "ba": 0.8829311149121443,
+        "event": 0.9299999999999999
+      },
+      "recall_constrained": {
+        "kind": "bypass",
+        "alpha": 0.4,
+        "gap": 0.0,
+        "margin": 0.05,
+        "name": "a0.4_g0.0_m0.05_t0.385",
+        "threshold": 0.385,
+        "recall": 0.8869491525423728,
+        "fpr": 0.11009174311926606,
+        "ba": 0.8884287047115534,
+        "event": 0.98
+      },
+      "event_protected": {
+        "kind": "bypass",
+        "alpha": 0.4,
+        "gap": 0.0,
+        "margin": 0.05,
+        "name": "a0.4_g0.0_m0.05_t0.385",
+        "threshold": 0.385,
+        "recall": 0.8869491525423728,
+        "fpr": 0.11009174311926606,
+        "ba": 0.8884287047115534,
+        "event": 0.98
+      },
+      "balanced_secondary": {
+        "kind": "bypass",
+        "alpha": 0.4,
+        "gap": 0.0,
+        "margin": 0.05,
+        "name": "a0.4_g0.0_m0.05_t0.385",
+        "threshold": 0.385,
+        "recall": 0.8869491525423728,
+        "fpr": 0.11009174311926606,
+        "ba": 0.8884287047115534,
+        "event": 0.98
+      },
+      "add_only": {
+        "kind": "add_only",
+        "alpha": 0.4,
+        "guard": 0.2,
+        "name": "a0.4_slack0.2_extra_t0.545",
+        "threshold": 0.545,
+        "recall": 0.8400000000000001,
+        "fpr": 0.1425840978593272,
+        "ba": 0.8487079510703365,
+        "event": 0.98
+      }
+    }
+  }
+]

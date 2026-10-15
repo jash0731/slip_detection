@@ -1,30 +1,36 @@
 # Slip detection with CT-LIF
 
-The latest experimental approach adds a nonlinear classifier to the existing CT-LIF score and CT-feature summaries.
+The project contains a nonlinear CT-LIF classifier and experimental temporal decision rules. The latest work adds smoothing with an immediate-alarm bypass, and a separate rule that preserves all existing alarms.
 
-[Nonlinear approach: setup, training and inference](embedded-vibration-benchmark/ct_lif_nonlinear/README.md)
+[Temporal approach: results, setup and streaming inference](embedded-vibration-benchmark/ct_lif_temporal/README.md)
 
-| Model | Balanced accuracy | Slip recall | False-positive rate |
-|---|---:|---:|---:|
-| Tuned CT-only baseline | 71.82% | 63.29% | 19.64% |
-| Nonlinear extension selected for validation balanced accuracy | 73.27% | 61.60% | 15.06% |
+| Selection | Balanced accuracy | Slip recall | False-positive rate | Positive segments detected |
+|---|---:|---:|---:|---:|
+| Tuned CT-only baseline | 71.82% | 63.29% | 19.64% | — |
+| Current nonlinear model | 73.27% | 61.60% | 15.06% | 409/470 |
+| Temporal bypass selected for validation balanced accuracy | 74.51% | 62.71% | 13.68% | 379/470 |
+| Preserve existing alarms and add temporal detections | 73.47% | 62.24% | 15.30% | 409/470 |
 
-The extension improves balanced accuracy and reduces false positives on this repeatedly used benchmark, with lower recall and additional tree computation. Independent confirmation is needed; publication novelty is unverified. The stricter validation-constrained selection achieved 72.51% test balanced accuracy.
+The bypass improves window-level metrics but misses more positive segments. The alarm-preserving rule retains existing detections but increases false positives. The 470 segments include repeated seed evaluations and are not independent physical slip events. These are exploratory results from a repeatedly used benchmark; independent confirmation is needed.
 
 From `embedded-vibration-benchmark`:
 
 ```bash
-python -m pip install -r ct_lif_nonlinear/requirements.txt
-python -B -m ct_lif_nonlinear.run
+python -m pip install -r ct_lif_temporal/requirements.txt
+python -B -m unittest ct_lif_temporal.test_streaming
+python -B -m ct_lif_temporal.run
 ```
 
-The repository contains source, protocols and measured summaries. Prepared data and saved baseline model binaries are not all included. Restore the previously delivered complete CT_LIF_Tested_Project.zip into this checkout before running the experiment. Original dataset: https://github.com/ARQ-CRISP/slip_detection_dataset_2021.
+The temporal runner prints results by default. Use `--output ct_lif_temporal/outputs/run1` to write JSON results and validation choices to a new local directory. It does not save trained model weights.
 
-The nonlinear runner can save model bundles locally with `--output ct_lif_nonlinear/outputs/run1`. Generated model bundles and outputs are ignored by Git.
+The repository contains source, protocols and measured summaries. Prepared data and saved baseline model binaries are not all included. Restore the previously delivered complete CT_LIF_Tested_Project.zip into this checkout before running the experiments. Original dataset: https://github.com/ARQ-CRISP/slip_detection_dataset_2021.
+
+The [nonlinear runner](embedded-vibration-benchmark/ct_lif_nonlinear/README.md) can save nonlinear model bundles locally with `--output ct_lif_nonlinear/outputs/run1`. Generated bundles and output folders are ignored by Git.
 
 Earlier work remains available:
+- [Nonlinear approach and its baseline comparison](embedded-vibration-benchmark/ct_lif_nonlinear/README.md)
 - [Original CT-LIF setup](embedded-vibration-benchmark/CT_LIF_START_HERE.md)
 - [CT + optimized mean-input results](embedded-vibration-benchmark/CT_LIF_RESULTS.md)
 - [Trial-weighting and regularization experiments](embedded-vibration-benchmark/ct_lif_followup_20261013/README.md)
 
-Twelve unreferenced console logs were removed; structured results and baseline source were retained.
+Publication novelty and hardware speed or energy gains have not been established. Twelve unreferenced console logs were removed previously; structured results and baseline dependencies remain.
